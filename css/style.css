@@ -231,16 +231,21 @@ button {  width: auto; overflow: visible; }
  }
 
  header {
-	height: 97px;
-	background: url(../images/topbar.png) center repeat-x;
+	height: 10px;
+	background: #cbc2b0;
  }
  
  .main {
 	background: white;
+	padding-bottom: 40px;
  }
  
  #headline {
 	padding-top: 20px;
+	background: white url(../images/hintergrund-bike.png) center bottom no-repeat;
+	-moz-background-size: contain; /* Firefox */
+	-webkit-background-size: contain; /* Safari, Chrome */
+	background-size: contain; /* Opera, W3C Standard */
 }
 
 #abbinder {
@@ -252,8 +257,8 @@ button {  width: auto; overflow: visible; }
  }
  
  H1 {
-	font-family: "museo-slab-1","museo-slab-2",serif;
-	font-size: 500%;
+	font-family: "museo-sans-1","museo-sans-2",sans-serif;
+	font-size: 55px;
 	font-weight: 800;
 	line-height: 100%;
 	text-transform: uppercase;
@@ -261,8 +266,8 @@ button {  width: auto; overflow: visible; }
  }
  
  H2 {
-	font-family: "museo-sans-1","museo-sans-2",sans-serif;
-	font-size: 200%;
+	 font-family: "museo-slab-1","museo-slab-2";
+	font-size: 25px;
 	margin-top: 10px;
 	font-weight: 300;
  }
@@ -272,6 +277,10 @@ button {  width: auto; overflow: visible; }
 	font-style: italic;
  }
  
+ .lang_en {
+	color: gray;
+ }
+ 
  
  A {
  	font-weight: inherit;
@@ -279,13 +288,11 @@ button {  width: auto; overflow: visible; }
  
  .headline {
 	min-height: 500px;
-	background: url(../images/hintergrund-bike.png) center bottom no-repeat;
-	-moz-background-size: contain; /* Firefox */
-	-webkit-background-size: contain; /* Safari, Chrome */
-	background-size: contain; /* Opera, W3C Standard */
  }
  
- 
+ #facebook_pagelike {
+	float: right;
+ }
  
  
 
