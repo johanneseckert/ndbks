@@ -1,0 +1,4 @@
+2011-01-24 2:22:21 - PHP Warning:  mail() [<a href='function.mail'>function.mail</a>]: Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampplite\htdocs\indiebikes\order\system\library\mail.php on line 153
+2011-01-24 2:27:08 - PHP Warning:  mail() [<a href='function.mail'>function.mail</a>]: Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampplite\htdocs\indiebikes\order\system\library\mail.php on line 153
+2011-01-24 2:37:13 - PHP Notice:  Undefined index: value in C:\xampplite\htdocs\indiebikes\order\admin\model\sale\order.php on line 85
+2011-01-24 2:37:13 - PHP Notice:  Undefined index: order_total_id in C:\xampplite\htdocs\indiebikes\order\admin\model\sale\order.php on line 86
