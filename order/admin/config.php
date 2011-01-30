@@ -1,12 +1,12 @@
 <?php
 // HTTP
-define('HTTP_SERVER', 'http://localhost/order/admin/');
-define('HTTP_CATALOG', 'http://localhost/order/');
-define('HTTP_IMAGE', 'http://localhost/order/image/');
+define('HTTP_SERVER', 'http://testserver2.dyndns.org/order/admin/');
+define('HTTP_CATALOG', 'http://testserver2.dyndns.org/order/');
+define('HTTP_IMAGE', 'http://testserver2.dyndns.org/order/image/');
 
 // HTTPS
-define('HTTPS_SERVER', 'http://localhost/order/admin/');
-define('HTTPS_IMAGE', 'http://localhost/order/image/');
+define('HTTPS_SERVER', 'http://testserver2.dyndns.org/order/admin/');
+define('HTTPS_IMAGE', 'http://testserver2.dyndns.org/order/image/');
 
 // DIR
 define('DIR_APPLICATION', 'C:\xampplite\htdocs\indiebikes\order/admin/');
