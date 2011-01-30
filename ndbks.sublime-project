@@ -2,10 +2,26 @@
 	"buffers":
 	[
 		{
+			"file": "/C/xampplite/htdocs/indiebikes/ndbks.html",
+			"settings":
+			{
+				"buffer_size": 5163,
+				"line_ending": "Windows"
+			}
+		},
+		{
 			"file": "/C/xampplite/htdocs/indiebikes/css/style.css",
 			"settings":
 			{
 				"buffer_size": 11405,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/xampplite/htdocs/indiebikes/js/script.js",
+			"settings":
+			{
+				"buffer_size": 1036,
 				"line_ending": "Unix"
 			}
 		}
@@ -13,6 +29,22 @@
 	"build_system": "",
 	"file_history":
 	[
+		"/C/xampplite/htdocs/indiebikes/readme",
+		"/C/xampplite/htdocs/indiebikes/js/script.js",
+		"/C/xampplite/htdocs/indiebikes/order/config.php",
+		"/C/xampplite/htdocs/indiebikes/.gitignore",
+		"/C/xampplite/htdocs/indiebikes/textpattern/publish.php",
+		"/C/xampplite/htdocs/indiebikes/textpattern/lgpl-2.1.txt",
+		"/C/xampplite/htdocs/indiebikes/textpattern/checksums.txt",
+		"/C/xampplite/htdocs/indiebikes/textpattern/config.php",
+		"/C/xampplite/htdocs/indiebikes/order/catalog/view/theme/ndbkstheme/template/common/header.tpl",
+		"/C/Users/Johannes/AppData/Roaming/Sublime Text 2/Packages/User/Base File.sublime-settings",
+		"/C/Users/Johannes/AppData/Roaming/Sublime Text 2/Packages/Default/Global.sublime-settings",
+		"/C/Users/Johannes/AppData/Roaming/Sublime Text 2/Packages/Default/Default (Windows).sublime-keymap",
+		"/C/Users/Johannes/AppData/Roaming/Sublime Text 2/Packages/Default/Base File.sublime-settings",
+		"/C/xampplite/htdocs/indiebikes/order/catalog/view/theme/default/template/common/header.tpl",
+		"/C/xampplite/htdocs/indiebikes/order/catalog/language/de_DE-ndbks/mail/account_create.php",
+		"/C/xampplite/htdocs/indiebikes/order/catalog/language/de_DE-ndbks/common/home.php",
 		"/C/xampplite/htdocs/indiebikes/404.html",
 		"/C/xampplite/htdocs/indiebikes/info.php",
 		"/C/xampplite/htdocs/indiebikes/favicon.ico",
@@ -23,8 +55,6 @@
 		"/C/xampplite/htdocs/indiebikes/order/catalog/language/english/mail/order_confirm.php",
 		"/C/xampplite/htdocs/indiebikes/index.php",
 		"/C/xampplite/htdocs/indiebikes/.htaccess",
-		"/C/xampplite/htdocs/indiebikes/.gitignore",
-		"/C/xampplite/htdocs/indiebikes/js/script.js",
 		"/C/xampplite/htdocs/indiebikes/css/style.css",
 		"/C/xampplite/htdocs/indiebikes/ndbks.html"
 	],
@@ -36,6 +66,7 @@
 		],
 		"location_history":
 		[
+			"C:\\xampplite\\htdocs\\indiebikes\\order\\catalog\\view\\theme\\default",
 			"C:\\xampplite\\htdocs\\indiebikes\\order\\catalog\\language",
 			"<open folders>",
 			"C:\\xampplite\\htdocs\\indiebikes\\order\\catalog\\language",
@@ -47,6 +78,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"id=\"language_form\"",
+			"Willkommen",
 			"Mit dem anlegen",
 			"button_",
 			"btn_",
@@ -80,6 +113,32 @@
 			[
 				{
 					"buffer": 0,
+					"file": "/C/xampplite/htdocs/indiebikes/ndbks.html",
+					"settings":
+					{
+						"buffer_size": 5163,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3899,
+								3899
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0,
+						"translation.y": 1557.57,
+						"zoom_level": 1
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
 					"file": "/C/xampplite/htdocs/indiebikes/css/style.css",
 					"settings":
 					{
@@ -90,8 +149,8 @@
 						"selection":
 						[
 							[
-								10951,
-								10952
+								211,
+								267
 							]
 						],
 						"settings":
@@ -99,7 +158,34 @@
 							"syntax": "Packages/CSS/CSS.tmLanguage"
 						},
 						"translation.x": 0,
-						"translation.y": 3161.14,
+						"translation.y": 5745.56,
+						"zoom_level": 1
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/C/xampplite/htdocs/indiebikes/js/script.js",
+					"settings":
+					{
+						"buffer_size": 1036,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0,
+						"translation.y": 0,
 						"zoom_level": 1
 					},
 					"type": "text"
@@ -145,6 +231,6 @@
 	"show_minimap": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 150,
+	"side_bar_width": 225,
 	"status_bar_visible": true
 }
