@@ -1,0 +1,150 @@
+{
+	"buffers":
+	[
+		{
+			"file": "/C/xampplite/htdocs/indiebikes/css/style.css",
+			"settings":
+			{
+				"buffer_size": 11405,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"file_history":
+	[
+		"/C/xampplite/htdocs/indiebikes/404.html",
+		"/C/xampplite/htdocs/indiebikes/info.php",
+		"/C/xampplite/htdocs/indiebikes/favicon.ico",
+		"/C/Users/Johannes/Desktop/opencart-de_DE/ReadMe_de_DE.txt",
+		"/C/xampplite/htdocs/indiebikes/order/catalog/language/de_DE-ndbks/account/login.php",
+		"/C/xampplite/htdocs/indiebikes/order/catalog/language/english/english.php",
+		"/C/xampplite/htdocs/indiebikes/order/catalog/language/english/mail/account_forgotten.php",
+		"/C/xampplite/htdocs/indiebikes/order/catalog/language/english/mail/order_confirm.php",
+		"/C/xampplite/htdocs/indiebikes/index.php",
+		"/C/xampplite/htdocs/indiebikes/.htaccess",
+		"/C/xampplite/htdocs/indiebikes/.gitignore",
+		"/C/xampplite/htdocs/indiebikes/js/script.js",
+		"/C/xampplite/htdocs/indiebikes/css/style.css",
+		"/C/xampplite/htdocs/indiebikes/ndbks.html"
+	],
+	"find_in_files":
+	{
+		"include_history":
+		[
+			""
+		],
+		"location_history":
+		[
+			"C:\\xampplite\\htdocs\\indiebikes\\order\\catalog\\language",
+			"<open folders>",
+			"C:\\xampplite\\htdocs\\indiebikes\\order\\catalog\\language",
+			"<open folders>"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"Mit dem anlegen",
+			"button_",
+			"btn_",
+			"greeting"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer": false,
+		"whole_word": false,
+		"wrap": true
+	},
+	"folders":
+	{
+		"mount_points":
+		[
+			"/C/xampplite/htdocs/indiebikes"
+		]
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/C/xampplite/htdocs/indiebikes/css/style.css",
+					"settings":
+					{
+						"buffer_size": 11405,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								10951,
+								10952
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0,
+						"translation.y": 3161.14,
+						"zoom_level": 1
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0,
+			1
+		],
+		"rows":
+		[
+			0,
+			1
+		]
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0,
+		"selected_items":
+		[
+			[
+				"",
+				"/C/xampplite/htdocs/indiebikes/ndbks.html"
+			]
+		],
+		"width": 0
+	},
+	"show_minimap": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150,
+	"status_bar_visible": true
+}

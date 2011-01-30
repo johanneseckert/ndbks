@@ -232,12 +232,12 @@ button {  width: auto; overflow: visible; }
 	indiebikes stylesheet v0.1
  */
 
- DIV {
+DIV {
 /* 	outline: 1px solid lime; */
 }
 
  
- header {
+HEADER {
 	background: transparent url(../images/header_ontop.png) center top no-repeat;
 	height: 125px;
 	position: relative;
@@ -252,14 +252,14 @@ button {  width: auto; overflow: visible; }
 	margin-bottom: 20px;
 }
 
-footer {
+FOOTER {
 	background: transparent url(../images/footer_background.png) center top no-repeat;
 	padding-top: 55px;
 	color: #9c9e9f;
 	font-size: 11px;
 }
 
-footer > DIV {
+FOOTER > DIV {
 	padding-bottom: 40px;
 }
 
@@ -299,13 +299,13 @@ footer > DIV {
 }
 
 
-h1 {
+H1 {
 	width: 241px;
 	height: 45px;
 	background-image: url(../images/indiebikes-logo.png);
 }
 
-h2 {
+H2 {
 	width: 320px;
 	height: 45px;
 	background-image: url(../images/indiebikes-slogan.png);
@@ -318,7 +318,7 @@ h2 {
 	
 }
 
-#box_teaser A {
+#box_teaser a {
 	display: block;
 	width: 220px;
 	height: 160px;
@@ -326,16 +326,16 @@ h2 {
 	color: white;
 }
 
-#box_teaser A:HOVER {
+#box_teaser a:HOVER {
 	text-decoration: none;
 	color: white;
 }
 
-#box_teaser H3 {
+#box_teaser h3 {
 	padding: 10px 0 0 5px;
 }
 
-#box_teaser DIV {
+#box_teaser div {
 	margin-bottom: 20px;
 }
 
@@ -374,20 +374,20 @@ P {
 
 /* HEADLINES */
 
-h3 {
+H3 {
 	font-size: 26px;
 	font-weight: 500;
 }
 
 /* apply with lettering.js */
-h3 span {
+H3 SPAN {
 	display: inline-block;
 	background: #4b4b4d;
 	padding: 0px 10px 0px 8px;
 	margin: 2px 0 0 2px;
 }
 
-h4 {
+H4 {
 	font-size: 19px;
 	font-weight: 500;
 	background: #4b4b4d;
@@ -452,4 +452,3 @@ h4 {
   p, h2, h3 { orphans: 3; widows: 3; }
   h2, h3{ page-break-after: avoid; }
 }
-
