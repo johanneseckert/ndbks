@@ -16,21 +16,20 @@
 				"buffer_size": 11405,
 				"line_ending": "Unix"
 			}
-		},
-		{
-			"file": "/C/xampplite/htdocs/indiebikes/js/script.js",
-			"settings":
-			{
-				"buffer_size": 1036,
-				"line_ending": "Unix"
-			}
 		}
 	],
 	"build_system": "",
 	"file_history":
 	[
 		"/C/xampplite/htdocs/indiebikes/readme",
+		"/C/xampplite/htdocs/indiebikes/.htaccess",
+		"/C/Users/Johannes/AppData/Local/Temp/fz3temp-1/.htaccess",
+		"/C/Users/Johannes/AppData/Local/Temp/fz3temp-1/.htpasswd",
 		"/C/xampplite/htdocs/indiebikes/js/script.js",
+		"/C/Users/Johannes/AppData/Local/Temp/fz3temp-1/d.htaccess",
+		"/C/Users/Johannes/Desktop/index.htm",
+		"/C/xampplite/htdocs/.htpasswd",
+		"/C/xampplite/htdocs/indiebikes/css.php",
 		"/C/xampplite/htdocs/indiebikes/order/config.php",
 		"/C/xampplite/htdocs/indiebikes/.gitignore",
 		"/C/xampplite/htdocs/indiebikes/textpattern/publish.php",
@@ -54,7 +53,6 @@
 		"/C/xampplite/htdocs/indiebikes/order/catalog/language/english/mail/account_forgotten.php",
 		"/C/xampplite/htdocs/indiebikes/order/catalog/language/english/mail/order_confirm.php",
 		"/C/xampplite/htdocs/indiebikes/index.php",
-		"/C/xampplite/htdocs/indiebikes/.htaccess",
 		"/C/xampplite/htdocs/indiebikes/css/style.css",
 		"/C/xampplite/htdocs/indiebikes/ndbks.html"
 	],
@@ -108,7 +106,6 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
 				{
@@ -149,40 +146,13 @@
 						"selection":
 						[
 							[
-								211,
-								267
+								9786,
+								9786
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/CSS/CSS.tmLanguage"
-						},
-						"translation.x": 0,
-						"translation.y": 5745.56,
-						"zoom_level": 1
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/C/xampplite/htdocs/indiebikes/js/script.js",
-					"settings":
-					{
-						"buffer_size": 1036,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0,
 						"translation.y": 0,

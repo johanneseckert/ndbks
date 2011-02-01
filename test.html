@@ -1,0 +1,62 @@
+<html>
+<style>
+
+#container {
+	outline: 1px solid lime;
+	width: 960px;
+}
+
+INPUT {
+	position: absolute;
+	z-index: 1;
+
+	padding: 0;
+	margin: 0;
+	border: 0;
+	text-indent: -999px;
+	width: 60px;
+	color: white;
+	height: 435px;
+}
+
+.carousel_wrap {
+}
+
+.carousel-wrap UL {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.carousel-wrap UL LI {
+	float: left;
+	display: inline;
+	width: 960px;
+	height: 435px;
+}
+
+.next {
+	margin-left: 400px;
+}
+
+
+</style>
+
+<body>
+
+<div id="container">
+
+<input type="button" class="previous" value="Previous" >
+
+<div class="carousel-wrap">
+<ul>
+	<li><img src="images/carousel_2.jpg" class="image" /></li>
+</ul>
+</div>
+
+<input type="button" class="next" value="Next" >
+
+</div>
+
+</body>
+</html>

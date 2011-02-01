@@ -5,9 +5,9 @@
   
   credit is left where credit is due.
   much inspiration was taken from these projects:
-    yui.yahooapis.com/2.8.1/build/base/base.css
-    camendesign.com/design/
-    praegnanz.de/weblog/htmlcssjs-kickstart
+	yui.yahooapis.com/2.8.1/build/base/base.css
+	camendesign.com/design/
+	praegnanz.de/weblog/htmlcssjs-kickstart
 */
 
 /* 
@@ -39,10 +39,10 @@ time, mark, audio, video {
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section { 
-    display:block;
+	display:block;
 }
 
-nav ul { list-style:none; }
+ul { list-style:none; margin: 0; padding: 0; }
 
 blockquote, q { quotes:none; }
 
@@ -102,7 +102,7 @@ body, select, input, textarea {
 }
 
 select, input, textarea {
-  font-family: "inconsolata-1","inconsolata-2", Menlo, Courier New, Courier, Mono, monospace;
+  font-family: "inconsolata-1","inconsolata-2", Menlo, "Courier New", Courier, Mono, monospace;
 }
 
 /* Headers (h1,h2,etc) have no default font-size or margin,
@@ -164,10 +164,10 @@ button, input, select, textarea { margin: 0; }
 /* colors for form validity */
 input:valid, textarea:valid   {  }
 input:invalid, textarea:invalid { 
-      border-radius: 1px;
-    -moz-box-shadow: 0px 0px 5px red; 
+	  border-radius: 1px;
+	-moz-box-shadow: 0px 0px 5px red; 
  -webkit-box-shadow: 0px 0px 5px red; 
-         box-shadow: 0px 0px 5px red;
+		 box-shadow: 0px 0px 5px red;
 }
 .no-boxshadow input:invalid, 
 .no-boxshadow textarea:invalid { background-color: #f0dddd; }
@@ -226,14 +226,33 @@ button {  width: auto; overflow: visible; }
 
 
 
- /* Primary Styles
-    Author: Johannes Henseler
+/*
+	###############################
+	###############################
+	###############################
+
+	########  ########  #### ##     ##    ###    ########  ##    ## 
+	##     ## ##     ##  ##  ###   ###   ## ##   ##     ##  ##  ##  
+	##     ## ##     ##  ##  #### ####  ##   ##  ##     ##   ####   
+	########  ########   ##  ## ### ## ##     ## ########     ##    
+	##        ##   ##    ##  ##     ## ######### ##   ##      ##    
+	##        ##    ##   ##  ##     ## ##     ## ##    ##     ##    
+	##        ##     ## #### ##     ## ##     ## ##     ##    ##    
+
+————Primary Styles
+	Author: Johannes Henseler
 	
-	indiebikes stylesheet v0.1
- */
+————indiebikes stylesheet v0.2
+	###############################
+	###############################
+	###############################
+	http://www.network-science.de/ascii/
+	[banner3]
+*/
 
 DIV {
-/* 	outline: 1px solid lime; */
+/*  for debug */
+/* 	outline: 1px solid lime;*/
 }
 
  
@@ -241,15 +260,12 @@ HEADER {
 	background: transparent url(../images/header_ontop.png) center top no-repeat;
 	height: 125px;
 	position: relative;
+	z-index: 500;
 }
 
 #main {
 	margin-top: -14px;
 	margin-bottom: 40px;
-}
-
-#start_carousel {
-	margin-bottom: 20px;
 }
 
 FOOTER {
@@ -269,13 +285,31 @@ FOOTER > DIV {
  
  
 
-
-/* language picker */
+/*
+					  ##          ##     #####   ##    ## 
+					  ##        ####    ##   ##  ###   ## 
+					  ##          ##   ##     ## ####  ## 
+					  ##          ##   ##     ## ## ## ## 
+					  ##          ##   ##     ## ##  #### 
+					  ##          ##    ##   ##  ##   ### 
+					  ########  ######   #####   ##    ## 
+*/
 #l10n_bookmarks {
 	margin-bottom: 20px;
 }
 
-#l10n_bookmarks A {
+#l10n_bookmarks UL {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+#l10n_bookmarks UL LI {
+	display: inline;
+	float: right;
+}
+
+.l10n_lang_list SPAN {
 	display: block;
 	float: right;
 	width: 21px;
@@ -291,33 +325,96 @@ FOOTER > DIV {
 	position: relative;
 	top: -10px;
 }
-#l10n_bookmarks A:HOVER, #l10n_bookmarks A.active {
+
+.l10n_lang_list A {
+	color: white;
+	text-decoration: none;
+}
+
+
+.l10n_lang_list SPAN:HOVER, .l10n_lang_list LI.l10n_current SPAN {
 	background-position: bottom left;
 }
 
-#l10n_bookmarks A:HOVER {
+
+
+
+/*
+   ######     ###    ########   #######  ##     ##  ######  ######## ##       
+  ##    ##   ## ##   ##     ## ##     ## ##     ## ##    ## ##       ##       
+  ##        ##   ##  ##     ## ##     ## ##     ## ##       ##       ##       
+  ##       ##     ## ########  ##     ## ##     ##  ######  ######   ##       
+  ##       ######### ##   ##   ##     ## ##     ##       ## ##       ##       
+  ##    ## ##     ## ##    ##  ##     ## ##     ## ##    ## ##       ##       
+   ######  ##     ## ##     ##  #######   #######   ######  ######## ######## 
+*/
+/* inline styles applied to not break layout when css is not fully loaded */
+#frontpage_carousel {
+	width: 960px;
+	height: 435px;
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+
+.carousel-wrap {
+	width: 960px;
+	overflow: hidden;
+	display: inline-block;
+}
+
+.carousel-wrap UL {
+	outline: 1px solid red;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	z-index: 0;
+}
+
+.carousel-wrap UL LI {
+	float: left;
+	display: inline;
+	width: 960px;
+	height: 435px;
+}
+
+.carousel-control {
+	position: absolute;
+	z-index: 1;
+
+	padding: 0;
+	margin: 0;
+	border: 0;
+	text-indent: -999px;
+	width: 60px;
+	color: white;
+	height: 435px;
+}
+
+.carousel-control:HOVER {
+	background-color: rgba(0,0,0,0.2);
+}
+
+.carousel-previous {
+	background: transparent url("../images/btn_prev.png") 10px 50% no-repeat;
+}
+
+.carousel-next {
+	background: transparent url("../images/btn_next.png") 13px 50% no-repeat;
+	margin-left: -60px;
 }
 
 
-H1 {
-	width: 241px;
-	height: 45px;
-	background-image: url(../images/indiebikes-logo.png);
-}
 
-H2 {
-	width: 320px;
-	height: 45px;
-	background-image: url(../images/indiebikes-slogan.png);
-}
-
-
-
-/* teasers on frontpage */
-#box_teaser {
-	
-}
-
+/* 
+			######## ########    ###     ######  ######## ########  
+			   ##    ##         ## ##   ##    ## ##       ##     ## 
+			   ##    ##        ##   ##  ##       ##       ##     ## 
+			   ##    ######   ##     ##  ######  ######   ########  
+			   ##    ##       #########       ## ##       ##   ##   
+			   ##    ##       ##     ## ##    ## ##       ##    ##  
+			   ##    ######## ##     ##  ######  ######## ##     ##
+*/
 #box_teaser a {
 	display: block;
 	width: 220px;
@@ -333,6 +430,8 @@ H2 {
 
 #box_teaser h3 {
 	padding: 10px 0 0 5px;
+	font-size: 26px;
+	font-weight: 500;
 }
 
 #box_teaser div {
@@ -350,10 +449,7 @@ A#teaser_galerie {
 	background: white url(../images/teaser_galerie.png) center no-repeat;
 }
 A#teaser_indiebikes {
-	background: #efcc00;
-}
-A#teaser_indiebikes:HOVER {
-	background: url(../images/teaser_indiebikes.png) center no-repeat;
+	background: #eac900 url(../images/teaser_indiebikes.png) 107px 107px no-repeat;
 }
 
 #box_blog {
@@ -361,7 +457,204 @@ A#teaser_indiebikes:HOVER {
 }
 
 
-/* text styles */
+
+/* 
+					 ##     ## ######## ##    ## ##     ## 
+					 ###   ### ##       ###   ## ##     ## 
+					 #### #### ##       ####  ## ##     ## 
+					 ## ### ## ######   ## ## ## ##     ## 
+					 ##     ## ##       ##  #### ##     ## 
+					 ##     ## ##       ##   ### ##     ## 
+					 ##     ## ######## ##    ##  #######  
+*/
+
+#menu {
+	overflow: visible;
+}
+
+#menu UL {
+	margin-top: 20px;
+}
+
+#menu A {
+	text-decoration: none;
+	display: block;
+	padding: 0;
+	margin: 0;
+	color: #9b9c9e;
+	padding: 5px 5px 5px 5px;
+}
+
+#menu LI {
+	border-bottom: 1px dotted gray;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#menu A:HOVER, #menu A:ACTIVE, #menu A.active {
+	color: #4c4c4e;
+}
+
+#menu A.active {
+	background: transparent url(../images/menu_active.png) top left no-repeat;
+	height: 60px;
+	padding-left: 27px;
+	margin-left: -27px;
+	margin-right: -36px;
+	margin-bottom: -10px;
+}
+
+#menu A SPAN {
+	display: block;
+}
+
+#menu A SPAN.menupunkt {
+	font-size: 24px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+
+
+
+/*
+		 ######   #######  ##    ## ######## ######## ##    ## ######## 
+		##    ## ##     ## ###   ##    ##    ##       ###   ##    ##    
+		##       ##     ## ####  ##    ##    ##       ####  ##    ##    
+		##       ##     ## ## ## ##    ##    ######   ## ## ##    ##    
+		##       ##     ## ##  ####    ##    ##       ##  ####    ##    
+		##    ## ##     ## ##   ###    ##    ##       ##   ###    ##    
+		 ######   #######  ##    ##    ##    ######## ##    ##    ##  
+*/
+
+#header_image {
+	margin-bottom: 20px;
+}
+
+#title {
+	padding-bottom: 10px;
+	border-bottom: 1px solid #9b9c9e;
+}
+
+#body {
+
+}
+
+/* display date of blog post */
+.daytum {
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.daytum SPAN {
+	display: block;
+	text-align: center;
+}
+.daytum .day {
+	font-weight: 700;
+	font-size: 28px;
+}
+.daytum .month {
+	font-style: italic;
+}
+
+
+/*
+	##     ## ########    ###    ########  ##       #### ##    ## ######## 
+	##     ## ##         ## ##   ##     ## ##        ##  ###   ## ##       
+	##     ## ##        ##   ##  ##     ## ##        ##  ####  ## ##       
+	######### ######   ##     ## ##     ## ##        ##  ## ## ## ######   
+	##     ## ##       ######### ##     ## ##        ##  ##  #### ##       
+	##     ## ##       ##     ## ##     ## ##        ##  ##   ### ##       
+	##     ## ######## ##     ## ########  ######## #### ##    ## ######## 
+*/
+
+H1 {
+	width: 241px;
+	height: 45px;
+	background-image: url(../images/indiebikes-logo.png);
+}
+
+H2 {
+	width: 320px;
+	height: 45px;
+	background-image: url(../images/indiebikes-slogan.png);
+}
+
+H3 {
+	font-size: 45px;
+	padding: 5px;
+	font-weight: 500;
+}
+
+/* apply with lettering.js */
+H3 SPAN {
+	display: inline-block;
+	background: #4b4b4d;
+	padding: 0px 10px 0px 8px;
+	margin: 2px 10px 0 2px;
+	clear: right;
+}
+
+H4 {
+	font-size: 16px;
+	font-weight: 500;
+	color: white;
+
+	background: transparent url(../images/h4_background.png) left top no-repeat;
+	height: 29px;
+	margin-top: 20px;
+	margin-left: -8px;
+	margin-bottom: -8px;
+	padding: 2px 5px 1px 13px;
+}
+
+H4 a.more {
+	float: right;
+	display: inline-block;
+	color: white;
+	line-height: 24px;
+	font-size: 12px;
+	font-weight: 500;
+	text-decoration: none;
+	padding: 0 12px 0 6px;
+	border-left: 2px solid white;
+	margin-top: -2px;
+	margin-bottom: -2px;
+	background: url(../images/btn_next_small.png) center right no-repeat;
+}
+
+H4 + DIV {
+	background: red;
+	background: #e4e4e4;
+	margin-bottom: 20px;
+}
+
+/* disable margin top for first h4 in body-div */
+H4:first-child {
+	margin-top: 0;
+}
+
+/* enable light headline with no surrounding boxing */
+H4.light {
+	background: #4c4c4e;
+	padding: 2px 5px 2px 5px;
+	height: inherit;
+	margin-bottom: 0px;
+}
+
+
+
+
+
+/*
+					 ######## ######## ##     ## ######## 
+						##    ##        ##   ##     ##    
+						##    ##         ## ##      ##    
+						##    ######      ###       ##    
+						##    ##         ## ##      ##    
+						##    ##        ##   ##     ##    
+						##    ######## ##     ##    ##    
+*/
  
 P {
 	padding: 5px;
@@ -371,40 +664,19 @@ P {
 	color: #9c9e9f;
 }
 
-
-/* HEADLINES */
-
-H3 {
-	font-size: 26px;
-	font-weight: 500;
+.big {
+	font-size: 16px;
 }
 
-/* apply with lettering.js */
-H3 SPAN {
-	display: inline-block;
-	background: #4b4b4d;
-	padding: 0px 10px 0px 8px;
-	margin: 2px 0 0 2px;
-}
 
-H4 {
-	font-size: 19px;
-	font-weight: 500;
-	background: #4b4b4d;
-	color: white;
-	padding: 1px 5px 1px 0px;
-	height: 22px;
-	overflow: hidden;
-}
-.insetwrapper {
-	padding-left: 11px;
-	height: 29px;
-	background: url(../images/h4_inset.png) left top no-repeat;
-	margin-left: -9px;
-}
-.inset_underlay {
-	background: #f2f2f2;
-}
+
+
+
+
+
+
+
+
 
 
 
@@ -431,7 +703,7 @@ H4 {
   
   
   /* Uncomment if you don't want iOS and WinMobile to mobile-optimize the text for you
-     j.mp/textsizeadjust 
+	 j.mp/textsizeadjust 
   html { -webkit-text-size-adjust:none; -ms-text-size-adjust:none; } */
 }
 

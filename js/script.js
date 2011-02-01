@@ -7,8 +7,9 @@
 /* #############
    using letting.js
    ############# */
-   
-$("h3").lettering('lines');
+
+// split H3 in teaserboxes in lines to style every line
+$("#box_teaser h3").lettering('lines');
 
 
 
@@ -18,7 +19,7 @@ $("h3").lettering('lines');
 
    
 // language picker
-$("#l10n_bookmarks A")
+$("#l10n_bookmarks SPAN")
 	.css("top", "-10")
 	.mouseover(function(){
 		$(this).stop().animate({
@@ -58,3 +59,27 @@ $("#teaser_teile")
 			{backgroundPosition:"(0 0)"}, 
 			{duration:1000})
 		});
+
+$("#teaser_indiebikes")
+	.css( {backgroundPosition: "107px 107px"} )
+	.mouseover(function() {
+		$(this).stop().animate(
+			{backgroundPosition:"(0 0)"}, 
+			{duration:200})
+		})
+	.mouseout(function() {
+		$(this).stop().animate(
+			{backgroundPosition:"(107px 107px)"}, 
+			{duration:200})
+		});
+
+
+// jQuery Carousel
+// http://www.thomaslanciaux.pro/jquery/jquery_carousel.htm
+
+$("#frontpage_carousel").carousel( {
+        autoSlide: true,
+        loop: true,
+        btnsPosition: "inside",
+        autoSlideInterval: 3000
+} );
