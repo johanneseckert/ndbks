@@ -34,10 +34,32 @@
 
   <!-- All JavaScript at the bottom, except for Modernizr which enables HTML5 elements & feature detects -->
   <script src="js/libs/modernizr-1.6.min.js"></script>
+
+	<title>indiebikes TEILE</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<!--  Mobile viewport optimized: j.mp/bplateviewport -->
+	<meta name="viewport" content="width=960, initial-scale=1.0">
+
+	<!-- Place favicon.ico & apple-touch-icon.png in the root of your domain and delete	these references -->
+	<link rel="shortcut icon" href="/favicon.ico">
+	<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+	 <!-- typekit webfonts -->
+	<script type="text/javascript" src="http://use.typekit.com/fzw8tyl.js"></script>
+	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>  
+
+	<!-- CSS : implied media="all" -->
+	<link rel="stylesheet" href="/css/style.css?v=2">
+	<link rel="stylesheet" href="/css/960.css">
+
+	<!-- All JavaScript at the bottom, except for Modernizr which enables HTML5 elements & feature detects -->
+	<script src="/js/libs/modernizr-1.6.min.js"></script>
 </head>
 <body>
 
-    <header class="container_12 clearfix">
+	<!-- begin of header -->
+	<header class="container_12 clearfix">
 		<div class="grid_1 prefix_11" id="l10n_bookmarks">
 			<a href="#" id="l10n_de">en</a>
 			<a href="#" id="l10n_de" class="active">de</a>
@@ -49,80 +71,82 @@
 		<div class="grid_5 suffix_1">
 			<h2 class="ir">we like it fixed</h2>
 		</div>
-    </header>
-    
-<!-- end of header -->
+	</header>
+	<!-- end of header -->
 
 	<!-- start of main content -->
-	<div id="main">
-	<div class="container_12 clearfix">
+	<div id="main" class="container_12 clearfix">
 
 		<!-- menu -->
 		<nav class="grid_2" id="menu">
 			<ul>
-				<li><a href="#">
-					<span class="menupunkt">Bestellen</span>
-					<span class="menubeschr">Dein eigenes Bike</span>
+				<li><a href="/order">
+					<span class="menupunkt"><txp:text item="sct_order" /></span>
+					<span class="menubeschr"><txp:text item="sct_order_sub" /></span>
 				</a></li>
-				<li><a href="#">
-					<span class="menupunkt">Teile</span>
-					<span class="menubeschr">Details zu den indiebikes</span>
+				<li><a href="/gallery"<txp:if_section name="gallery"> class="active"</txp:if_section>>
+					<span class="menupunkt"><txp:text item="sct_gallery" /></span>
+					<span class="menubeschr"><txp:text item="sct_gallery_sub" /></span>
 				</a></li>
-				<li><a href="#" class="active">
-					<span class="menupunkt">Blog</span>
+				<li><a href="/blog"<txp:if_section name="blog"> class="active"</txp:if_section>>
+					<span class="menupunkt"><txp:text item="sct_blog" /></span>
+					<span class="menubeschr"><txp:text item="sct_blog_sub" /></span>
 				</a></li>
-				<li><a href="#">
-					<span class="menupunkt">FAQ</span>
-					<span class="menubeschr">Fragen &amp; Antworten</span>
+				<li><a href="/faq"<txp:if_section name="faq"> class="active"</txp:if_section>>
+					<span class="menupunkt"><txp:text item="sct_faq" /></span>
+					<span class="menubeschr"><txp:text item="sct_faq_sub" /></span>
 				</a></li>
-				<li><a href="#">
-					<span class="menupunkt">Galerie</span>
-				</a></li>
-				<li><a href="#">
-					<span class="menupunkt">Kontakt</span>
+				<li><a href="/about"<txp:if_section name="about"> class="active"</txp:if_section>>
+					<span class="menupunkt"><txp:text item="sct_about" /></span>
+					<span class="menubeschr"><txp:text item="sct_about_sub" /></span>
 				</a></li>
 			</ul>
 		</nav>
 		<!-- end of menu -->
-		<!-- start content -->
+
+		<!-- start content on the left side -->
 		<div class="grid_10 clearfix" id="content">
 			<div id="header_image">
-				<img src="images/header_teile.jpg" />
+				<txp:smd_gallery category="blog_header" sort="date desc" limit="1" form="plain_img" />
 			</div>
 
 			<!-- headline & exzerpt -->
 			<div class="grid_4 alpha" id="title">
-				<h3>Blog</h3>
-				<p class="big"><strong>Neueste Infos von indiebikes</strong></p>
-				<p>Wir informieren hier über alles, was indiebikes voranbringt. Direkt aus dem HQ in K&ouml;ln.</p>
-				<p><img src="images/rss_16.png" /> <a href="http://facebook.com/indiebikes"><img src="images/facebook_16.png" /></a> </p>
+				<h3><txp:text item="sct_blog_headline" /></h3>
+				<txp:text item="sct_blog_intro-wrapped" />
+				<p><img src="/images/rss_16.png" /> <a href="http://facebook.com/indiebikes"><img src="/images/facebook_16.png" /></a> </p>
 			</div>
 
 			<!-- blog articles -->
 			<div class="grid_6 omega" id="body">
 				
-				<h4 class="light">Wir erwarten nächste Woche unsere erste Lieferung der Bikes!</h4>
+				<h4 class="light"><txp:permlink><txp:title /></txp:permlink></h4>
 
 				<div class="grid_1 alpha daytum">
-					<span class="wkday">Mon</span>
-					<span class="day">24.</span>
-					<span class="month">Dez</span>
+					<span class="wkday"><txp:posted format="%a" /></span>
+					<span class="day"><txp:posted format="%d" /></span>
+					<span class="month"><txp:posted format="%b" /></span>
 				</div>
 				<div class="grid_5 omega">
-					<p>indiebikes is happy to announce that we are fully upgraded and loaded full with bikes and cute kittens.</p>
+					<txp:if_excerpt>
+						<txp:excerpt />
+					<txp:else />
+						<txp:body />
+					</txp:if_excerpt>
+					<p class="hint"><txp:comments_count /> <txp:text item="comments" /> &mdash; <txp:permlink>Permalink</txp:permlink></p>
 				</div>
 				<div class="clear"></div>
 
 
-				<h4 class="light">Wir erwarten nächste Woche unsere erste Lieferung der Bikes!</h4>
+				<h4 class="light"><txp:permlink><txp:title /></txp:permlink></h4>
 
 				<div class="grid_1 alpha daytum">
-					<span class="wkday">Mon</span>
-					<span class="day">24.</span>
-					<span class="month">Dez</span>
+					<span class="wkday"><txp:posted format="%a" /></span>
+					<span class="day"><txp:posted format="%d" /></span>
+					<span class="month"><txp:posted format="%b" /></span>
 				</div>
 				<div class="grid_5 omega">
-					<p>indiebikes is happy to announce that we are fully upgraded and loaded full with bikes and cute kittens.</p>
+					<txp:body />
 				</div>
 				<div class="clear"></div>
 

@@ -73,6 +73,19 @@ $("#teaser_indiebikes")
 			{duration:200})
 		});
 
+$("#teaser_faq")
+	.css( {backgroundPosition: "0px 25px"} )
+	.mouseover(function() {
+		$(this).stop().animate(
+			{backgroundPosition:"(0px 0px)"}, 
+			{duration:100})
+		})
+	.mouseout(function() {
+		$(this).stop().animate(
+			{backgroundPosition:"(0px 25px)"}, 
+			{duration:200})
+		});
+
 
 // jQuery Carousel
 // http://www.thomaslanciaux.pro/jquery/jquery_carousel.htm
@@ -80,6 +93,8 @@ $("#teaser_indiebikes")
 $("#frontpage_carousel").carousel( {
         autoSlide: true,
         loop: true,
+        effect: "slide",
         btnsPosition: "inside",
-        autoSlideInterval: 3000
+        autoSlideInterval: 5000,
+        animSpeed: "slow"
 } );

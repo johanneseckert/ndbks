@@ -91,7 +91,7 @@ pre, code, kbd, samp { font-family: monospace, sans-serif; }
  */
 
 
-body, select, input, textarea { 
+body, select { 
   color: #4b4b4d;
   background: #f2f2f2 url(../images/background.png) center top no-repeat;
   /* #4b4b4d is indiebikes base black
@@ -103,6 +103,7 @@ body, select, input, textarea {
 
 select, input, textarea {
   font-family: "inconsolata-1","inconsolata-2", Menlo, "Courier New", Courier, Mono, monospace;
+  font-size: 15px;
 }
 
 /* Headers (h1,h2,etc) have no default font-size or margin,
@@ -434,6 +435,16 @@ FOOTER > DIV {
 	font-weight: 500;
 }
 
+/* apply with lettering.js */
+#box_teaser H3 SPAN {
+	display: inline-block;
+	background: #4b4b4d;
+	padding: 0px 10px 0px 8px;
+	margin: 2px 10px 0 2px;
+	clear: right;
+}
+
+
 #box_teaser div {
 	margin-bottom: 20px;
 }
@@ -447,6 +458,10 @@ A#teaser_teile {
 }
 A#teaser_galerie {
 	background: white url(../images/teaser_galerie.png) center no-repeat;
+}
+A#teaser_faq {
+	outline: 1px solid #4b4b4d;
+	background: white url(../images/teaser_faq.png) 0px 25px no-repeat;
 }
 A#teaser_indiebikes {
 	background: #eac900 url(../images/teaser_indiebikes.png) 107px 107px no-repeat;
@@ -529,6 +544,7 @@ A#teaser_indiebikes {
 
 #header_image {
 	margin-bottom: 20px;
+	min-height: 10px;
 }
 
 #title {
@@ -568,13 +584,13 @@ A#teaser_indiebikes {
 	##     ## ######## ##     ## ########  ######## #### ##    ## ######## 
 */
 
-H1 {
+header H1 {
 	width: 241px;
 	height: 45px;
 	background-image: url(../images/indiebikes-logo.png);
 }
 
-H2 {
+header H2 {
 	width: 320px;
 	height: 45px;
 	background-image: url(../images/indiebikes-slogan.png);
@@ -582,18 +598,10 @@ H2 {
 
 H3 {
 	font-size: 45px;
-	padding: 5px;
+	padding: 0 0 5px 3px;
 	font-weight: 500;
 }
 
-/* apply with lettering.js */
-H3 SPAN {
-	display: inline-block;
-	background: #4b4b4d;
-	padding: 0px 10px 0px 8px;
-	margin: 2px 10px 0 2px;
-	clear: right;
-}
 
 H4 {
 	font-size: 16px;
@@ -668,6 +676,10 @@ P {
 	font-size: 16px;
 }
 
+H4 A, H4 A:HOVER, H4 A:VISITED {
+	text-decoration: none;
+	color: white;
+}
 
 
 

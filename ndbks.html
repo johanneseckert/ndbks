@@ -57,32 +57,26 @@
 	
 		<!-- jQuery Carousel here, watch out: inline styles! -->
 		<div class="jquery_carousel" id="frontpage_carousel" style="height: 435px; overflow: hidden;">
-			<ul>
-				<li><img src="images/carousel_0.jpg" /></li>
-				<li><img src="images/carousel_1.jpg" /></li>
-				<li><img src="images/carousel_2.jpg" /></li>
-				<li><img src="images/carousel_3.jpg" /></li>
-				<li><a href="/order"><img src="images/carousel_4.jpg" /></a></li>
-			</ul>
+			<txp:smd_gallery category="front_carousel" sort="date desc" wraptag="ul" form="carousel_elements" />
 		</div>
 
 		<!-- content starts here -->
 		<div id="content" class="container_12 clearfix">
 			
 			<!-- teaser_boxes -->
-			<div class="grid_6" id="box_teaser">
+			<div class="grid_6 clearfix" id="box_teaser">
 				<div class="grid_3 alpha">
 					<a href="/order" id="teaser_order"><h3><txp:text item="teaser_order" /></h3></a>
 				</div>
 				<div class="grid_3 omega">
-					<a href="teile.html" id="teaser_teile"><h3><txp:text item="teaser_teile" /></h3></a>
+					<a href="/about" id="teaser_indiebikes"><h3><txp:text item="teaser_more" /></h3></a>
 				</div>
 				<div class="clear"></div>
 				<div class="grid_3 alpha">
-					<a href="#" id="teaser_galerie"><h3><txp:text item="teaser_gallery" /></h3></a>
+					<a href="/gallery" id="teaser_galerie"><h3><txp:text item="teaser_gallery" /></h3></a>
 				</div>
 				<div class="grid_3 omega">
-					<a href="#" id="teaser_indiebikes"><h3><txp:text item="teaser_more" /></h3></a>
+					<a href="/faq" id="teaser_faq"><h3><txp:text item="teaser_faq" /></h3></a>
 				</div>
 			</div>
 			<!-- end of teaser boxes -->
@@ -90,7 +84,7 @@
 			<!-- blog & facebook -->
 			<div class="grid_6 clearfixclearfix">
 				<div class="grid_6 alpha" id="box_blog">
-					<h4>Neues aus dem indiebikes-Blog <a href="blog.html" class="more"><txp:text item="more" /></a></h4>
+					<h4><txp:text item="news_blog" /> <a href="/blog" class="more"><txp:text item="more" /></a></h4>
 					
 					<div class="clearfix">
 						<div class="grid_3 alpha">

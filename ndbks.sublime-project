@@ -5,7 +5,47 @@
 			"file": "/C/xampplite/htdocs/indiebikes/ndbks.html",
 			"settings":
 			{
-				"buffer_size": 5163,
+				"buffer_size": 5682,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/xampplite/htdocs/indiebikes/__txpparts/_carousel.htm",
+			"settings":
+			{
+				"buffer_size": 197,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/xampplite/htdocs/indiebikes/__txpparts/_header.htm",
+			"settings":
+			{
+				"buffer_size": 2425,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/xampplite/htdocs/indiebikes/__txpparts/_footer.htm",
+			"settings":
+			{
+				"buffer_size": 1076,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/xampplite/htdocs/indiebikes/blog.html",
+			"settings":
+			{
+				"buffer_size": 7114,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/xampplite/htdocs/indiebikes/teile.html",
+			"settings":
+			{
+				"buffer_size": 5343,
 				"line_ending": "Windows"
 			}
 		},
@@ -13,7 +53,15 @@
 			"file": "/C/xampplite/htdocs/indiebikes/css/style.css",
 			"settings":
 			{
-				"buffer_size": 11405,
+				"buffer_size": 17919,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/xampplite/htdocs/indiebikes/js/script.js",
+			"settings":
+			{
+				"buffer_size": 1971,
 				"line_ending": "Unix"
 			}
 		}
@@ -21,6 +69,15 @@
 	"build_system": "",
 	"file_history":
 	[
+		"/D/Arbeiten Schule/_alt/01.03.02 Körper Raum Gestalt 2 (Hausmeier)/Videoinstallation/processing/videoinst_100224_03/readme.txt",
+		"/C/Users/Johannes/Desktop/ebl-image-edit_v2.0.txt",
+		"/C/Users/Johannes/AppData/Roaming/Sublime Text 2/Packages/CSS/Font/font-size-size-(font).sublime-snippet",
+		"/C/xampplite/htdocs/indiebikes/test.html",
+		"/C/xampplite/htdocs/indiebikes/__inc/header.inch",
+		"/C/xampplite/htdocs/indiebikes/__inc/footer.inch",
+		"/D/My Dropbox/audrey/AUY_audrey/AUY_1003_Webseite/Code/101003 Version 2 jQuery/style.css",
+		"/D/My Dropbox/audrey/AUY_audrey/AUY_1003_Webseite/Code/101003 Version 2 jQuery/galerie.htm",
+		"/D/My Dropbox/audrey/AUY_audrey/AUY_1003_Webseite/Code/101003 Version 2 jQuery/js/jquery.carousel.min.js",
 		"/C/xampplite/htdocs/indiebikes/readme",
 		"/C/xampplite/htdocs/indiebikes/.htaccess",
 		"/C/Users/Johannes/AppData/Local/Temp/fz3temp-1/.htaccess",
@@ -76,6 +133,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"start_carousel",
+			"h3",
+			"$(\"#teaser_teile\")\n	.css( {backgroundPosition: \"0 0\"} )\n	.mouseover(function() {\n		$(this).stop().animate(\n			{backgroundPosition:\"(-371px 0)\"}, \n			{duration:1000})\n		})\n	.mouseout(function() {\n		$(this).stop().animate(\n			{backgroundPosition:\"(0 0)\"}, \n			{duration:1000})\n		});\n\n",
 			"id=\"language_form\"",
 			"Willkommen",
 			"Mit dem anlegen",
@@ -106,6 +166,7 @@
 	"groups":
 	[
 		{
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -113,15 +174,123 @@
 					"file": "/C/xampplite/htdocs/indiebikes/ndbks.html",
 					"settings":
 					{
-						"buffer_size": 5163,
+						"buffer_size": 5682,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3899,
-								3899
+								3409,
+								3409
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0,
+						"translation.y": 573,
+						"zoom_level": 1
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/xampplite/htdocs/indiebikes/__txpparts/_carousel.htm",
+					"settings":
+					{
+						"buffer_size": 197,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								167,
+								184
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0,
+						"translation.y": 0,
+						"zoom_level": 1
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/C/xampplite/htdocs/indiebikes/__txpparts/_header.htm",
+					"settings":
+					{
+						"buffer_size": 2425,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1409,
+								1409
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0,
+						"translation.y": 135,
+						"zoom_level": 1
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/C/xampplite/htdocs/indiebikes/__txpparts/_footer.htm",
+					"settings":
+					{
+						"buffer_size": 1076,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								1076
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0,
+						"translation.y": 0,
+						"zoom_level": 1
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/C/xampplite/htdocs/indiebikes/blog.html",
+					"settings":
+					{
+						"buffer_size": 7114,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4408,
+								4494
 							]
 						],
 						"settings":
@@ -129,33 +298,94 @@
 							"syntax": "Packages/HTML/HTML.tmLanguage"
 						},
 						"translation.x": 0,
-						"translation.y": 1557.57,
+						"translation.y": 1395,
 						"zoom_level": 1
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "/C/xampplite/htdocs/indiebikes/css/style.css",
+					"buffer": 5,
+					"file": "/C/xampplite/htdocs/indiebikes/teile.html",
 					"settings":
 					{
-						"buffer_size": 11405,
+						"buffer_size": 5343,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								9786,
-								9786
+								3547,
+								3547
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/CSS/CSS.tmLanguage"
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0,
-						"translation.y": 0,
+						"translation.y": 795,
+						"zoom_level": 1
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 6,
+					"file": "/C/xampplite/htdocs/indiebikes/css/style.css",
+					"settings":
+					{
+						"buffer_size": 17919,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								14197,
+								14197
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0,
+						"translation.y": 8026,
+						"zoom_level": 1
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/C/xampplite/htdocs/indiebikes/js/script.js",
+					"settings":
+					{
+						"buffer_size": 1971,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1563,
+								1563
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0,
+						"translation.y": 675,
 						"zoom_level": 1
 					},
 					"type": "text"
@@ -172,11 +402,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0,
+			0.559034,
 			1
 		],
 		"rows":
@@ -201,6 +438,6 @@
 	"show_minimap": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 225,
+	"side_bar_width": 203,
 	"status_bar_visible": true
 }
