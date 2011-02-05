@@ -50,6 +50,14 @@
 			}
 		},
 		{
+			"file": "/C/xampplite/apache/conf/httpd.conf",
+			"settings":
+			{
+				"buffer_size": 18065,
+				"line_ending": "Windows"
+			}
+		},
+		{
 			"file": "/C/xampplite/htdocs/indiebikes/css/style.css",
 			"settings":
 			{
@@ -69,6 +77,8 @@
 	"build_system": "",
 	"file_history":
 	[
+		"/C/xampplite/htdocs/indiebikes/textpattern/config.php",
+		"/C/xampplite/htdocs/indiebikes/order/admin/config.php",
 		"/D/Arbeiten Schule/_alt/01.03.02 Körper Raum Gestalt 2 (Hausmeier)/Videoinstallation/processing/videoinst_100224_03/readme.txt",
 		"/C/Users/Johannes/Desktop/ebl-image-edit_v2.0.txt",
 		"/C/Users/Johannes/AppData/Roaming/Sublime Text 2/Packages/CSS/Font/font-size-size-(font).sublime-snippet",
@@ -92,7 +102,6 @@
 		"/C/xampplite/htdocs/indiebikes/textpattern/publish.php",
 		"/C/xampplite/htdocs/indiebikes/textpattern/lgpl-2.1.txt",
 		"/C/xampplite/htdocs/indiebikes/textpattern/checksums.txt",
-		"/C/xampplite/htdocs/indiebikes/textpattern/config.php",
 		"/C/xampplite/htdocs/indiebikes/order/catalog/view/theme/ndbkstheme/template/common/header.tpl",
 		"/C/Users/Johannes/AppData/Roaming/Sublime Text 2/Packages/User/Base File.sublime-settings",
 		"/C/Users/Johannes/AppData/Roaming/Sublime Text 2/Packages/Default/Global.sublime-settings",
@@ -121,6 +130,7 @@
 		],
 		"location_history":
 		[
+			"<open folders>",
 			"C:\\xampplite\\htdocs\\indiebikes\\order\\catalog\\view\\theme\\default",
 			"C:\\xampplite\\htdocs\\indiebikes\\order\\catalog\\language",
 			"<open folders>",
@@ -133,6 +143,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"localhost",
 			"start_carousel",
 			"h3",
 			"$(\"#teaser_teile\")\n	.css( {backgroundPosition: \"0 0\"} )\n	.mouseover(function() {\n		$(this).stop().animate(\n			{backgroundPosition:\"(-371px 0)\"}, \n			{duration:1000})\n		})\n	.mouseout(function() {\n		$(this).stop().animate(\n			{backgroundPosition:\"(0 0)\"}, \n			{duration:1000})\n		});\n\n",
@@ -166,7 +177,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 6,
 			"sheets":
 			[
 				{
@@ -262,8 +273,8 @@
 						"selection":
 						[
 							[
-								0,
-								1076
+								91,
+								91
 							]
 						],
 						"settings":
@@ -329,15 +340,43 @@
 						"zoom_level": 1
 					},
 					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/C/xampplite/apache/conf/httpd.conf",
+					"settings":
+					{
+						"buffer_size": 18065,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								8049,
+								8049
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0,
+						"translation.y": 3733.8,
+						"zoom_level": 1
+					},
+					"type": "text"
 				}
 			]
 		},
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
-					"buffer": 6,
+					"buffer": 7,
 					"file": "/C/xampplite/htdocs/indiebikes/css/style.css",
 					"settings":
 					{
@@ -348,8 +387,8 @@
 						"selection":
 						[
 							[
-								14197,
-								14197
+								11005,
+								11005
 							]
 						],
 						"settings":
@@ -364,7 +403,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 7,
+					"buffer": 8,
 					"file": "/C/xampplite/htdocs/indiebikes/js/script.js",
 					"settings":
 					{
