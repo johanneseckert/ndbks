@@ -10,26 +10,10 @@
 			}
 		},
 		{
-			"file": "/C/xampplite/htdocs/indiebikes/__txpparts/_carousel.htm",
-			"settings":
-			{
-				"buffer_size": 197,
-				"line_ending": "Windows"
-			}
-		},
-		{
 			"file": "/C/xampplite/htdocs/indiebikes/__txpparts/_header.htm",
 			"settings":
 			{
-				"buffer_size": 2425,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/xampplite/htdocs/indiebikes/__txpparts/_footer.htm",
-			"settings":
-			{
-				"buffer_size": 1076,
+				"buffer_size": 2505,
 				"line_ending": "Windows"
 			}
 		},
@@ -37,7 +21,7 @@
 			"file": "/C/xampplite/htdocs/indiebikes/blog.html",
 			"settings":
 			{
-				"buffer_size": 7114,
+				"buffer_size": 7169,
 				"line_ending": "Windows"
 			}
 		},
@@ -53,7 +37,7 @@
 			"file": "/C/xampplite/apache/conf/httpd.conf",
 			"settings":
 			{
-				"buffer_size": 18065,
+				"buffer_size": 18076,
 				"line_ending": "Windows"
 			}
 		},
@@ -77,6 +61,9 @@
 	"build_system": "",
 	"file_history":
 	[
+		"/C/xampplite/htdocs/indiebikes/__txpparts/_footer.htm",
+		"/C/xampplite/htdocs/indiebikes/__txpparts/_header.htm",
+		"/C/xampplite/htdocs/indiebikes/__txpparts/_carousel.htm",
 		"/C/xampplite/htdocs/indiebikes/textpattern/config.php",
 		"/C/xampplite/htdocs/indiebikes/order/admin/config.php",
 		"/D/Arbeiten Schule/_alt/01.03.02 Körper Raum Gestalt 2 (Hausmeier)/Videoinstallation/processing/videoinst_100224_03/readme.txt",
@@ -177,7 +164,7 @@
 	"groups":
 	[
 		{
-			"selected": 6,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -209,18 +196,18 @@
 				},
 				{
 					"buffer": 1,
-					"file": "/C/xampplite/htdocs/indiebikes/__txpparts/_carousel.htm",
+					"file": "/C/xampplite/htdocs/indiebikes/__txpparts/_header.htm",
 					"settings":
 					{
-						"buffer_size": 197,
+						"buffer_size": 2505,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								167,
-								184
+								1475,
+								1475
 							]
 						],
 						"settings":
@@ -236,72 +223,18 @@
 				},
 				{
 					"buffer": 2,
-					"file": "/C/xampplite/htdocs/indiebikes/__txpparts/_header.htm",
-					"settings":
-					{
-						"buffer_size": 2425,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1409,
-								1409
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0,
-						"translation.y": 135,
-						"zoom_level": 1
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "/C/xampplite/htdocs/indiebikes/__txpparts/_footer.htm",
-					"settings":
-					{
-						"buffer_size": 1076,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								91,
-								91
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0,
-						"translation.y": 0,
-						"zoom_level": 1
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
 					"file": "/C/xampplite/htdocs/indiebikes/blog.html",
 					"settings":
 					{
-						"buffer_size": 7114,
+						"buffer_size": 7169,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4408,
-								4494
+								4771,
+								4771
 							]
 						],
 						"settings":
@@ -315,7 +248,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 3,
 					"file": "/C/xampplite/htdocs/indiebikes/teile.html",
 					"settings":
 					{
@@ -342,19 +275,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 4,
 					"file": "/C/xampplite/apache/conf/httpd.conf",
 					"settings":
 					{
-						"buffer_size": 18065,
+						"buffer_size": 18076,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								8049,
-								8049
+								9628,
+								9628
 							]
 						],
 						"settings":
@@ -376,7 +309,7 @@
 			"sheets":
 			[
 				{
-					"buffer": 7,
+					"buffer": 5,
 					"file": "/C/xampplite/htdocs/indiebikes/css/style.css",
 					"settings":
 					{
@@ -403,7 +336,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 8,
+					"buffer": 6,
 					"file": "/C/xampplite/htdocs/indiebikes/js/script.js",
 					"settings":
 					{

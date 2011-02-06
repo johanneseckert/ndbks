@@ -277,7 +277,12 @@ FOOTER {
 }
 
 FOOTER > DIV {
-	padding-bottom: 40px;
+	padding-bottom: 60px;
+}
+
+FOOTER P {
+	padding: 0;
+	margin-bottom: 5px;
 }
 
 #footer_logo {
@@ -679,6 +684,15 @@ P {
 H4 A, H4 A:HOVER, H4 A:VISITED {
 	text-decoration: none;
 	color: white;
+}
+
+FOOTER A, FOOTER A:VISITED {
+	color: white;
+	text-decoration: none;
+}
+footer A:HOVER {
+	color: white;
+	text-decoration: underline;
 }
 
 
