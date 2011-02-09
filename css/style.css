@@ -253,7 +253,7 @@ button {  width: auto; overflow: visible; }
 
 DIV {
 /*  for debug */
-/* 	outline: 1px solid lime;*/
+ 	/*outline: 1px solid lime;*/
 }
 
  
@@ -699,7 +699,75 @@ footer A:HOVER {
 
 
 
+/*
+        ########  ##     ## #### ##       ########  ######## ########  
+        ##     ## ##     ##  ##  ##       ##     ## ##       ##     ## 
+        ##     ## ##     ##  ##  ##       ##     ## ##       ##     ## 
+        ########  ##     ##  ##  ##       ##     ## ######   ########  
+        ##     ## ##     ##  ##  ##       ##     ## ##       ##   ##   
+        ##     ## ##     ##  ##  ##       ##     ## ##       ##    ##  
+        ########   #######  #### ######## ########  ######## ##     ## 
+*/
 
+
+/* builder-image */
+
+#builder_image {
+	height: 480px;
+	margin-bottom: 20px;
+}
+
+#builder_image IMG {
+	display: block;
+	position: absolute;
+}
+
+
+
+/* buttonsets */
+
+.builder_button_group {
+	padding-top: 5px;
+}
+
+.builder_button_group DIV {
+	line-height: 16px;
+}
+
+.builder_button_group DIV:first-child {
+	text-align: right;
+}
+
+
+.builder_buttonset {
+}
+
+#radio-fr LABEL {
+}
+
+.builder_colors LABEL {
+	text-indent: -999px;
+	overflow: hidden;
+	width: 20px;
+	height: 20px;
+	border-width: 2px;
+}
+
+/* coloring buttons */
+.color_whasabi { background: #99ca3d; }
+.color_white { background: #f7ffff; }
+.color_black { background: #1a1819; }
+.color_blue { background: #005ba1; }
+.color_gold { background: #f0c540; }
+.color_silver { background: #b6b9b4; }
+.color_brown { background: #613512; }
+.color_yellow { background: #fccd00; }
+.color_red { background: #e61a24; }
+
+.ui-state-active {
+/*	-moz-transform:scale(1.1);
+	-webkit-transform:scale(1.1);	
+*/}
 
 
 

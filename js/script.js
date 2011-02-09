@@ -98,3 +98,15 @@ $("#frontpage_carousel").carousel( {
         autoSlideInterval: 5000,
         animSpeed: "slow"
 } );
+
+
+
+
+/* #############
+   builder
+   ############# */
+
+
+// setting up jquery UI
+
+$(".builder_buttonset").buttonset();

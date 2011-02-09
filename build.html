@@ -1,0 +1,122 @@
+	<div class="grid_10 clearfix" id="content">
+		<!-- empty header image (for spacing reasons) -->
+		<div id="header_image">
+			&nbsp;
+		</div>
+
+		<!-- configurator image -->
+		<div id="builder_image">
+			<img src="/images/builder/base.png" id="base" />
+<?php
+	// builder constructor
+	function builder_construct_images($name,$nameshort,$values) {
+		?>
+			<!-- <?php echo $name." ".$nameshort ?> -->
+			<?php
+				foreach ($values as $value) {
+					echo '<img src="/images/builder/'.$nameshort.'-'.$value.'.png" class="builder-'.$name.'" id="'.$nameshort.'-'.$value.'" />';
+					echo "\n";
+				}
+			?>
+		<?php
+		
+	}
+
+	builder_construct_images("rim-front","rmf",array("white","black","red"));
+	builder_construct_images("rim-rear","rmr",array("white","black","red"));
+	builder_construct_images("tire-front","trf",array("white","black","red","yellow"));
+	builder_construct_images("tire-rear","trr",array("white","black","red","yellow"));
+	builder_construct_images("frame","fr",array("wasabi","white","black","blue"));
+	builder_construct_images("cranks","cr",array("silver","black","gold"));
+	builder_construct_images("chain","ch",array("white","black","red","yellow"));
+	builder_construct_images("handlebar","hb-riserbar",array("black"));
+	builder_construct_images("grip","gr",array("white","black","brown"));
+	builder_construct_images("saddle","sd",array("white","black","brown"));
+?>
+			<img src="/images/builder/top.png" id="top" />
+		</div>
+
+		<!-- headline & short-URL -->
+		<div class="grid_2 alpha">
+			<p class="big"><strong>Bau hier Dein eigenes Bike</strong></p>
+			<p>Klick Dich durch.</p>
+
+			<h4>Teilen</h4>
+			<div>
+				<p>Infos zum Teilen
+				</p>
+			</div>
+		</div>
+
+<form>
+
+		<!-- setup1 -->
+		<div class="grid_4">
+			<h4>Komponenten</h4>
+			<div>
+<?php
+	// builder constructor
+	function builder_construct_buttons($name,$nameshort,$values) {
+		?>
+				<!-- <?php echo $name." ".$nameshort ?> -->
+				<div class="builder_button_group clearfix">
+					<div class="grid_2 alpha"><?php echo $name ?></div>
+					<div id="radio-<?php echo $nameshort ?>" class="builder_buttonset builder_colors grid_2 omega">
+					<?php
+						foreach ($values as $value) {
+							echo '<input type="radio" id="radio-'.$nameshort.'-'.$value.'" name="'.$nameshort.'" value="'.$value.'" />';
+							echo "\n";
+							echo '<label for="radio-'.$nameshort.'-'.$value.'" class="color_'.$value.'">'.$value.'</label>';
+							echo "\n";
+						}
+					?>
+					</div>
+				</div>
+		<?php
+		
+	}
+
+	builder_construct_buttons("frame","fr",array("whasabi","white","black","blue"));
+	builder_construct_buttons("seatpost","sp",array("black","gold","silver"));
+	builder_construct_buttons("cranks","cr",array("black","gold","silver"));
+	builder_construct_buttons("grips","gr",array("black","brown","white"));
+	builder_construct_buttons("chain","ch",array("white","black","red","yellow"));
+	builder_construct_buttons("saddle","sd",array("white","brown","black"));
+	builder_construct_buttons("tire-front","trf",array("red","black","yellow","white"));
+	builder_construct_buttons("rim-front","rmf",array("red","black","white"));
+	builder_construct_buttons("tire-rear","trr",array("red","black","yellow","white"));
+	builder_construct_buttons("rim-rear","rmr",array("red","black","white"));
+?>
+
+
+			</div>
+
+			<h4>Voreinstellungen</h4>
+			<div>
+				<p>pre-defined builds</p>
+			</div>
+		</div>
+
+		<!-- setup2 -->
+		<div class="grid_4 omega">
+			<h4>Beschriftung</h4>
+			<div>
+				<p>Where to put the indiebikes-Logos</p>
+			</div>
+
+			<h4>Rahmen</h4>
+			<div>
+				<p>choose frame size</p>
+			</div>
+
+			<div id="builder_priceorder">
+				price &amp; order<br />
+				<input type="submit" />
+			</div>
+		</div>
+
+</form>
+
+
+	</div>
+	<!-- end content -->

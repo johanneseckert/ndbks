@@ -1,56 +1,91 @@
-<?php if (isset($_SERVER['HTTP_USER_AGENT']) && !strpos($_SERVER['HTTP_USER_AGENT'], 'MSIE 6')) echo '<?xml version="1.0" encoding="UTF-8"?>'. "\n"; ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" dir="<?php echo $direction; ?>" lang="<?php echo $lang; ?>" xml:lang="<?php echo $lang; ?>">
+<!doctype html>
+
+<?php
+
+  // PHP functions
+  // use with care
+
+
+  // this will steal the mlp snippet from textpattern and show it here
+  function mlp_snippet($nameofkey,$lang) {
+    $result = mysql_query("SELECT * FROM txp_lang WHERE lang='".$lang."' AND 
+                          name = '".$nameofkey."'");
+    $row = mysql_fetch_assoc($result);
+    echo $row["data"];
+  }
+?>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ --> 
+<!--[if lt IE 7 ]> <html lang="<?php echo $lang; ?>" class="no-js ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="<?php echo $lang; ?>" class="no-js ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="<?php echo $lang; ?>" class="no-js ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="<?php echo $lang; ?>" class="no-js ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="<?php echo $lang; ?>" class="no-js"> <!--<![endif]-->
 <head>
-<title><?php echo $title; ?></title>
-<?php if ($keywords) { ?>
-<meta name="keywords" content="<?php echo $keywords; ?>" />
-<?php } ?>
-<?php if ($description) { ?>
-<meta name="description" content="<?php echo $description; ?>" />
-<?php } ?>
-<base href="<?php echo $base; ?>" />
-<?php if ($icon) { ?>
-<link href="<?php echo $icon; ?>" rel="icon" />
-<?php } ?>
-<?php foreach ($links as $link) { ?>
-<link href="<?php echo str_replace('&', '&amp;', $link['href']); ?>" rel="<?php echo $link['rel']; ?>" />
-<?php } ?>
-<link rel="stylesheet" type="text/css" href="catalog/view/theme/<?php echo $template; ?>/stylesheet/stylesheet.css" />
-<!--[if lt IE 7]>
-<link rel="stylesheet" type="text/css" href="catalog/view/theme/ndbkstheme/stylesheet/ie6.css" />
-<script type="text/javascript" src="catalog/view/javascript/DD_belatedPNG_0.0.8a-min.js"></script>
-<script>
-DD_belatedPNG.fix('img, #header .div3 a, #content .left, #content .right, .box .top');
-</script>
-<![endif]-->
-<?php foreach ($styles as $style) { ?>
-<link rel="<?php echo $style['rel']; ?>" type="text/css" href="<?php echo $style['href']; ?>" media="<?php echo $style['media']; ?>" />
-<?php } ?>
-<script type="text/javascript" src="catalog/view/javascript/jquery/jquery-1.3.2.min.js"></script>
-<script type="text/javascript" src="catalog/view/javascript/jquery/thickbox/thickbox-compressed.js"></script>
-<link rel="stylesheet" type="text/css" href="catalog/view/javascript/jquery/thickbox/thickbox.css" />
-<script type="text/javascript" src="catalog/view/javascript/jquery/tab.js"></script>
-<?php foreach ($scripts as $script) { ?>
-<script type="text/javascript" src="<?php echo $script; ?>"></script>
-<?php } ?>
-<script type="text/javascript"><!--
-function bookmark(url, title) {
-	if (window.sidebar) { // firefox
-    window.sidebar.addPanel(title, url, "");
-	} else if(window.opera && window.print) { // opera
-		var elem = document.createElement('a');
-		elem.setAttribute('href',url);
-		elem.setAttribute('title',title);
-		elem.setAttribute('rel','sidebar');
-		elem.click();
-	} else if(document.all) {// ie
-   		window.external.AddFavorite(url, title);
-	}
-}
-//--></script>
+  <meta charset="utf-8">
+
+  <!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame 
+    Remove this if you use the .htaccess -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <title><?php echo $title; ?></title>
+
+  <meta name="description" content="<?php mlp_snippet("meta_description",$language_code); ?>" />
+  <meta name="keywords" content="<?php mlp_snippet("meta_keywords",$language_code); ?>">
+  <meta name="author" content="<?php mlp_snippet("meta_author",$language_code); ?>">
+
+  <!--  Mobile viewport optimized: j.mp/bplateviewport -->
+  <meta name="viewport" content="width=960, initial-scale=1.0">
+
+  <link rel="shortcut icon" href="/favicon.ico">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+   <!-- typekit webfonts -->
+  <script type="text/javascript" src="http://use.typekit.com/fzw8tyl.js"></script>
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>  
+
+  <txp:feed_link flavor="rss" format="link" section="blog" />
+
+  <!-- CSS : implied media="all" -->
+  <link rel="stylesheet" href="/css/style.css?v=2">
+  <link rel="stylesheet" href="/css/960.css">
+  <link rel="stylesheet" href="/css/jquery-ui-1.8.9.custom.css">
+
+  <!-- All JavaScript at the bottom, except for Modernizr which enables HTML5 elements & feature detects -->
+  <script src="/js/libs/modernizr-1.6.min.js"></script>
 </head>
 <body>
+
+  <!-- begin of header -->
+  <header class="container_12 clearfix">
+    <div class="grid_1 prefix_11" id="l10n_bookmarks">
+      language picker!
+    </div>
+    <div class="clear"></div>
+    <div class="grid_4 prefix_2">
+      <a href="/"><h1 class="ir">indiebikes</h1></a>
+    </div>
+    <div class="grid_5 suffix_1">
+      <a href="/"><h2 class="ir">we like it fixed</h2></a>
+    </div>
+  </header>
+  <!-- end of header -->
+
+  <!-- start of main content -->
+  <div id="main" class="container_12 clearfix">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <div id="container">
 <div id="header">
   <div class="div1">
