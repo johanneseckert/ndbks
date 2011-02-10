@@ -288,6 +288,10 @@ FOOTER P {
 #footer_logo {
 	margin-bottom: 20px;
 }
+
+.spaceafter {
+	margin-bottom: 20px;
+}
  
  
 
@@ -695,6 +699,10 @@ footer A:HOVER {
 	text-decoration: underline;
 }
 
+INPUT {
+	padding: 3px;
+	border-width: 1px;
+}
 
 
 
@@ -731,8 +739,25 @@ footer A:HOVER {
 #preloadsummary {
 	width: 780px;
 	height: 480px;
-	background: rgba(255,255,255,0.75);
+	background: white;
+	background: rgba(255,255,255,0.8);
 	position: absolute;
+	z-index: 999;
+}
+
+#preloadsummary #preload_state {
+	width: 280px;
+	margin-left: 250px;
+	margin-top: 170px;
+
+}
+
+#preload_image {
+	height: 60px;
+}
+
+#preload_progressbar {
+	height: 10px;
 }
 
 
@@ -778,13 +803,16 @@ footer A:HOVER {
 .color_red { background: #e61a24; border: 2px solid #e61a24 }
 
 .ui-state-active {
-	border: 2px solid gray;
-/*	-moz-transform:scale(1.1);
+/*	border: 2px solid gray;
+	-moz-transform:scale(1.1);
 	-webkit-transform:scale(1.1);	
 */}
 
 
+/* sharing & yourls */
 
+#shared_info { display: none; }
+#shared_load { display: none; }
 
 
 

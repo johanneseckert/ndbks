@@ -6,6 +6,15 @@
 
 		<!-- configurator image -->
 		<div id="builder_image">
+
+			<div id="preloadsummary">
+				<div id="preload_state">
+					<div id="preload_image"><img src="/images/preloader-parts.png" /></div>
+					<div id="preload_progressbar"></div>
+				</div>
+			</div>
+
+		
 			<!-- image map, yes, oldy but goldy -->
 			<map id="builder_map" name="builder_map">
 				<area shape="rect" alt="saddle" title="" coords="227,59,344,92" href="#" />
@@ -47,87 +56,117 @@
 	builder_construct_images("saddle","sd",array("white","black","brown"));
 ?>
 			<img src="/images/builder/top.png" id="top" usemap="#builder_map" />
-			<div id="preloadsummary">
-				Loaded: <span id="loaded">0</span><br />
-				Done: <span id="done">0</span><br />
-				Failed: <span id="failed">0</span><br />
-				Total: <span id="total">0</span><br />
-			</div>
 		</div>
 
 
-		<!-- headline & short-URL -->
+		<!-- left panel & short-URL -->
 		<div class="grid_2 alpha">
-			<p class="big"><strong>Bau hier Dein eigenes Bike</strong></p>
-			<p>Klick Dich durch.</p>
+			<p class="big"><strong>Build your own bike</strong></p>
+			<p>Click game!</p>
 
-			<h4>Teilen</h4>
+			<h4>Share</h4>
 			<div>
-				<p>Infos zum Teilen
-				</p>
-			</div>
-		</div>
-
-		<!-- setup1 -->
-		<div class="grid_4">
-			<h4>Komponenten</h4>
-			<div>
-<?php
-	// builder constructor
-	function builder_construct_buttons($name,$nameshort,$values) {
-		?>
-				<!-- <?php echo $name." ".$nameshort ?> -->
-				<div class="builder_button_group clearfix">
-					<div class="grid_2 alpha"><?php echo $name ?></div>
-					<div id="radio-<?php echo $nameshort ?>" class="builder_buttonset builder_colors grid_2 omega">
-					<?php
-						foreach ($values as $value) {
-							echo '<input type="radio" id="radio-'.$name.'-'.$value.'" name="'.$name.'" value="'.$value.'" />';
-							echo "\n";
-							echo '<label for="radio-'.$name.'-'.$value.'" class="builder_button color_'.$value.'" alt="'.$name.'" title="'.$value.'">'.$value.'</label>';
-							echo "\n";
-						}
-					?>
-					</div>
+				<p id="click_here_to_share"><a href="#">Click here to share your bike</a></p>
+				<p id="shared_load"><img src="/images/ajax-loader.gif" /></p>
+				<div id="shared_info">
+					<p><strong>Share this short URL</strong></p>
+					<p><input type="text" value="" size=16 id="shared_url" /></p>
+					<p id="social_sharing">
+						<a href="#" id="social_fb"><img src="/images/social_facebook.png" /></a>
+						<a href="#" id="social_twitter"><img src="/images/social_twitter.png" /></a>
+					</p>
 				</div>
-		<?php
-	}
-
-	builder_construct_buttons("frame","fr",array("wasabi","white","black","blue"));
-	builder_construct_buttons("cranks","cr",array("black","gold","silver"));
-	builder_construct_buttons("grips","gr",array("black","brown","white"));
-	builder_construct_buttons("chain","ch",array("white","black","red","yellow"));
-	builder_construct_buttons("saddle","sd",array("white","brown","black"));
-	builder_construct_buttons("tirefront","trf",array("red","black","yellow","white"));
-	builder_construct_buttons("rimfront","rmf",array("red","black","white"));
-	builder_construct_buttons("tirerear","trr",array("red","black","yellow","white"));
-	builder_construct_buttons("rimrear","rmr",array("red","black","white"));
-?>
-			</div>
-
-			<h4>Voreinstellungen</h4>
-			<div>
-				<p>pre-defined builds</p>
 			</div>
 		</div>
 
-		<!-- setup2 -->
-		<div class="grid_4 omega">
-			<h4>Beschriftung</h4>
-			<div>
-				<p>Where to put the indiebikes-Logos</p>
+		<!-- right panel -->
+		<div class="grid_8 omega clearfix">
+			<div class="grid_8 alpha clearfix spaceafter">
+				<h4>Components</h4>
+				<div>
+				
+					<div class="grid_4 alpha">
+	<?php
+		// builder constructor
+		function builder_construct_buttons($name,$nameshort,$values) {
+			?>
+					<!-- <?php echo $name." ".$nameshort ?> -->
+					<div class="builder_button_group clearfix">
+						<div class="grid_2 alpha"><?php echo $name ?></div>
+						<div id="radio-<?php echo $nameshort ?>" class="builder_buttonset builder_colors grid_2 omega">
+						<?php
+							foreach ($values as $value) {
+								echo '<input type="radio" id="radio-'.$name.'-'.$value.'" name="'.$name.'" value="'.$value.'" />';
+								echo "\n";
+								echo '<label for="radio-'.$name.'-'.$value.'" class="builder_button color_'.$value.'" alt="'.$name.'" title="'.$value.'">'.$value.'</label>';
+								echo "\n";
+							}
+						?>
+						</div>
+					</div>
+			<?php
+		}
+		builder_construct_buttons("frame","fr",array("wasabi","white","black","blue"));
+		builder_construct_buttons("cranks","cr",array("black","gold","silver"));
+		builder_construct_buttons("grips","gr",array("black","brown","white"));
+		builder_construct_buttons("chain","ch",array("white","black","red","yellow"));
+		builder_construct_buttons("saddle","sd",array("white","brown","black"));
+	?>
+					</div>
+					<div class="grid_4 omega">
+	<?php
+		builder_construct_buttons("tirefront","trf",array("red","black","yellow","white"));
+		builder_construct_buttons("rimfront","rmf",array("red","black","white"));
+		builder_construct_buttons("tirerear","trr",array("red","black","yellow","white"));
+		builder_construct_buttons("rimrear","rmr",array("red","black","white"));
+	?>			
+					</div>
+
+				</div>
 			</div>
 
-			<h4>Rahmen</h4>
-			<div>
-				<p>choose frame size</p>
+			<div class="grid_4 alpha">
+				<h4 class="clearfix">Pre-defined settings</h4>
+				<div class="builder_buttonset">
+					<p>
+						<button id="btn_random">Shuffle Colors</button>
+					</p>
+				</div>
+
+				<h4>Frame size</h4>
+				<div class="builder_buttonset">
+					<p>
+						<input type="radio" id="radio-size-59" name="size" value="59" checked="checked" />
+							<label for="radio-size-59">59 cm</label>
+						<input type="radio" id="radio-size-55" name="size" value="55" />
+							<label for="radio-size-55">55 cm</label>
+						<input type="radio" id="radio-size-52" name="size" value="52" />
+							<label for="radio-size-52">52 cm</label>
+					</p>
+				</div>
 			</div>
 
-			<div id="builder_priceorder">
-				price &amp; order<br />
-				<input type="submit" />
+			<!-- setup2 -->
+			<div class="grid_4 omega">
+				<h4>Branding</h4>
+				<div class="builder_buttonset">
+					<p>
+						<input type="radio" id="radio-logo-top" name="branding" value="top" checked="checked" />
+							<label for="radio-logo-top">on the crossbar</label>
+						<input type="radio" id="radio-logo-stutz" name="branding" value="stutz" />
+							<label for="radio-logo-stutz">support tube</label>
+						<input type="radio" id="radio-logo-beide" name="branding" value="beide" />
+							<label for="radio-logo-beide">on both</label>
+					</p>
+				</div>
+
+				<h4>Pricing &amp; Shipping</h4>
+				<div id="builder_priceorder">
+					<p>this is just a functional test. pricing and shipping TBA.</p>
+				</div>
 			</div>
 		</div>
+		<!-- end of right panel -->
 
 	</div>
 	<!-- end content -->
