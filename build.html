@@ -6,6 +6,20 @@
 
 		<!-- configurator image -->
 		<div id="builder_image">
+			<!-- image map, yes, oldy but goldy -->
+			<map id="builder_map" name="builder_map">
+				<area shape="rect" alt="saddle" title="" coords="227,59,344,92" href="#" />
+				<area shape="poly" alt="cranks" title="" coords="485,84,523,76,528,101,518,103,520,113,494,122" href="#" />
+				<area shape="poly" alt="cranks" title="" coords="262,96,271,126,306,118,292,85" href="" />
+				<area shape="circle" alt="cranks" title="" coords="350,328,35" href="#" />
+				<area shape="poly" alt="chain" title="" coords="185,298,169,312,175,328,348,366,314,338,337,287" href="#" />
+				<area shape="poly" alt="frame" title="" coords="287,131,174,319,356,332,513,170,577,315,588,308,521,116,495,115,499,122,291,124" href="#" />
+				<area shape="circle" alt="rimrear" title="" coords="192,310,123" href="#" />
+				<area shape="circle" alt="tirerear" title="" coords="195,309,136" href="#" />
+				<area shape="circle" alt="rimfront" title="" coords="579,310,122" href="#" />
+				<area shape="circle" alt="tirefront" title="" coords="578,307,135" href="#" />
+				<area shape="poly" alt="grips" title="" coords="503,77,507,61,530,70,537,57,548,54,557,67,544,89,529,85,507,84,507,84" href="#" />
+			</map>
 			<img src="/images/builder/base.png" id="base" />
 <?php
 	// builder constructor
@@ -14,27 +28,33 @@
 			<!-- <?php echo $name." ".$nameshort ?> -->
 			<?php
 				foreach ($values as $value) {
-					echo '<img src="/images/builder/'.$nameshort.'-'.$value.'.png" class="builder-'.$name.'" id="'.$nameshort.'-'.$value.'" />';
+					echo '<img src="/images/builder/'.$nameshort.'-'.$value.'.png" class="builder-'.$name.' builder-part" id="'.$name.'-'.$value.'" />';
 					echo "\n";
 				}
 			?>
 		<?php
-		
 	}
 
-	builder_construct_images("rim-front","rmf",array("white","black","red"));
-	builder_construct_images("rim-rear","rmr",array("white","black","red"));
-	builder_construct_images("tire-front","trf",array("white","black","red","yellow"));
-	builder_construct_images("tire-rear","trr",array("white","black","red","yellow"));
+	builder_construct_images("rimfront","rmf",array("white","black","red"));
+	builder_construct_images("rimrear","rmr",array("white","black","red"));
+	builder_construct_images("tirefront","trf",array("white","black","red","yellow"));
+	builder_construct_images("tirerear","trr",array("white","black","red","yellow"));
 	builder_construct_images("frame","fr",array("wasabi","white","black","blue"));
 	builder_construct_images("cranks","cr",array("silver","black","gold"));
 	builder_construct_images("chain","ch",array("white","black","red","yellow"));
 	builder_construct_images("handlebar","hb-riserbar",array("black"));
-	builder_construct_images("grip","gr",array("white","black","brown"));
+	builder_construct_images("grips","gr",array("white","black","brown"));
 	builder_construct_images("saddle","sd",array("white","black","brown"));
 ?>
-			<img src="/images/builder/top.png" id="top" />
+			<img src="/images/builder/top.png" id="top" usemap="#builder_map" />
+			<div id="preloadsummary">
+				Loaded: <span id="loaded">0</span><br />
+				Done: <span id="done">0</span><br />
+				Failed: <span id="failed">0</span><br />
+				Total: <span id="total">0</span><br />
+			</div>
 		</div>
+
 
 		<!-- headline & short-URL -->
 		<div class="grid_2 alpha">
@@ -47,8 +67,6 @@
 				</p>
 			</div>
 		</div>
-
-<form>
 
 		<!-- setup1 -->
 		<div class="grid_4">
@@ -64,31 +82,27 @@
 					<div id="radio-<?php echo $nameshort ?>" class="builder_buttonset builder_colors grid_2 omega">
 					<?php
 						foreach ($values as $value) {
-							echo '<input type="radio" id="radio-'.$nameshort.'-'.$value.'" name="'.$nameshort.'" value="'.$value.'" />';
+							echo '<input type="radio" id="radio-'.$name.'-'.$value.'" name="'.$name.'" value="'.$value.'" />';
 							echo "\n";
-							echo '<label for="radio-'.$nameshort.'-'.$value.'" class="color_'.$value.'">'.$value.'</label>';
+							echo '<label for="radio-'.$name.'-'.$value.'" class="builder_button color_'.$value.'" alt="'.$name.'" title="'.$value.'">'.$value.'</label>';
 							echo "\n";
 						}
 					?>
 					</div>
 				</div>
 		<?php
-		
 	}
 
-	builder_construct_buttons("frame","fr",array("whasabi","white","black","blue"));
-	builder_construct_buttons("seatpost","sp",array("black","gold","silver"));
+	builder_construct_buttons("frame","fr",array("wasabi","white","black","blue"));
 	builder_construct_buttons("cranks","cr",array("black","gold","silver"));
 	builder_construct_buttons("grips","gr",array("black","brown","white"));
 	builder_construct_buttons("chain","ch",array("white","black","red","yellow"));
 	builder_construct_buttons("saddle","sd",array("white","brown","black"));
-	builder_construct_buttons("tire-front","trf",array("red","black","yellow","white"));
-	builder_construct_buttons("rim-front","rmf",array("red","black","white"));
-	builder_construct_buttons("tire-rear","trr",array("red","black","yellow","white"));
-	builder_construct_buttons("rim-rear","rmr",array("red","black","white"));
+	builder_construct_buttons("tirefront","trf",array("red","black","yellow","white"));
+	builder_construct_buttons("rimfront","rmf",array("red","black","white"));
+	builder_construct_buttons("tirerear","trr",array("red","black","yellow","white"));
+	builder_construct_buttons("rimrear","rmr",array("red","black","white"));
 ?>
-
-
 			</div>
 
 			<h4>Voreinstellungen</h4>
@@ -114,9 +128,6 @@
 				<input type="submit" />
 			</div>
 		</div>
-
-</form>
-
 
 	</div>
 	<!-- end content -->
