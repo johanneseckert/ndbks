@@ -2,57 +2,44 @@
 	"buffers":
 	[
 		{
-			"file": "/C/xampplite/htdocs/indiebikes/build.html",
+			"contents": "",
+			"file": "/C/Users/Johannes/AppData/Local/Temp/fz3temp-1/.htaccess",
 			"settings":
 			{
-				"buffer_size": 3128,
+				"buffer_size": 0,
 				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/xampplite/htdocs/indiebikes/__txpparts/_header.htm",
-			"settings":
-			{
-				"buffer_size": 2463,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/xampplite/htdocs/indiebikes/__txpparts/_footer.htm",
-			"settings":
-			{
-				"buffer_size": 1168,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/xampplite/htdocs/indiebikes/css/style.css",
-			"settings":
-			{
-				"buffer_size": 19547,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/C/xampplite/htdocs/indiebikes/css/jquery-ui-1.8.9.custom.css",
-			"settings":
-			{
-				"buffer_size": 34063,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/C/xampplite/htdocs/indiebikes/js/script.js",
-			"settings":
-			{
-				"buffer_size": 2088,
-				"line_ending": "Unix"
 			}
 		}
 	],
 	"build_system": "",
 	"file_history":
 	[
+		"/C/Users/Johannes/AppData/Local/Temp/fz3temp-1/config.php",
+		"/C/xampplite/htdocs/indiebikes/js/script.js",
+		"/C/Users/Johannes/AppData/Local/Temp/fz3temp-1/script.js",
+		"/C/Users/Johannes/AppData/Local/Temp/fz3temp-1/build.html",
+		"/C/Users/Johannes/AppData/Local/Temp/fz3temp-1/config 2.php",
+		"/C/Users/Johannes/AppData/Local/Temp/fz3temp-1/config 3.php",
+		"/C/Users/Johannes/AppData/Local/Temp/fz3temp-1/.htaccess",
+		"/C/xampplite/htdocs/indiebikes/order/config.php",
+		"/C/xampplite/htdocs/indiebikes/b/user/config.php",
+		"/C/xampplite/htdocs/indiebikes/textpattern/config.php",
+		"/C/xampplite/htdocs/indiebikes/.htaccess",
+		"/C/Users/Johannes/.gitconfig",
+		"/C/Users/Johannes/AppData/Local/Temp/fz3temp-1/.htpasswd",
+		"/C/xampplite/htdocs/indiebikes/build.html",
+		"/C/xampplite/htdocs/indiebikes/__txpparts/_footer.htm",
+		"/C/xampplite/htdocs/indiebikes/__txpparts/_header.htm",
+		"/C/xampplite/htdocs/indiebikes/css/style.css",
+		"/C/xampplite/htdocs/indiebikes/js/plugins.js",
+		"/D/Dropbox/audrey/AUY_audrey/AUY_1003_Webseite/Code/101003 Version 2 jQuery/js/audrey.js",
+		"/C/xampplite/htdocs/indiebikes/b/.htaccess",
+		"/C/Users/Johannes/Desktop/yourls-1.5/user/config.php",
+		"/C/xampplite/htdocs/indiebikes/css/jquery-ui-1.8.9.custom.css",
+		"/C/xampplite/htdocs/videosound/js/script.js",
+		"/C/Program Files (x86)/Adobe/Adobe InDesign CS5/Plug-Ins/panels/DPS/content/DPS.xml",
+		"/C/Program Files (x86)/Adobe/Adobe InDesign CS5/Plug-Ins/panels/DPS/content/DPS.jsx",
+		"/C/Program Files (x86)/Adobe/Adobe InDesign CS5/Plug-Ins/panels/DPS/content/DPS.assets/_DPS.mxi",
 		"/C/Users/Johannes/Desktop/wdr2.m3u",
 		"/C/Users/Johannes/Desktop/stream.m3u",
 		"/C/xampplite/htdocs/indiebikes/order/catalog/view/theme/default/template/common/header.tpl",
@@ -65,14 +52,10 @@
 		"/C/xampplite/htdocs/indiebikes/order/catalog/view/theme/default/template/common/success.tpl",
 		"/C/xampplite/htdocs/indiebikes/order/catalog/view/theme/default/template/common/maintenance.tpl",
 		"/C/xampplite/htdocs/indiebikes/css/960.css",
-		"/C/xampplite/htdocs/indiebikes/css/jquery-ui-1.8.9.custom.css",
 		"/C/xampplite/htdocs/indiebikes/teile.html",
-		"/C/xampplite/htdocs/indiebikes/__txpparts/_footer.htm",
 		"/C/xampplite/htdocs/indiebikes/blog.html",
 		"/C/xampplite/apache/conf/httpd.conf",
-		"/C/xampplite/htdocs/indiebikes/__txpparts/_header.htm",
 		"/C/xampplite/htdocs/indiebikes/__txpparts/_carousel.htm",
-		"/C/xampplite/htdocs/indiebikes/textpattern/config.php",
 		"/C/xampplite/htdocs/indiebikes/order/admin/config.php",
 		"/D/Arbeiten Schule/_alt/01.03.02 Körper Raum Gestalt 2 (Hausmeier)/Videoinstallation/processing/videoinst_100224_03/readme.txt",
 		"/C/Users/Johannes/Desktop/ebl-image-edit_v2.0.txt",
@@ -84,44 +67,30 @@
 		"/D/My Dropbox/audrey/AUY_audrey/AUY_1003_Webseite/Code/101003 Version 2 jQuery/galerie.htm",
 		"/D/My Dropbox/audrey/AUY_audrey/AUY_1003_Webseite/Code/101003 Version 2 jQuery/js/jquery.carousel.min.js",
 		"/C/xampplite/htdocs/indiebikes/readme",
-		"/C/xampplite/htdocs/indiebikes/.htaccess",
-		"/C/Users/Johannes/AppData/Local/Temp/fz3temp-1/.htaccess",
-		"/C/Users/Johannes/AppData/Local/Temp/fz3temp-1/.htpasswd",
-		"/C/xampplite/htdocs/indiebikes/js/script.js",
 		"/C/Users/Johannes/AppData/Local/Temp/fz3temp-1/d.htaccess",
 		"/C/Users/Johannes/Desktop/index.htm",
 		"/C/xampplite/htdocs/.htpasswd",
 		"/C/xampplite/htdocs/indiebikes/css.php",
-		"/C/xampplite/htdocs/indiebikes/order/config.php",
 		"/C/xampplite/htdocs/indiebikes/.gitignore",
 		"/C/xampplite/htdocs/indiebikes/textpattern/publish.php",
 		"/C/xampplite/htdocs/indiebikes/textpattern/lgpl-2.1.txt",
 		"/C/xampplite/htdocs/indiebikes/textpattern/checksums.txt",
 		"/C/Users/Johannes/AppData/Roaming/Sublime Text 2/Packages/User/Base File.sublime-settings",
 		"/C/Users/Johannes/AppData/Roaming/Sublime Text 2/Packages/Default/Global.sublime-settings",
-		"/C/Users/Johannes/AppData/Roaming/Sublime Text 2/Packages/Default/Default (Windows).sublime-keymap",
-		"/C/Users/Johannes/AppData/Roaming/Sublime Text 2/Packages/Default/Base File.sublime-settings",
-		"/C/xampplite/htdocs/indiebikes/order/catalog/language/de_DE-ndbks/mail/account_create.php",
-		"/C/xampplite/htdocs/indiebikes/order/catalog/language/de_DE-ndbks/common/home.php",
-		"/C/xampplite/htdocs/indiebikes/404.html",
-		"/C/xampplite/htdocs/indiebikes/info.php",
-		"/C/xampplite/htdocs/indiebikes/favicon.ico",
-		"/C/Users/Johannes/Desktop/opencart-de_DE/ReadMe_de_DE.txt",
-		"/C/xampplite/htdocs/indiebikes/order/catalog/language/de_DE-ndbks/account/login.php",
-		"/C/xampplite/htdocs/indiebikes/order/catalog/language/english/english.php",
-		"/C/xampplite/htdocs/indiebikes/order/catalog/language/english/mail/account_forgotten.php",
-		"/C/xampplite/htdocs/indiebikes/order/catalog/language/english/mail/order_confirm.php",
-		"/C/xampplite/htdocs/indiebikes/index.php",
-		"/C/xampplite/htdocs/indiebikes/css/style.css"
+		"/C/Users/Johannes/AppData/Roaming/Sublime Text 2/Packages/Default/Default (Windows).sublime-keymap"
 	],
 	"find_in_files":
 	{
 		"include_history":
 		[
+			"",
+			"xampp",
 			""
 		],
 		"location_history":
 		[
+			"C:\\xampplite\\htdocs\\indiebikes\\order",
+			"<open folders>",
 			"C:\\xampplite\\htdocs\\indiebikes\\order\\catalog\\view\\theme\\default",
 			"<open folders>",
 			"C:\\xampplite\\htdocs\\indiebikes\\order\\catalog\\view\\theme\\default",
@@ -136,6 +105,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"xampp",
+			"http://testserver2.dyndns.org/order",
+			"C:\\xampplite\\htdocs\\indiebikes\\order/",
+			" href=\"javascript:void(0);\"",
+			"e.",
 			".",
 			"$lang",
 			"localhost",
@@ -155,8 +129,11 @@
 		"regex": false,
 		"replace_history":
 		[
+			"http://alpha.indiebikes.com/order/",
+			"/kunden/289203_50674/ndbks/order/",
+			" href=\"#\""
 		],
-		"reverse": false,
+		"reverse": true,
 		"show_context": true,
 		"use_buffer": false,
 		"whole_word": false,
@@ -172,90 +149,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "/C/xampplite/htdocs/indiebikes/build.html",
-					"settings":
-					{
-						"buffer_size": 3128,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								667,
-								667
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0,
-						"translation.y": 144,
-						"zoom_level": 1
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/C/xampplite/htdocs/indiebikes/__txpparts/_header.htm",
-					"settings":
-					{
-						"buffer_size": 2463,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1454,
-								1454
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0,
-						"translation.y": 288,
-						"zoom_level": 1
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/C/xampplite/htdocs/indiebikes/__txpparts/_footer.htm",
-					"settings":
-					{
-						"buffer_size": 1168,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								269,
-								269
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0,
-						"translation.y": 0,
-						"zoom_level": 1
-					},
-					"type": "text"
-				}
 			]
 		},
 		{
@@ -263,38 +158,11 @@
 			"sheets":
 			[
 				{
-					"buffer": 3,
-					"file": "/C/xampplite/htdocs/indiebikes/css/style.css",
+					"buffer": 0,
+					"file": "/C/Users/Johannes/AppData/Local/Temp/fz3temp-1/.htaccess",
 					"settings":
 					{
-						"buffer_size": 19547,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								17219,
-								17219
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0,
-						"translation.y": 11744,
-						"zoom_level": 1
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "/C/xampplite/htdocs/indiebikes/css/jquery-ui-1.8.9.custom.css",
-					"settings":
-					{
-						"buffer_size": 34063,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
@@ -307,37 +175,12 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/CSS/CSS.tmLanguage"
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0,
-						"translation.y": 688,
-						"zoom_level": 1
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "/C/xampplite/htdocs/indiebikes/js/script.js",
-					"settings":
-					{
-						"buffer_size": 2088,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2069,
-								2069
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0,
-						"translation.y": 1008,
+						"translation.y": 3501,
 						"zoom_level": 1
 					},
 					"type": "text"
@@ -365,7 +208,7 @@
 		"cols":
 		[
 			0,
-			0.575552,
+			0.492341,
 			1
 		],
 		"rows":
@@ -390,6 +233,6 @@
 	"show_minimap": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 183,
+	"side_bar_width": 244,
 	"status_bar_visible": true
 }

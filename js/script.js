@@ -306,7 +306,7 @@ $("#click_here_to_share").click( function() {
 		$("#social_fb").attr("href","http://www.facebook.com/dialog/feed?app_id=197627106915572&redirect_uri="+redirect_to
 		+"&message=I desined my own bike!"
 		+"&link="+data
-		+"&picture=http://testserver2.dyndns.org/images/fb_image.png");
+		+"&picture=http://indiebikes.com/fb_image.png");
 
 		$("#social_twitter").attr("href","http://twitter.com/share?original_referer=http://indiebikes.com/&text=I%20designed%20my%20own%20bike!"
 		+"&url="+data
