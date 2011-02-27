@@ -404,7 +404,8 @@ function update(data) {
 //	$("#perc").html(''+percentage);
 };
 function finish() {
-	bike.displaycomponents();
+	if ($("#builder_image").length)
+		bike.displaycomponents();
 	$("#preloadsummary").fadeOut("slow");
 }
 
