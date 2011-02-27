@@ -220,7 +220,7 @@ button {  width: auto; overflow: visible; }
 
 .clearfix:after { clear: both; }
 /* Fix clearfix: blueprintcss.lighthouseapp.com/projects/15318/tickets/5-extra-margin-padding-bottom-of-page */
-.clearfix { zoom: 1; }
+.safix { zoom: 1; }
 
 
 
@@ -266,7 +266,8 @@ HEADER {
 
 #main {
 	margin-top: -14px;
-	margin-bottom: 40px;
+	padding-bottom: 80px;
+	background: white;
 }
 
 FOOTER {
@@ -274,6 +275,7 @@ FOOTER {
 	padding-top: 55px;
 	color: #9c9e9f;
 	font-size: 11px;
+	margin-top: -40px;
 }
 
 FOOTER > DIV {
@@ -291,6 +293,11 @@ FOOTER P {
 
 .spaceafter {
 	margin-bottom: 20px;
+}
+
+.spaceinside {
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
  
  
@@ -494,6 +501,8 @@ A#teaser_indiebikes {
 
 #menu {
 	overflow: visible;
+	position: relative;
+	z-index: 100;
 }
 
 #menu UL {
@@ -522,7 +531,7 @@ A#teaser_indiebikes {
 #menu A.active {
 	background: transparent url(../images/menu_active.png) top left no-repeat;
 	height: 60px;
-	padding-left: 27px;
+	padding-left: 31px;
 	margin-left: -27px;
 	margin-right: -36px;
 	margin-bottom: -10px;
@@ -561,7 +570,7 @@ A#teaser_indiebikes {
 	border-bottom: 1px solid #9b9c9e;
 }
 
-#body {
+.body {
 
 }
 
@@ -616,7 +625,6 @@ H4 {
 	font-size: 16px;
 	font-weight: 500;
 	color: white;
-
 	background: transparent url(../images/h4_background.png) left top no-repeat;
 	height: 29px;
 	margin-top: 20px;
@@ -659,6 +667,10 @@ H4.light {
 	margin-bottom: 0px;
 }
 
+
+.comments {
+	margin-left: 80px;
+}
 
 
 
@@ -704,6 +716,54 @@ INPUT {
 	border-width: 1px;
 }
 
+.plainlinks {
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.plainlinks A {
+	text-decoration: none;
+	color: #4d4d4f;
+}
+
+.plainlinks A:HOVER {
+	text-decoration: underline;
+}
+
+.plainlinks P {
+	padding-bottom: 0;
+	padding-top: 0;
+}
+
+.body TABLE {
+	margin: 5px;
+}
+
+.body TABLE TH {
+	padding-bottom: 2px;
+	padding-right: 20px;
+	border-bottom: 1px solid gray;
+	text-align: left;
+}
+
+.body TABLE TD {
+	padding-right: 10px;
+}
+
+.pricetag {
+	font-family: "bello-pro-1","bello-pro-2","cursive; font-size: 1.041em;";
+	font-size: 60px;
+	text-align: center;
+	color: #88b340;
+	text-shadow: 1px 1px 0 #d6a70c;
+	line-height: 60px;
+	margin-bottom: 10px;
+}
+.pricetag .char2 { letter-spacing: -2px }
+.pricetag .char3 { letter-spacing: -5px }
+.pricetag .char4 { letter-spacing: -12px }
+.pricetag .char6 { letter-spacing: -12px }
+
 
 
 
@@ -737,8 +797,9 @@ INPUT {
 /* preloader */
 
 #preloadsummary {
-	width: 780px;
-	height: 480px;
+	width: 790px;
+	height: 1024px;
+	margin-left: -10px;
 	background: white;
 	background: rgba(255,255,255,0.8);
 	position: absolute;
