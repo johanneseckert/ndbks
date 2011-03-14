@@ -230,6 +230,7 @@ ServerSignature Off
 <IfModule mod_rewrite.c>
 	RewriteEngine On
 	#RewriteBase /relative/web/path/
+  RewriteBase /
 
 	RewriteCond %{REQUEST_FILENAME} -f [OR]
 	RewriteCond %{REQUEST_FILENAME} -d

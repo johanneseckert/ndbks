@@ -2,6 +2,15 @@ ndbks repro for indiebikes.com
 
 this is not important for you, it is just my connanogical repro for this project. visit indiebikes.com for more.
 
+on upgrade & migrate
++ backup complete server db
++ backup complete files from ftp
+
++ download current version from github
++ remove .htaccess (it referrs to passwords)
+
++ upload new content (think about deleted / moved files)
++ insert changed tables (use droptable, see below)
 
 
 info:

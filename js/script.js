@@ -101,6 +101,26 @@ $("#frontpage_carousel").carousel( {
 } );
 
 
+/* #############
+   gallery
+   ############# */
+
+$("#gallery-container").masonry({
+	columnWidth: 196
+});
+
+$("#gallery-container a").fancybox({
+	'transitionIn'	:	'elastic',
+	'transitionOut'	:	'elastic',
+	'speedIn'		:	200, 
+	'speedOut'		:	200,
+	'overlayShow'	:	true,
+	'overlayOpacity':	0.0,
+	'overlayColor'	:	'#333',
+	'titleShow'		:	true
+});
+
+
 
 
 /* #############
@@ -141,7 +161,7 @@ function builder() {
 
 	// settings
 	this.settings = new Object();
-	this.settings.branding = new component("branding","brand",["toptube","downtube","both"],"both");
+	this.settings.branding = new component("branding","brand",["toptube"]);
 //	this.settings.handlebar = new component("handlebar","hb",["riserbar","dropbar","bullhornbar","flatbar"],"bullhornbar");
 	this.settings.handlebar = new component("handlebar","hb",["riserbar","bullhornbar"],"bullhornbar");
 	this.settings.size = new component("size","sz",["59","55","52"],"55");

@@ -266,25 +266,42 @@ HEADER {
 
 #main {
 	margin-top: -14px;
-	padding-bottom: 80px;
+	padding-bottom: 40px;
 	background: white;
+}
+
+
+/*
+css styles for sticky footer
+http://www.endigodesign.com/2010/07/html5-sticky-footer/ 
+*/
+html, body { height: 100%; }
+#wrap {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -180px; /* Set footer height. */
+}
+footer, .push {
+	height: 180px; /* Set footer height. */
+	/* clear: both; */ /* Muti-column fix.*/
 }
 
 FOOTER {
 	background: transparent url(../images/footer_background.png) center top no-repeat;
-	padding-top: 55px;
+/*	padding-top: 55px; */
 	color: #9c9e9f;
 	font-size: 11px;
-	margin-top: -40px;
+/*	margin-top: -40px;*/
 }
 
 FOOTER > DIV {
-	padding-bottom: 60px;
+	padding-top: 55px;
 }
 
 FOOTER P {
 	padding: 0;
-	margin-bottom: 5px;
+/*	margin-bottom: 5px;*/
 }
 
 #footer_logo {
@@ -543,6 +560,7 @@ A#teaser_indiebikes {
 
 #menu A SPAN.menupunkt {
 	font-size: 24px;
+	margin-right: -20px;
 	font-weight: 700;
 	text-transform: uppercase;
 }
@@ -751,20 +769,41 @@ INPUT {
 }
 
 .pricetag {
-	font-family: "bello-pro-1","bello-pro-2","cursive; font-size: 1.041em;";
-	font-size: 60px;
+/*	font-family: "bello-pro-1","bello-pro-2","cursive; font-size: 1.041em;";*/
+	font-size: 40px;
+	font-weight: 700;
 	text-align: center;
 	color: #88b340;
-	text-shadow: 1px 1px 0 #d6a70c;
-	line-height: 60px;
-	margin-bottom: 10px;
+	line-height: 40px;
+	margin-bottom: 5px;
 }
 .pricetag .char2 { letter-spacing: -2px }
-.pricetag .char3 { letter-spacing: -5px }
+.pricetag .char3 { letter-spacing: -0px }
 .pricetag .char4 { letter-spacing: -12px }
 .pricetag .char6 { letter-spacing: -12px }
 
 
+
+/*
+        ######      ###    ##       ##       ######## ########  ##    ## 
+       ##    ##    ## ##   ##       ##       ##       ##     ##  ##  ##  
+       ##         ##   ##  ##       ##       ##       ##     ##   ####   
+       ##   #### ##     ## ##       ##       ######   ########     ##    
+       ##    ##  ######### ##       ##       ##       ##   ##      ##    
+       ##    ##  ##     ## ##       ##       ##       ##    ##     ##    
+        ######   ##     ## ######## ######## ######## ##     ##    ##    
+*/
+
+#gallery-container {
+	margin-right: -5px;
+}
+
+#gallery-container A {
+	display: block;
+	margin-right: 10px;
+	margin-bottom: 5px;
+	float: right;
+}
 
 
 /*
