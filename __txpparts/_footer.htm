@@ -28,20 +28,22 @@
 	<!-- end of footer -->
 
 
-
-	<!-- Javascript at the bottom for fast page loading -->
 	<script src="/js/libs/jquery-1.5.1.min.js"></script>
-	<script src="/js/libs/jquery-ui-1.8.10.custom.min.js"></script>
 	<script src="/js/libs/jquery.lettering-0.6.1.min.js"></script>
+	<script src="/js/libs/jquery.carousel.min.js"></script>
 
+	<txp:if_section name="gallery">
 	<script src="/js/libs/jquery.masonry.min.js"></script>
 	<script src="/js/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
 	<script src="/js/fancybox/jquery.easing-1.3.pack.js"></script>
+	</txp:if_section>
 
+	<txp:if_section name="build">
+	<script src="/js/libs/jquery-ui-1.8.10.custom.min.js"></script>
 	<script src="/js/libs/jquery.ba-bbq.min.js"></script>
 	<script src="/js/libs/jquery.preload-min.js"></script>
-
-	<script src="/js/libs/jquery.carousel.min.js"></script>
+	<script src="/js/mylibs/builder.js"></script>
+	</txp:if_section>
 
 	<script src="/js/mylibs/plugins.js"></script>
 	<script src="/js/script.js"></script>

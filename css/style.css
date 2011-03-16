@@ -895,6 +895,7 @@ INPUT {
 .color_wasabi { background: #99ca3d; border: 2px solid #99ca3d; }
 .color_white { background: #f7ffff; border: 2px solid #f7ffff }
 .color_black { background: #1a1819; border: 2px solid #1a1819 }
+.color_skyan { background: #91bfca; border: 2px solid #91bfca }
 .color_blue { background: #005ba1; border: 2px solid #005ba1 }
 .color_gold { background: #f0c540; border: 2px solid #f0c540 }
 .color_silver { background: #b6b9b4; border: 2px solid #b6b9b4 }
@@ -903,8 +904,8 @@ INPUT {
 .color_red { background: #e61a24; border: 2px solid #e61a24 }
 
 .ui-state-active {
-/*	border: 2px solid gray;
-	-moz-transform:scale(1.1);
+	border: 2px solid gray;
+/*	-moz-transform:scale(1.1);
 	-webkit-transform:scale(1.1);	
 */}
 
