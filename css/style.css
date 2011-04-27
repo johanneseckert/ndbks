@@ -266,7 +266,8 @@ HEADER {
 
 #main {
 	margin-top: -14px;
-	padding-bottom: 40px;
+	padding-bottom: 100px;
+	margin-bottom: -60px;
 	background: white;
 }
 
@@ -315,6 +316,11 @@ FOOTER P {
 .spaceinside {
 	padding-top: 10px;
 	padding-bottom: 10px;
+}
+
+.nospaceafter {
+	margin-bottom: 0;
+	padding: 0;
 }
  
  
@@ -903,7 +909,7 @@ INPUT {
 .color_yellow { background: #fccd00; border: 2px solid #fccd00 }
 .color_red { background: #e61a24; border: 2px solid #e61a24 }
 
-.ui-state-active {
+.builder_button_group .ui-state-active {
 	border: 2px solid gray;
 /*	-moz-transform:scale(1.1);
 	-webkit-transform:scale(1.1);	

@@ -136,24 +136,23 @@ $("#click_here_to_share").click( function() {
 			+"&url="+escape(location.href)
 			+"&format=simple",function(data) {
 
+		var link = data;
+		// temporarily disable YOURls, because of tooo long URL (max 2000 chars)
+		var link = "http://indiebikes.com/build";
+
 		$("#shared_load").slideUp();
 		$("#shared_info").slideDown();
 
-		$("#shared_url").val(data);
+		$("#shared_url").val(link);
 //		$("#shared_url").focus().val($("#shared_url").val);
 
-		log($("#social_fb"));
-
-		redirect_to = data;
-//		redirect_to = "http://indiebikes.com/";
-
-		$("#social_fb").attr("href","http://www.facebook.com/dialog/feed?app_id=197627106915572&redirect_uri="+redirect_to
+		$("#social_fb").attr("href","http://www.facebook.com/dialog/feed?app_id=197627106915572&redirect_uri="+link
 		+"&message=I desined my own bike!"
-		+"&link="+data
+		+"&link="+link
 		+"&picture=http://indiebikes.com/fb_image.png");
 
 		$("#social_twitter").attr("href","http://twitter.com/share?original_referer=http://indiebikes.com/&text=I%20designed%20my%20own%20bike!"
-		+"&url="+data
+		+"&url="+link
 		+"&via=indiebikes"
 		+"&counturl="+escape(location.href));
 	});
