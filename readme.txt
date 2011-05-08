@@ -7,14 +7,18 @@ on upgrade & migrate
 + backup complete files from ftp
 
 + download current version from github
-+ remove .htaccess (it referrs to passwords)
 
 + upload new content (think about deleted / moved files)
 + insert changed tables (use droptable, see below)
 
++ check opencart installation
+	+ enable SSL
+	+ disable Notifications/Error Messages
+
 
 info:
 PRESERVE FOLLOWING MYSQL TABLES ON THE SERVER
+NEVER EVER CHANGE THESE BY UPLOADING FROM TESTSERVER
 
 l10n_articles
 l10n_txp_de_de
@@ -29,9 +33,15 @@ yourls_options
 yourls_url
 
 
-MOST LIKELY, THESE TABLES WILL CONTAIN UPDATED DATA (pages, forms from textpattern)
+MOST LIKELY, THESE TABLES WILL CONTAIN UPDATED DATA
+
+TEXTPATTERN
 txp_category
 txp_form
 txp_page
 txp_plugin
 txp_section
+
+
+OPENCART
+everything with prefix oc_

@@ -27,5 +27,5 @@ define('DB_HOSTNAME', 'localhost');
 define('DB_USERNAME', 'root');
 define('DB_PASSWORD', '');
 define('DB_DATABASE', 'indiebikes');
-define('DB_PREFIX', '');
+define('DB_PREFIX', 'oc_');
 ?>
