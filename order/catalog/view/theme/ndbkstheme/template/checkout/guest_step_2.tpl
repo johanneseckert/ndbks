@@ -124,7 +124,7 @@
         <table>
           <tr>
             <td align="left"><a onclick="location = '<?php echo str_replace('&', '&amp;', $back); ?>'" class="button"><span><?php mlp_snippet("oc_backto_step2"); ?></span></a></td>
-            <td align="right" width="5"><a onclick="$('#guest').submit();" class="button"><span><?php mlp_snippet("oc_goto_step4"); ?></span></a></td>
+            <td align="right"><a onclick="$('#guest').submit();" class="button"><span><?php mlp_snippet("oc_goto_step4"); ?></span></a></td>
           </tr>
         </table>
       </div>

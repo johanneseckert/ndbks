@@ -239,7 +239,7 @@ $response->output();
     $result = mysql_query("SELECT * FROM txp_lang WHERE lang='".$lang."' AND 
                           name = '".$nameofkey."'");
     $row = mysql_fetch_assoc($result);
-    if (trim($row["data"]) == "")
+    if ($row["data"] == "")
     	echo "{".$nameofkey."}";
     else
     	echo $row["data"];

@@ -24,9 +24,9 @@
 
   <link rel="shortcut icon" href="/favicon.ico">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-   <!-- typekit webfonts -->
-  <script type="text/javascript" src="http://use.typekit.com/fzw8tyl.js"></script>
-  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>  
+   <!-- typekit webfonts with SSL -->
+<script type="text/javascript" src="https://use.typekit.com/fzw8tyl.js"></script>
+<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 
   <txp:feed_link flavor="rss" format="link" section="blog" />
 
@@ -165,23 +165,23 @@ $('.switcher').bind('mouseleave', function() {
     <!-- menu -->
     <nav class="grid_2" id="menu">
       <ul>
-        <li><a href="/build" class="active bigflap">
+        <li><a href="http://indiebikes.com/build" class="active bigflap">
           <span class="menupunkt"><?php mlp_snippet("sct_order"); ?></span>
           <span class="menubeschr"><?php mlp_snippet("sct_order_sub"); ?></span>
         </a></li>
-        <li><a href="/gallery">
+        <li><a href="http://indiebikes.com/gallery">
           <span class="menupunkt"><?php mlp_snippet("sct_gallery"); ?></span>
           <span class="menubeschr"><?php mlp_snippet("sct_gallery_sub"); ?></span>
         </a></li>
-        <li><a href="/blog">
+        <li><a href="http://indiebikes.com/blog">
           <span class="menupunkt"><?php mlp_snippet("sct_blog"); ?></span>
           <span class="menubeschr"><?php mlp_snippet("sct_blog_sub"); ?><txp:text item="" /></span>
         </a></li>
-        <li><a href="/faq">
+        <li><a href="http://indiebikes.com/faq">
           <span class="menupunkt"><?php mlp_snippet("sct_faq"); ?></span>
           <span class="menubeschr"><?php mlp_snippet("sct_faq_sub"); ?><txp:text item="" /></span>
         </a></li>
-        <li><a href="/about">
+        <li><a href="http://indiebikes.com/about">
           <span class="menupunkt"><?php mlp_snippet("sct_about"); ?></span>
           <span class="menubeschr"><?php mlp_snippet("sct_about_sub"); ?></span>
         </a></li>

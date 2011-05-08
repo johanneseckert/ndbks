@@ -9,12 +9,15 @@ on upgrade & migrate
 + download current version from github
 
 + upload new content (think about deleted / moved files)
+	+ remove css/js libaries first to avoid ghost files
+	+ BUT NOT /images because it contains custom uploaded textpattern files
 + insert changed tables (use droptable, see below)
 
 + check opencart installation
 	+ enable SSL
 	+ disable Notifications/Error Messages
 
++ make sure chmod 777 is on /textpattern/tmp and /order/temp
 
 info:
 PRESERVE FOLLOWING MYSQL TABLES ON THE SERVER

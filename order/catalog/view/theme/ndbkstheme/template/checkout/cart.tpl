@@ -75,7 +75,7 @@
         <table>
           <tr>
             <td align="left"><a href="/build#<?php echo http_build_query($_SESSION["bike"]) ?>"><?php mlp_snippet("make_changes"); ?></a></td>
-            <td align="right"><a onclick="location = '<?php echo str_replace('&amp;', '&', $checkout); ?>'" class="button"><span><?php mlp_snippet("oc_goto_step3"); ?></span></a></td>
+            <td align="right"><a onclick="location = '<?php echo str_replace('&amp;', '&', $checkout); ?>'" class="button"><span><?php mlp_snippet("oc_goto_step2"); ?></span></a></td>
           </tr>
         </table>
       </div>
