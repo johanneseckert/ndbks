@@ -1,6 +1,6 @@
 <?php
 // Version
-define('VERSION', '1.4.9.3');
+define('VERSION', '1.4.9.4');
 
 // Configuration
 require_once('config.php');
@@ -124,37 +124,32 @@ $registry->set('document', new Document());
 // Language Detection
 $languages = array();
 
-$query = $db->query("SELECT * FROM " . DB_PREFIX . "language"); 
+$query = $db->query("SELECT * FROM " . DB_PREFIX . "language");
 
 foreach ($query->rows as $result) {
-	$languages[$result['code']] = array(
-		'language_id' => $result['language_id'],
-		'name'        => $result['name'],
-		'code'        => $result['code'],
-		'locale'      => $result['locale'],
-		'directory'   => $result['directory'],
-		'filename'    => $result['filename']
-	);
+	$languages[$result['code']] = $result;
 }
 
 $detect = '';
 
-if (isset($request->server['HTTP_ACCEPT_LANGUAGE']) && ($request->server['HTTP_ACCEPT_LANGUAGE'])) { 
+if (isset($request->server['HTTP_ACCEPT_LANGUAGE']) && ($request->server['HTTP_ACCEPT_LANGUAGE'])) {
 	$browser_languages = explode(',', $request->server['HTTP_ACCEPT_LANGUAGE']);
-	
+
 	foreach ($browser_languages as $browser_language) {
 		foreach ($languages as $key => $value) {
-			$locale = explode(',', $value['locale']);
+			if ($value['status']) {
+				$locale = explode(',', $value['locale']);
 
-			if (in_array($browser_language, $locale)) {
-				$detect = $key;
+				if (in_array($browser_language, $locale)) {
+					$detect = $key;
+				}
 			}
 		}
 	}
 }
 
-if (isset($_GET['language']) && array_key_exists($_GET['language'], $languages)) {
-	$code = $_GET['language'];
+if (isset($request->get['language']) && array_key_exists($request->get['language'], $languages) && $languages[$request->get['language']]['status']) {
+	$code = $request->get['language'];
 } elseif (isset($session->data['language']) && array_key_exists($session->data['language'], $languages)) {
 	$code = $session->data['language'];
 } elseif (isset($request->cookie['language']) && array_key_exists($request->cookie['language'], $languages)) {
@@ -169,9 +164,9 @@ if (!isset($session->data['language']) || $session->data['language'] != $code) {
 	$session->data['language'] = $code;
 }
 
-if (!isset($request->cookie['language']) || $request->cookie['language'] != $code) {	  
+if (!isset($request->cookie['language']) || $request->cookie['language'] != $code) {
 	setcookie('language', $code, time() + 60 * 60 * 24 * 30, '/', $request->server['HTTP_HOST']);
-}			
+}
 
 $config->set('config_language_id', $languages[$code]['language_id']);
 $config->set('config_language', $languages[$code]['code']);
@@ -220,4 +215,33 @@ $controller->dispatch($action, new Action('error/not_found'));
 
 // Output
 $response->output();
+
+
+
+
+	//
+	//
+	// MODIFICATION FOR INDIEBIKES
+	// by Johannes Henseler
+	//
+	// by Johannes Henseler, May 2011
+	// for OpenCart 1.4.9.4
+	//
+	//
+	// attention: duplicated in confirm_mail template!
+
+
+  // this will steal the mlp snippet from textpattern and show it here
+  function mlp_snippet($nameofkey) {
+  	global $session;
+	$lang = $session->data['language'];
+
+    $result = mysql_query("SELECT * FROM txp_lang WHERE lang='".$lang."' AND 
+                          name = '".$nameofkey."'");
+    $row = mysql_fetch_assoc($result);
+    if (trim($row["data"]) == "")
+    	echo "{".$nameofkey."}";
+    else
+    	echo $row["data"];
+  }
 ?>

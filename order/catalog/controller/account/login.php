@@ -3,6 +3,11 @@ class ControllerAccountLogin extends Controller {
 	private $error = array();
 	
 	public function index() {
+//////
+////// MODIFICATION FOR INDIEBIKES
+//////
+$this->redirect(HTTPS_SERVER . 'index.php?route=checkout/guest_step_1');
+
 		if ($this->customer->isLogged()) {  
       		$this->redirect(HTTPS_SERVER . 'index.php?route=account/account');
     	}

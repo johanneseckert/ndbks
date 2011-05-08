@@ -1,3 +1,3 @@
 <?php
-$_['text_total']		= 'Summe (inkl. USt.):';
+$_['text_total']		= 'Summe (inkl. MwSt.):';
 ?>

@@ -148,6 +148,10 @@ class ModelCheckoutOrder extends Model {
 			$template->data['text_payment_method'] = $language->get('text_payment_method');
 			$template->data['text_comment'] = $language->get('text_comment');
 			$template->data['text_powered_by'] = $language->get('text_powered_by');
+			//
+			// MODIFICATION FOR INDIEBIKES
+			//
+			$template->data['text_footer'] = $language->get('text_footer');
 			
 			$template->data['column_product'] = $language->get('column_product');
 			$template->data['column_model'] = $language->get('column_model');
@@ -461,21 +465,27 @@ class ModelCheckoutOrder extends Model {
 	
 				$message  = $language->get('text_order') . ' ' . $order_id . "\n";
 				$message .= $language->get('text_date_added') . ' ' . date($language->get('date_format_short'), strtotime($order_query->row['date_added'])) . "\n\n";
+//
+//	MODIFICATION FOR INDIEBIKES
+//	several divider lines ============
+//
+				$message .= "=====================\n\n";
 				
 				$order_status_query = $this->db->query("SELECT * FROM " . DB_PREFIX . "order_status WHERE order_status_id = '" . (int)$order_status_id . "' AND language_id = '" . (int)$order_query->row['language_id'] . "'");
 				
 				if ($order_status_query->num_rows) {
-					$message .= $language->get('text_order_status') . "\n\n";
+					$message .= $language->get('text_order_status') . "\n";
 					$message .= $order_status_query->row['name'] . "\n\n";
 				}
 				
-				$message .= $language->get('text_invoice') . "\n";
-				$message .= $order_query->row['store_url'] . 'index.php?route=account/invoice&order_id=' . $order_id . "\n\n";
-					
+				$message .= "=====================\n\n";
+
 				if ($comment) { 
-					$message .= $language->get('text_comment') . "\n\n";
+					$message .= $language->get('text_comment') . "\n";
 					$message .= $comment . "\n\n";
 				}
+
+				$message .= "=====================\n\n";
 					
 				$message .= $language->get('text_footer');
 

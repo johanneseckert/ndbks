@@ -18,6 +18,12 @@
 				</div>
 			</div>
 
+			<div id="hud">
+				<div class="save"><txp:text item="savebike" /></div>
+				<div class="shuffle"><txp:text item="shuffle" /></div>
+				<div class="undo"><txp:text item="undo" /></div>
+			</div>
+
 		
 			<!-- image map, yes, oldy but goldy -->
 			<map id="builder_map" name="builder_map">
@@ -27,10 +33,10 @@
 				<area shape="circle" alt="cranks" title="" coords="350,328,35" href="#" />
 				<area shape="poly" alt="chain" title="" coords="185,298,169,312,175,328,348,366,314,338,337,287" href="#" />
 				<area shape="poly" alt="frame" title="" coords="287,131,174,319,356,332,513,170,577,315,588,308,521,116,495,115,499,122,291,124" href="#" />
-				<area shape="circle" alt="rimrear" title="" coords="192,310,123" href="#" />
-				<area shape="circle" alt="tirerear" title="" coords="195,309,136" href="#" />
-				<area shape="circle" alt="rimfront" title="" coords="579,310,122" href="#" />
-				<area shape="circle" alt="tirefront" title="" coords="578,307,135" href="#" />
+				<area shape="circle" alt="rearrim" title="" coords="192,310,123" href="#" />
+				<area shape="circle" alt="reartire" title="" coords="195,309,136" href="#" />
+				<area shape="circle" alt="frontrim" title="" coords="579,310,122" href="#" />
+				<area shape="circle" alt="fronttire" title="" coords="578,307,135" href="#" />
 				<area shape="poly" alt="grips" title="" coords="503,77,507,61,530,70,537,57,548,54,557,67,544,89,529,85,507,84,507,84" href="#" />
 			</map>
 			<img src="/images/builder/base.png" id="base" />
@@ -49,10 +55,10 @@
 		<?php
 	}
 
-	builder_construct_images("rimfront","rmf",array("white","black","red"));
-	builder_construct_images("rimrear","rmr",array("white","black","red"));
-	builder_construct_images("tirefront","trf",array("white","black","red","yellow"));
-	builder_construct_images("tirerear","trr",array("white","black","red","yellow"));
+	builder_construct_images("frontrim","rmf",array("white","black","red"));
+	builder_construct_images("rearrim","rmr",array("white","black","red"));
+	builder_construct_images("fronttire","trf",array("white","black","red","yellow"));
+	builder_construct_images("reartire","trr",array("white","black","red","yellow"));
 	builder_construct_images("frame","fr",array("wasabi","white","black","skyan"));
 	builder_construct_images("cranks","cr",array("silver","black","gold"));
 	builder_construct_images("chain","ch",array("white","black","red","yellow"));
@@ -103,7 +109,7 @@
 					<!-- <?php echo $name." ".$nameshort ?> -->
 					<div class="builder_button_group clearfix">
 						<div class="grid_2 alpha"><?php echo $label ?></div>
-						<div id="radio-<?php echo $nameshort ?>" class="builder_buttonset builder_colors grid_2 omega">
+						<div id="radio-<?php echo $nameshort ?>" class="buttonset builder_colors grid_2 omega">
 						<?php
 							foreach ($values as $value) {
 								echo '<input type="radio" id="radio-'.$name.'-'.$value.'" name="'.$name.'" value="'.$value.'" />';
@@ -125,13 +131,13 @@
 					</div>
 					<div class="grid_4 omega">
 	<?php
-		builder_construct_buttons("<txp:text item="tirefront" />","tirefront","trf",array("red","black","white","yellow"));
-		builder_construct_buttons("<txp:text item="rimfront" />","rimfront","rmf",array("red","white","black"));
-		builder_construct_buttons("<txp:text item="tirerear" />","tirerear","trr",array("red","black","white","yellow"));
-		builder_construct_buttons("<txp:text item="rimrear" />","rimrear","rmr",array("red","white","black"));
+		builder_construct_buttons("<txp:text item="fronttire" />","fronttire","trf",array("red","black","white","yellow"));
+		builder_construct_buttons("<txp:text item="frontrim" />","frontrim","rmf",array("red","white","black"));
+		builder_construct_buttons("<txp:text item="reartire" />","reartire","trr",array("red","black","white","yellow"));
+		builder_construct_buttons("<txp:text item="rearrim" />","rearrim","rmr",array("red","white","black"));
+		builder_construct_buttons("<txp:text item="handlebarcolor" />","handlebarcolor","hbc",array("chrome","black"));
 	?>			
-						<div class="builder_buttonset">
-							<p><button id="btn_random"><txp:text item="shuffle" /></button></p>
+						<div class="buttonset">
 						</div>
 					</div>
 				</div>
@@ -140,15 +146,16 @@
 
 			<div class="grid_4 alpha">
 				<h4 class="clearfix"><txp:text item="prefeds" /></h4>
-				<div class="builder_buttonset">
+				<div class="buttonset">
 					<p>
 						<button id="btn_goldeneye"><txp:text item="predef_goldeneye" /></button>
+						<button id="btn_iateababy"><txp:text item="predef_iateababy" /></button>
 					</p>
 				</div>
 
 				<h4><txp:text item="framesize" /></h4>
 				<div>
-					<div class="builder_buttonset">
+					<div class="buttonset">
 					<p>
 						<input type="radio" id="radio-size-59" name="size" value="59" checked="checked" />
 							<label for="radio-size-59"><txp:text item="59cm" /></label>
@@ -172,7 +179,7 @@
 			<!-- setup2 -->
 			<div class="grid_4 omega">
 				<h4><txp:text item="Handlebar" /></h4>
-				<div class="builder_buttonset">
+				<div class="buttonset">
 					<p>
 						<input type="radio" id="radio-hb-riserbar" name="handlebar" value="riserbar" checked"zd=checked" />
 							<label for="radio-hb-riserbar"><txp:text item="RiserBar" /></label>
@@ -185,10 +192,11 @@
 					</p>
 				</div>
 
-				<h4><txp:text item="price" /></h4>
-				<div id="builder_priceorder">
+				<h4><txp:text item="price" /><a name="orderhere">&nbsp;</a></h4>
+				<div id="builder_priceorder" class="buttonset">
 					<p class="pricetag">499,&ndash; Euro</p>
 					<p><txp:text item="pricetag_wrapped" /></p>
+					<p><button id="add_bike_to_opencart"><txp:text item="add_bike_to_opencart" /></button></p>
 				</div>
 			</div>
 		</div>

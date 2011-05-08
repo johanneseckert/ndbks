@@ -1,3 +1,3 @@
 <?php
-$_['text_sub_total'] = 'Zwischensumme (inkl. USt.):';
+$_['text_sub_total'] = 'Zwischensumme (inkl. MwSt.):';
 ?>

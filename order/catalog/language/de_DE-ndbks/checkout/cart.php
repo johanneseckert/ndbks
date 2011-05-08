@@ -1,9 +1,9 @@
 <?php
 // Heading
-$_['heading_title']		= 'Warenkorb';
+$_['heading_title']		= 'Dein Bike';
 
 // Text
-$_['text_basket']		= 'Warenkorb';
+$_['text_basket']		= 'Dein designtes Bike';
 $_['text_sub_total']	= 'Zwischensumme:';
 $_['text_weight']		= 'Gewicht:';
 $_['text_error']		= 'Der Warenkorb ist leer!';

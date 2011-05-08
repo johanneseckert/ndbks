@@ -1,9 +1,9 @@
 <?php
 // Heading  
-$_['heading_title']   = 'Shopping Cart';
+$_['heading_title']   = 'Your bike';
 
 // Text
-$_['text_basket']     = 'Basket';
+$_['text_basket']     = 'Your designed bike';
 $_['text_sub_total']  = 'Sub-Total:';
 $_['text_weight']  	  = 'Cart Weight:';
 $_['text_error']      = 'Your shopping cart is empty!';

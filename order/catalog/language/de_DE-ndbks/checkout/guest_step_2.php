@@ -1,13 +1,13 @@
 <?php
 // Heading
-$_['heading_title']			= 'Direktbestellung - Schritt 2';
+$_['heading_title']			= 'Versand & Bezahlung';
 
 // Text
-$_['text_cart']				= 'Warenkorb';
+$_['text_cart']				= 'Dein Designtes Bike';
 $_['text_guest_step_1']		= 'Direktbestellung - Schritt 1';
 $_['text_guest_step_2']		= 'Direktbestellung - Schritt 2';
 $_['text_shipping_method']	= 'Versandart';
-$_['text_shipping_methods']	= 'Bitte für diese Bestellung die passende Versandart wählen.';
+$_['text_shipping_methods']	= 'Entscheide Dich für eine Versandmethode';
 $_['text_payment_method']	= 'Zahlungsmethode';
 $_['text_payment_methods']	= 'Bitte für diese Bestellung die bevorzugte Zahlungsart wählen.';
 $_['text_comments']			= 'Kommentar zur Bestellung hinzufügen (optional)';

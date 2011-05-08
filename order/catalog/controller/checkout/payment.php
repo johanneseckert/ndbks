@@ -18,7 +18,11 @@ class ControllerCheckoutPayment extends Controller {
     	if (!$this->customer->isLogged()) {
 			$this->session->data['redirect'] = HTTPS_SERVER . 'index.php?route=checkout/shipping';
 			
-	  		$this->redirect(HTTPS_SERVER . 'index.php?route=account/login');
+//////
+////// MODIFICATION FOR INDIEBIKES
+//////
+//	  		$this->redirect(HTTPS_SERVER . 'index.php?route=account/login');
+			$this->redirect(HTTPS_SERVER . 'index.php?route=checkout/guest_step_1');
     	} 
 		
 		$this->load->model('account/address');

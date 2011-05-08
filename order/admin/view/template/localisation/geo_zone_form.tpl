@@ -99,4 +99,5 @@ function addGeoZone() {
 	zone_to_geo_zone_row++;
 }
 //--></script>
+
 <?php echo $footer; ?>

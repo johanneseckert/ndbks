@@ -1,28 +1,28 @@
 <?php
 // Heading 
-$_['heading_title']     	= 'Guest Checkout - Step 1';
+$_['heading_title']     	= 'Your adress';
 
 // Text
-$_['text_cart']         	= 'Cart';
-$_['text_guest_step_1'] 	= 'Guest Checkout - Step 1';
+$_['text_cart']         	= 'Your designed bike';
+$_['text_guest_step_1'] 	= 'Direct Checkout - Step 1';
 $_['text_your_details'] 	= 'Your Personal Details';
 $_['text_your_address'] 	= 'Your Address';
 $_['text_shipping_address'] = 'Shipping Address';
-$_['text_indicator'] 		= 'Check here if you have a separate shipping address.';
+$_['text_indicator'] 		= 'Ship my bike to another adress.';
 
 // Entry
-$_['entry_firstname']   	= 'First Name:';
-$_['entry_lastname']    	= 'Last Name:';
-$_['entry_email']       	= 'E-Mail:';
-$_['entry_telephone']   	= 'Telephone:';
-$_['entry_fax']         	= 'Fax:';
-$_['entry_company']     	= 'Company:';
-$_['entry_address_1']   	= 'Address 1:';
-$_['entry_address_2']   	= 'Address 2:';
-$_['entry_postcode']    	= 'Post Code:';
-$_['entry_city']        	= 'City:';
-$_['entry_country']     	= 'Country:';
-$_['entry_zone']        	= 'Region / State:';
+$_['entry_firstname']   	= 'First Name';
+$_['entry_lastname']    	= 'Last Name';
+$_['entry_email']       	= 'E-Mail';
+$_['entry_telephone']   	= 'Telephone';
+$_['entry_fax']         	= 'Fax';
+$_['entry_company']     	= 'Company';
+$_['entry_address_1']   	= 'Address 1';
+$_['entry_address_2']   	= 'Address 2';
+$_['entry_postcode']    	= 'Post Code';
+$_['entry_city']        	= 'City';
+$_['entry_country']     	= 'Country';
+$_['entry_zone']        	= 'Region / State';
 
 // Error
 $_['error_firstname']   	= 'First Name must be between 1 and 32 characters!';

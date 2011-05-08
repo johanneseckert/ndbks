@@ -1,13 +1,13 @@
 <?php
 // Heading 
-$_['heading_title']         = 'Guest Checkout - Step 2';
+$_['heading_title']         = 'Shipping & Payment';
  
 // Text
 $_['text_cart']             = 'Cart';
 $_['text_guest_step_1']     = 'Guest Checkout - Step 1';
 $_['text_guest_step_2']     = 'Guest Checkout - Step 2';
 $_['text_shipping_method']  = 'Shipping Method';
-$_['text_shipping_methods'] = 'Please select the preferred shipping method to use on this order.';
+$_['text_shipping_methods'] = 'Please select a prefered shipping method';
 $_['text_payment_method']   = 'Payment Method';
 $_['text_payment_methods']  = 'Please select the preferred payment method to use on this order.';
 $_['text_comments']         = 'Add Comments About Your Order';

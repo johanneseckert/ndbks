@@ -1,28 +1,28 @@
 <?php
 // Heading
-$_['heading_title']		= 'Direktbestellung - Schritt 1';
+$_['heading_title']		= 'Adresse';
 
 // Text
-$_['text_cart']			= 'Warenkorb';
+$_['text_cart']			= 'Dein designtes Bike';
 $_['text_guest_step_1']	= 'Direktbestellung - Schritt 1';
 $_['text_your_details']	= 'Persönliche Angaben';
 $_['text_your_address']	= 'Meine Adresse';
 $_['text_shipping_address']	= 'Lieferadresse';
-$_['text_indicator'] 		= 'Hier markieren, wenn Sie eine andere Lieferadresse angeben möchten.';
+$_['text_indicator'] 		= 'Das Bike bitte an eine andere Adresse liefern';
 
 // Entry
-$_['entry_firstname']	= 'Vorname:';
-$_['entry_lastname']	= 'Nachname:';
-$_['entry_email']		= 'Email:';
-$_['entry_telephone']	= 'Telefon:';
-$_['entry_fax']			= 'Fax:';
-$_['entry_company']		= 'Firma:';
-$_['entry_address_1']	= 'Adresszeile 1:';
-$_['entry_address_2']	= 'Adresszeile 2:';
-$_['entry_postcode']	= 'Postleitzahl:';
-$_['entry_city']		= 'Stadt:';
-$_['entry_country']		= 'Land:';
-$_['entry_zone']		= 'Bundesland:';
+$_['entry_firstname']	= 'Vorname';
+$_['entry_lastname']	= 'Nachname';
+$_['entry_email']		= 'Email';
+$_['entry_telephone']	= 'Telefon';
+$_['entry_fax']			= 'Fax';
+$_['entry_company']		= 'Firma';
+$_['entry_address_1']	= 'Adresszeile 1';
+$_['entry_address_2']	= 'Adresszeile 2';
+$_['entry_postcode']	= 'Postleitzahl';
+$_['entry_city']		= 'Stadt';
+$_['entry_country']		= 'Land';
+$_['entry_zone']		= 'Bundesland';
 
 // Error
 $_['error_firstname']	= 'Vorname muss zwischen 3 und 32 Zeichen lang sein!';

@@ -1,162 +1,459 @@
-2011-01-24 2:22:21 - PHP Warning:  mail() [<a href='function.mail'>function.mail</a>]: Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampplite\htdocs\indiebikes\order\system\library\mail.php on line 153
-2011-01-24 2:27:08 - PHP Warning:  mail() [<a href='function.mail'>function.mail</a>]: Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampplite\htdocs\indiebikes\order\system\library\mail.php on line 153
-2011-01-24 2:37:13 - PHP Notice:  Undefined index: value in C:\xampplite\htdocs\indiebikes\order\admin\model\sale\order.php on line 85
-2011-01-24 2:37:13 - PHP Notice:  Undefined index: order_total_id in C:\xampplite\htdocs\indiebikes\order\admin\model\sale\order.php on line 86
-2011-02-06 22:50:41 - PHP Notice:  Undefined index: de-DE in C:\xampplite\htdocs\indiebikes\order\admin\index.php on line 119
-2011-02-06 22:50:41 - PHP Notice:  Undefined index: de-DE in C:\xampplite\htdocs\indiebikes\order\admin\index.php on line 121
-2011-02-06 22:50:41 - PHP Notice:  Undefined index: de-DE in C:\xampplite\htdocs\indiebikes\order\admin\index.php on line 122
-2011-02-06 22:50:51 - PHP Notice:  Undefined index: de-DE in C:\xampplite\htdocs\indiebikes\order\admin\index.php on line 119
-2011-02-06 22:50:51 - PHP Notice:  Undefined index: de-DE in C:\xampplite\htdocs\indiebikes\order\admin\index.php on line 121
-2011-02-06 22:50:51 - PHP Notice:  Undefined index: de-DE in C:\xampplite\htdocs\indiebikes\order\admin\index.php on line 122
-2011-02-06 22:50:54 - PHP Notice:  Undefined index: de-DE in C:\xampplite\htdocs\indiebikes\order\admin\index.php on line 119
-2011-02-06 22:50:54 - PHP Notice:  Undefined index: de-DE in C:\xampplite\htdocs\indiebikes\order\admin\index.php on line 121
-2011-02-06 22:50:54 - PHP Notice:  Undefined index: de-DE in C:\xampplite\htdocs\indiebikes\order\admin\index.php on line 122
-2011-02-06 22:50:56 - PHP Notice:  Undefined index: de-DE in C:\xampplite\htdocs\indiebikes\order\admin\index.php on line 119
-2011-02-06 22:50:56 - PHP Notice:  Undefined index: de-DE in C:\xampplite\htdocs\indiebikes\order\admin\index.php on line 121
-2011-02-06 22:50:56 - PHP Notice:  Undefined index: de-DE in C:\xampplite\htdocs\indiebikes\order\admin\index.php on line 122
-2011-02-06 22:51:00 - PHP Notice:  Undefined index: de-DE in C:\xampplite\htdocs\indiebikes\order\admin\index.php on line 119
-2011-02-06 22:51:00 - PHP Notice:  Undefined index: de-DE in C:\xampplite\htdocs\indiebikes\order\admin\index.php on line 121
-2011-02-06 22:51:00 - PHP Notice:  Undefined index: de-DE in C:\xampplite\htdocs\indiebikes\order\admin\index.php on line 122
-2011-02-06 22:51:00 - PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampplite\htdocs\indiebikes\order\admin\index.php:72) in C:\xampplite\htdocs\indiebikes\order\system\engine\controller.php on line 27
-2011-02-06 22:51:03 - PHP Notice:  Undefined index: de-DE in C:\xampplite\htdocs\indiebikes\order\admin\index.php on line 119
-2011-02-06 22:51:03 - PHP Notice:  Undefined index: de-DE in C:\xampplite\htdocs\indiebikes\order\admin\index.php on line 121
-2011-02-06 22:51:03 - PHP Notice:  Undefined index: de-DE in C:\xampplite\htdocs\indiebikes\order\admin\index.php on line 122
-2011-02-06 22:51:04 - PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampplite\htdocs\indiebikes\order\admin\index.php:72) in C:\xampplite\htdocs\indiebikes\order\system\engine\controller.php on line 27
-2011-02-06 22:51:04 - PHP Notice:  Undefined index: de-DE in C:\xampplite\htdocs\indiebikes\order\admin\index.php on line 119
-2011-02-06 22:51:04 - PHP Notice:  Undefined index: de-DE in C:\xampplite\htdocs\indiebikes\order\admin\index.php on line 121
-2011-02-06 22:51:04 - PHP Notice:  Undefined index: de-DE in C:\xampplite\htdocs\indiebikes\order\admin\index.php on line 122
-2011-02-06 22:51:13 - PHP Notice:  Undefined index: de-DE in C:\xampplite\htdocs\indiebikes\order\admin\index.php on line 119
-2011-02-06 22:51:13 - PHP Notice:  Undefined index: de-DE in C:\xampplite\htdocs\indiebikes\order\admin\index.php on line 121
-2011-02-06 22:51:13 - PHP Notice:  Undefined index: de-DE in C:\xampplite\htdocs\indiebikes\order\admin\index.php on line 122
-2011-02-06 22:51:13 - PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampplite\htdocs\indiebikes\order\admin\index.php:72) in C:\xampplite\htdocs\indiebikes\order\system\engine\controller.php on line 27
-2011-02-06 22:51:15 - PHP Notice:  Undefined index: de-DE in C:\xampplite\htdocs\indiebikes\order\admin\index.php on line 119
-2011-02-06 22:51:15 - PHP Notice:  Undefined index: de-DE in C:\xampplite\htdocs\indiebikes\order\admin\index.php on line 121
-2011-02-06 22:51:15 - PHP Notice:  Undefined index: de-DE in C:\xampplite\htdocs\indiebikes\order\admin\index.php on line 122
-2011-02-06 22:51:20 - PHP Notice:  Undefined index: de-DE in C:\xampplite\htdocs\indiebikes\order\admin\index.php on line 119
-2011-02-06 22:51:20 - PHP Notice:  Undefined index: de-DE in C:\xampplite\htdocs\indiebikes\order\admin\index.php on line 121
-2011-02-06 22:51:20 - PHP Notice:  Undefined index: de-DE in C:\xampplite\htdocs\indiebikes\order\admin\index.php on line 122
-2011-02-06 22:51:24 - PHP Notice:  Undefined index: de-DE in C:\xampplite\htdocs\indiebikes\order\admin\index.php on line 119
-2011-02-06 22:51:24 - PHP Notice:  Undefined index: de-DE in C:\xampplite\htdocs\indiebikes\order\admin\index.php on line 121
-2011-02-06 22:51:24 - PHP Notice:  Undefined index: de-DE in C:\xampplite\htdocs\indiebikes\order\admin\index.php on line 122
-2011-02-06 22:51:30 - PHP Notice:  Undefined index: de-DE in C:\xampplite\htdocs\indiebikes\order\admin\index.php on line 119
-2011-02-06 22:51:30 - PHP Notice:  Undefined index: de-DE in C:\xampplite\htdocs\indiebikes\order\admin\index.php on line 121
-2011-02-06 22:51:30 - PHP Notice:  Undefined index: de-DE in C:\xampplite\htdocs\indiebikes\order\admin\index.php on line 122
-2011-02-06 22:51:30 - PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampplite\htdocs\indiebikes\order\admin\index.php:72) in C:\xampplite\htdocs\indiebikes\order\system\engine\controller.php on line 27
-2011-02-06 22:51:32 - PHP Notice:  Undefined index: de-DE in C:\xampplite\htdocs\indiebikes\order\admin\index.php on line 119
-2011-02-06 22:51:32 - PHP Notice:  Undefined index: de-DE in C:\xampplite\htdocs\indiebikes\order\admin\index.php on line 121
-2011-02-06 22:51:32 - PHP Notice:  Undefined index: de-DE in C:\xampplite\htdocs\indiebikes\order\admin\index.php on line 122
-2011-02-06 22:51:36 - PHP Notice:  Undefined index: de-DE in C:\xampplite\htdocs\indiebikes\order\admin\index.php on line 119
-2011-02-06 22:51:36 - PHP Notice:  Undefined index: de-DE in C:\xampplite\htdocs\indiebikes\order\admin\index.php on line 121
-2011-02-06 22:51:36 - PHP Notice:  Undefined index: de-DE in C:\xampplite\htdocs\indiebikes\order\admin\index.php on line 122
-2011-02-06 22:51:39 - PHP Notice:  Undefined index: de-DE in C:\xampplite\htdocs\indiebikes\order\admin\index.php on line 119
-2011-02-06 22:51:39 - PHP Notice:  Undefined index: de-DE in C:\xampplite\htdocs\indiebikes\order\admin\index.php on line 121
-2011-02-06 22:51:39 - PHP Notice:  Undefined index: de-DE in C:\xampplite\htdocs\indiebikes\order\admin\index.php on line 122
-2011-02-06 22:52:06 - PHP Notice:  Undefined index: de-DE in C:\xampplite\htdocs\indiebikes\order\admin\index.php on line 119
-2011-02-06 22:52:06 - PHP Notice:  Undefined index: de-DE in C:\xampplite\htdocs\indiebikes\order\admin\index.php on line 121
-2011-02-06 22:52:06 - PHP Notice:  Undefined index: de-DE in C:\xampplite\htdocs\indiebikes\order\admin\index.php on line 122
-2011-02-06 22:52:06 - PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampplite\htdocs\indiebikes\order\admin\index.php:72) in C:\xampplite\htdocs\indiebikes\order\system\engine\controller.php on line 27
-2011-02-06 22:52:07 - PHP Notice:  Undefined index: de-DE in C:\xampplite\htdocs\indiebikes\order\admin\index.php on line 119
-2011-02-06 22:52:07 - PHP Notice:  Undefined index: de-DE in C:\xampplite\htdocs\indiebikes\order\admin\index.php on line 121
-2011-02-06 22:52:07 - PHP Notice:  Undefined index: de-DE in C:\xampplite\htdocs\indiebikes\order\admin\index.php on line 122
-2011-02-06 22:52:11 - PHP Notice:  Undefined index: de-DE in C:\xampplite\htdocs\indiebikes\order\admin\index.php on line 119
-2011-02-06 22:52:11 - PHP Notice:  Undefined index: de-DE in C:\xampplite\htdocs\indiebikes\order\admin\index.php on line 121
-2011-02-06 22:52:11 - PHP Notice:  Undefined index: de-DE in C:\xampplite\htdocs\indiebikes\order\admin\index.php on line 122
-2011-02-06 22:52:11 - PHP Notice:  Undefined index: de-DE in C:\xampplite\htdocs\indiebikes\order\admin\index.php on line 119
-2011-02-06 22:52:11 - PHP Notice:  Undefined index: de-DE in C:\xampplite\htdocs\indiebikes\order\admin\index.php on line 121
-2011-02-06 22:52:11 - PHP Notice:  Undefined index: de-DE in C:\xampplite\htdocs\indiebikes\order\admin\index.php on line 122
-2011-02-06 22:52:11 - PHP Notice:  Undefined index: de-DE in C:\xampplite\htdocs\indiebikes\order\admin\index.php on line 119
-2011-02-06 22:52:11 - PHP Notice:  Undefined index: de-DE in C:\xampplite\htdocs\indiebikes\order\admin\index.php on line 121
-2011-02-06 22:52:11 - PHP Notice:  Undefined index: de-DE in C:\xampplite\htdocs\indiebikes\order\admin\index.php on line 122
-2011-02-06 22:52:19 - PHP Notice:  Undefined index: de-DE in C:\xampplite\htdocs\indiebikes\order\admin\index.php on line 119
-2011-02-06 22:52:19 - PHP Notice:  Undefined index: de-DE in C:\xampplite\htdocs\indiebikes\order\admin\index.php on line 121
-2011-02-06 22:52:19 - PHP Notice:  Undefined index: de-DE in C:\xampplite\htdocs\indiebikes\order\admin\index.php on line 122
-2011-02-06 22:52:19 - PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampplite\htdocs\indiebikes\order\admin\index.php:72) in C:\xampplite\htdocs\indiebikes\order\system\engine\controller.php on line 27
-2011-02-06 22:53:03 - PHP Notice:  Undefined index: de in C:\xampplite\htdocs\indiebikes\order\admin\index.php on line 119
-2011-02-06 22:53:03 - PHP Notice:  Undefined index: de in C:\xampplite\htdocs\indiebikes\order\admin\index.php on line 121
-2011-02-06 22:53:03 - PHP Notice:  Undefined index: de in C:\xampplite\htdocs\indiebikes\order\admin\index.php on line 122
-2011-02-06 22:53:08 - PHP Notice:  Undefined index: de in C:\xampplite\htdocs\indiebikes\order\admin\index.php on line 119
-2011-02-06 22:53:08 - PHP Notice:  Undefined index: de in C:\xampplite\htdocs\indiebikes\order\admin\index.php on line 121
-2011-02-06 22:53:08 - PHP Notice:  Undefined index: de in C:\xampplite\htdocs\indiebikes\order\admin\index.php on line 122
-2011-02-06 22:53:10 - PHP Notice:  Undefined index: de in C:\xampplite\htdocs\indiebikes\order\admin\index.php on line 119
-2011-02-06 22:53:10 - PHP Notice:  Undefined index: de in C:\xampplite\htdocs\indiebikes\order\admin\index.php on line 121
-2011-02-06 22:53:10 - PHP Notice:  Undefined index: de in C:\xampplite\htdocs\indiebikes\order\admin\index.php on line 122
-2011-02-06 22:53:11 - PHP Notice:  Undefined index: de in C:\xampplite\htdocs\indiebikes\order\admin\index.php on line 119
-2011-02-06 22:53:11 - PHP Notice:  Undefined index: de in C:\xampplite\htdocs\indiebikes\order\admin\index.php on line 121
-2011-02-06 22:53:11 - PHP Notice:  Undefined index: de in C:\xampplite\htdocs\indiebikes\order\admin\index.php on line 122
-2011-02-06 22:53:11 - PHP Notice:  Undefined index: de in C:\xampplite\htdocs\indiebikes\order\admin\index.php on line 119
-2011-02-06 22:53:11 - PHP Notice:  Undefined index: de in C:\xampplite\htdocs\indiebikes\order\admin\index.php on line 121
-2011-02-06 22:53:11 - PHP Notice:  Undefined index: de in C:\xampplite\htdocs\indiebikes\order\admin\index.php on line 122
-2011-02-06 22:53:16 - PHP Notice:  Undefined index: de in C:\xampplite\htdocs\indiebikes\order\admin\index.php on line 119
-2011-02-06 22:53:16 - PHP Notice:  Undefined index: de in C:\xampplite\htdocs\indiebikes\order\admin\index.php on line 121
-2011-02-06 22:53:16 - PHP Notice:  Undefined index: de in C:\xampplite\htdocs\indiebikes\order\admin\index.php on line 122
-2011-02-06 22:53:16 - PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampplite\htdocs\indiebikes\order\admin\index.php:72) in C:\xampplite\htdocs\indiebikes\order\system\engine\controller.php on line 27
-2011-02-06 22:55:16 - PHP Notice:  Undefined index: de-de in C:\xampplite\htdocs\indiebikes\order\admin\index.php on line 119
-2011-02-06 22:55:16 - PHP Notice:  Undefined index: de-de in C:\xampplite\htdocs\indiebikes\order\admin\index.php on line 121
-2011-02-06 22:55:16 - PHP Notice:  Undefined index: de-de in C:\xampplite\htdocs\indiebikes\order\admin\index.php on line 122
-2011-02-06 22:55:18 - PHP Notice:  Undefined index: de-de in C:\xampplite\htdocs\indiebikes\order\admin\index.php on line 119
-2011-02-06 22:55:18 - PHP Notice:  Undefined index: de-de in C:\xampplite\htdocs\indiebikes\order\admin\index.php on line 121
-2011-02-06 22:55:18 - PHP Notice:  Undefined index: de-de in C:\xampplite\htdocs\indiebikes\order\admin\index.php on line 122
-2011-02-06 22:55:20 - PHP Notice:  Undefined index: de-de in C:\xampplite\htdocs\indiebikes\order\admin\index.php on line 119
-2011-02-06 22:55:20 - PHP Notice:  Undefined index: de-de in C:\xampplite\htdocs\indiebikes\order\admin\index.php on line 121
-2011-02-06 22:55:20 - PHP Notice:  Undefined index: de-de in C:\xampplite\htdocs\indiebikes\order\admin\index.php on line 122
-2011-02-06 22:55:22 - PHP Notice:  Undefined index: de-de in C:\xampplite\htdocs\indiebikes\order\admin\index.php on line 119
-2011-02-06 22:55:22 - PHP Notice:  Undefined index: de-de in C:\xampplite\htdocs\indiebikes\order\admin\index.php on line 121
-2011-02-06 22:55:22 - PHP Notice:  Undefined index: de-de in C:\xampplite\htdocs\indiebikes\order\admin\index.php on line 122
-2011-02-06 22:55:22 - PHP Notice:  Undefined index: de-de in C:\xampplite\htdocs\indiebikes\order\admin\index.php on line 119
-2011-02-06 22:55:22 - PHP Notice:  Undefined index: de-de in C:\xampplite\htdocs\indiebikes\order\admin\index.php on line 121
-2011-02-06 22:55:22 - PHP Notice:  Undefined index: de-de in C:\xampplite\htdocs\indiebikes\order\admin\index.php on line 122
-2011-02-06 22:55:22 - PHP Notice:  Undefined index: de-de in C:\xampplite\htdocs\indiebikes\order\admin\index.php on line 119
-2011-02-06 22:55:22 - PHP Notice:  Undefined index: de-de in C:\xampplite\htdocs\indiebikes\order\admin\index.php on line 121
-2011-02-06 22:55:22 - PHP Notice:  Undefined index: de-de in C:\xampplite\htdocs\indiebikes\order\admin\index.php on line 122
-2011-02-06 22:55:27 - PHP Notice:  Undefined index: de-de in C:\xampplite\htdocs\indiebikes\order\admin\index.php on line 119
-2011-02-06 22:55:27 - PHP Notice:  Undefined index: de-de in C:\xampplite\htdocs\indiebikes\order\admin\index.php on line 121
-2011-02-06 22:55:27 - PHP Notice:  Undefined index: de-de in C:\xampplite\htdocs\indiebikes\order\admin\index.php on line 122
-2011-02-06 22:55:27 - PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampplite\htdocs\indiebikes\order\admin\index.php:72) in C:\xampplite\htdocs\indiebikes\order\system\engine\controller.php on line 27
-2011-02-06 23:03:07 - PHP Notice:  Undefined index: de in C:\xampplite\htdocs\indiebikes\order\admin\index.php on line 119
-2011-02-06 23:03:07 - PHP Notice:  Undefined index: de in C:\xampplite\htdocs\indiebikes\order\admin\index.php on line 121
-2011-02-06 23:03:07 - PHP Notice:  Undefined index: de in C:\xampplite\htdocs\indiebikes\order\admin\index.php on line 122
-2011-02-06 23:03:08 - PHP Notice:  Undefined index: de in C:\xampplite\htdocs\indiebikes\order\admin\index.php on line 119
-2011-02-06 23:03:08 - PHP Notice:  Undefined index: de in C:\xampplite\htdocs\indiebikes\order\admin\index.php on line 121
-2011-02-06 23:03:08 - PHP Notice:  Undefined index: de in C:\xampplite\htdocs\indiebikes\order\admin\index.php on line 122
-2011-02-06 23:03:12 - PHP Notice:  Undefined index: de in C:\xampplite\htdocs\indiebikes\order\admin\index.php on line 119
-2011-02-06 23:03:12 - PHP Notice:  Undefined index: de in C:\xampplite\htdocs\indiebikes\order\admin\index.php on line 121
-2011-02-06 23:03:12 - PHP Notice:  Undefined index: de in C:\xampplite\htdocs\indiebikes\order\admin\index.php on line 122
-2011-02-06 23:03:12 - PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampplite\htdocs\indiebikes\order\admin\index.php:72) in C:\xampplite\htdocs\indiebikes\order\system\engine\controller.php on line 27
-2011-02-06 23:03:14 - PHP Notice:  Undefined index: de in C:\xampplite\htdocs\indiebikes\order\admin\index.php on line 119
-2011-02-06 23:03:14 - PHP Notice:  Undefined index: de in C:\xampplite\htdocs\indiebikes\order\admin\index.php on line 121
-2011-02-06 23:03:14 - PHP Notice:  Undefined index: de in C:\xampplite\htdocs\indiebikes\order\admin\index.php on line 122
-2011-02-06 23:03:17 - PHP Notice:  Undefined index: de in C:\xampplite\htdocs\indiebikes\order\admin\index.php on line 119
-2011-02-06 23:03:17 - PHP Notice:  Undefined index: de in C:\xampplite\htdocs\indiebikes\order\admin\index.php on line 121
-2011-02-06 23:03:17 - PHP Notice:  Undefined index: de in C:\xampplite\htdocs\indiebikes\order\admin\index.php on line 122
-2011-02-06 23:03:19 - PHP Notice:  Undefined index: de in C:\xampplite\htdocs\indiebikes\order\admin\index.php on line 119
-2011-02-06 23:03:19 - PHP Notice:  Undefined index: de in C:\xampplite\htdocs\indiebikes\order\admin\index.php on line 121
-2011-02-06 23:03:19 - PHP Notice:  Undefined index: de in C:\xampplite\htdocs\indiebikes\order\admin\index.php on line 122
-2011-02-06 23:03:20 - PHP Notice:  Undefined index: de in C:\xampplite\htdocs\indiebikes\order\admin\index.php on line 119
-2011-02-06 23:03:20 - PHP Notice:  Undefined index: de in C:\xampplite\htdocs\indiebikes\order\admin\index.php on line 121
-2011-02-06 23:03:20 - PHP Notice:  Undefined index: de in C:\xampplite\htdocs\indiebikes\order\admin\index.php on line 122
-2011-02-06 23:03:20 - PHP Notice:  Undefined index: de in C:\xampplite\htdocs\indiebikes\order\admin\index.php on line 119
-2011-02-06 23:03:20 - PHP Notice:  Undefined index: de in C:\xampplite\htdocs\indiebikes\order\admin\index.php on line 121
-2011-02-06 23:03:20 - PHP Notice:  Undefined index: de in C:\xampplite\htdocs\indiebikes\order\admin\index.php on line 122
-2011-02-06 23:03:23 - PHP Notice:  Undefined index: de in C:\xampplite\htdocs\indiebikes\order\admin\index.php on line 119
-2011-02-06 23:03:23 - PHP Notice:  Undefined index: de in C:\xampplite\htdocs\indiebikes\order\admin\index.php on line 121
-2011-02-06 23:03:23 - PHP Notice:  Undefined index: de in C:\xampplite\htdocs\indiebikes\order\admin\index.php on line 122
-2011-02-06 23:03:23 - PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampplite\htdocs\indiebikes\order\admin\index.php:72) in C:\xampplite\htdocs\indiebikes\order\system\engine\controller.php on line 27
-2011-02-06 23:06:04 - PHP Notice:  Undefined variable: result in C:\xampplite\htdocs\indiebikes\order\catalog\view\theme\ndbkstheme\template\common\header.tpl on line 19
-2011-02-06 23:06:04 - PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, null given in C:\xampplite\htdocs\indiebikes\order\catalog\view\theme\ndbkstheme\template\common\header.tpl on line 19
-2011-02-06 23:06:04 - PHP Notice:  Use of undefined constant data - assumed 'data' in C:\xampplite\htdocs\indiebikes\order\catalog\view\theme\ndbkstheme\template\common\header.tpl on line 20
-2011-02-06 23:06:06 - PHP Notice:  Undefined variable: result in C:\xampplite\htdocs\indiebikes\order\catalog\view\theme\ndbkstheme\template\common\header.tpl on line 19
-2011-02-06 23:06:06 - PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, null given in C:\xampplite\htdocs\indiebikes\order\catalog\view\theme\ndbkstheme\template\common\header.tpl on line 19
-2011-02-06 23:06:06 - PHP Notice:  Use of undefined constant data - assumed 'data' in C:\xampplite\htdocs\indiebikes\order\catalog\view\theme\ndbkstheme\template\common\header.tpl on line 20
-2011-02-06 23:06:46 - PHP Notice:  Undefined variable: mysql_query in C:\xampplite\htdocs\indiebikes\order\catalog\view\theme\ndbkstheme\template\common\header.tpl on line 18
-2011-02-06 23:06:58 - PHP Notice:  Use of undefined constant data - assumed 'data' in C:\xampplite\htdocs\indiebikes\order\catalog\view\theme\ndbkstheme\template\common\header.tpl on line 22
-2011-02-06 23:19:24 - PHP Notice:  Undefined variable: row in C:\xampplite\htdocs\indiebikes\order\catalog\view\theme\ndbkstheme\template\common\header.tpl on line 24
-2011-02-06 23:19:48 - PHP Notice:  Undefined variable: language_code in C:\xampplite\htdocs\indiebikes\order\catalog\view\theme\ndbkstheme\template\common\header.tpl on line 19
-2011-02-06 23:19:48 - PHP Notice:  Undefined variable: row in C:\xampplite\htdocs\indiebikes\order\catalog\view\theme\ndbkstheme\template\common\header.tpl on line 21
-2011-02-06 23:21:02 - PHP Notice:  Undefined variable: row in C:\xampplite\htdocs\indiebikes\order\catalog\view\theme\ndbkstheme\template\common\header.tpl on line 22
-2011-02-06 23:22:43 - PHP Notice:  Undefined variable: language_code in C:\xampplite\htdocs\indiebikes\order\catalog\view\theme\ndbkstheme\template\common\header.tpl on line 23
-2011-02-06 23:45:26 - PHP Notice:  Undefined variable: language_code in C:\xampplite\htdocs\indiebikes\order\catalog\view\theme\ndbkstheme\template\common\footer.tpl on line 16
-2011-02-06 23:45:26 - PHP Notice:  Undefined variable: language_code in C:\xampplite\htdocs\indiebikes\order\catalog\view\theme\ndbkstheme\template\common\footer.tpl on line 19
-2011-02-06 23:45:26 - PHP Notice:  Undefined variable: language_code in C:\xampplite\htdocs\indiebikes\order\catalog\view\theme\ndbkstheme\template\common\footer.tpl on line 22
-2011-02-06 23:49:03 - PHP Notice:  Undefined variable: language_code in C:\xampplite\htdocs\indiebikes\order\catalog\view\theme\ndbkstheme\template\common\footer.tpl on line 17
-2011-02-06 23:49:03 - PHP Notice:  Undefined variable: language_code in C:\xampplite\htdocs\indiebikes\order\catalog\view\theme\ndbkstheme\template\common\footer.tpl on line 20
-2011-02-06 23:49:03 - PHP Notice:  Undefined variable: language_code in C:\xampplite\htdocs\indiebikes\order\catalog\view\theme\ndbkstheme\template\common\footer.tpl on line 23
+2011-05-06 15:50:05 - PHP Notice:  Undefined index: product_id in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\cart.php on line 117
+2011-05-06 15:50:05 - PHP Notice:  Undefined index: quantity in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\cart.php on line 117
+2011-05-06 16:05:57 - PHP Notice:  Undefined index: product_id in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\cart.php on line 117
+2011-05-06 16:05:57 - PHP Notice:  Undefined index: quantity in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\cart.php on line 117
+2011-05-06 16:06:20 - PHP Notice:  fputs() [<a href='function.fputs'>function.fputs</a>]: send of 3 bytes failed with errno=10053 Eine bestehende Verbindung wurde softwaregesteuert
+durch den Hostcomputer abgebrochen.
+ in C:\xampplite\htdocs\indiebikes\order\system\library\mail.php on line 345
+2011-05-06 16:06:20 - PHP Notice:  fputs() [<a href='function.fputs'>function.fputs</a>]: send of 6 bytes failed with errno=10053 Eine bestehende Verbindung wurde softwaregesteuert
+durch den Hostcomputer abgebrochen.
+ in C:\xampplite\htdocs\indiebikes\order\system\library\mail.php on line 361
+2011-05-06 16:33:51 - PHP Notice:  Undefined index: product_id in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\cart.php on line 117
+2011-05-06 16:33:51 - PHP Notice:  Undefined index: quantity in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\cart.php on line 117
+2011-05-06 16:34:03 - PHP Notice:  Undefined index: product_id in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\cart.php on line 117
+2011-05-06 16:34:03 - PHP Notice:  Undefined index: quantity in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\cart.php on line 117
+2011-05-06 16:34:53 - PHP Notice:  Undefined index: product_id in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\cart.php on line 117
+2011-05-06 16:34:53 - PHP Notice:  Undefined index: quantity in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\cart.php on line 117
+2011-05-06 16:35:58 - PHP Notice:  Undefined index: product_id in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\cart.php on line 117
+2011-05-06 16:35:58 - PHP Notice:  Undefined index: quantity in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\cart.php on line 117
+2011-05-06 16:47:56 - PHP Notice:  Undefined index: product_id in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\cart.php on line 117
+2011-05-06 16:47:56 - PHP Notice:  Undefined index: quantity in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\cart.php on line 117
+2011-05-06 16:51:15 - PHP Notice:  Undefined index: product_id in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\cart.php on line 117
+2011-05-06 16:51:15 - PHP Notice:  Undefined index: quantity in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\cart.php on line 117
+2011-05-06 16:58:26 - PHP Notice:  fputs() [<a href='function.fputs'>function.fputs</a>]: send of 3 bytes failed with errno=10053 Eine bestehende Verbindung wurde softwaregesteuert
+durch den Hostcomputer abgebrochen.
+ in C:\xampplite\htdocs\indiebikes\order\system\library\mail.php on line 345
+2011-05-06 16:58:26 - PHP Notice:  fputs() [<a href='function.fputs'>function.fputs</a>]: send of 6 bytes failed with errno=10053 Eine bestehende Verbindung wurde softwaregesteuert
+durch den Hostcomputer abgebrochen.
+ in C:\xampplite\htdocs\indiebikes\order\system\library\mail.php on line 361
+2011-05-06 17:30:10 - PHP Notice:  Undefined index: product_id in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\cart.php on line 117
+2011-05-06 17:30:10 - PHP Notice:  Undefined index: quantity in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\cart.php on line 117
+2011-05-06 17:30:43 - PHP Notice:  Undefined index: product_id in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\cart.php on line 117
+2011-05-06 17:30:43 - PHP Notice:  Undefined index: quantity in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\cart.php on line 117
+2011-05-06 17:31:17 - PHP Notice:  Undefined index: product_id in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\cart.php on line 117
+2011-05-06 17:31:17 - PHP Notice:  Undefined index: quantity in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\cart.php on line 117
+2011-05-06 17:32:45 - PHP Notice:  Undefined index: product_id in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\cart.php on line 117
+2011-05-06 17:32:45 - PHP Notice:  Undefined index: quantity in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\cart.php on line 117
+2011-05-06 17:34:02 - PHP Notice:  Undefined index: product_id in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\cart.php on line 117
+2011-05-06 17:34:02 - PHP Notice:  Undefined index: quantity in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\cart.php on line 117
+2011-05-06 17:35:09 - PHP Notice:  Undefined index: product_id in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\cart.php on line 117
+2011-05-06 17:35:09 - PHP Notice:  Undefined index: quantity in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\cart.php on line 117
+2011-05-06 17:35:39 - PHP Notice:  Undefined index: product_id in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\cart.php on line 117
+2011-05-06 17:35:39 - PHP Notice:  Undefined index: quantity in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\cart.php on line 117
+2011-05-06 17:39:56 - PHP Notice:  Undefined index: product_id in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\cart.php on line 117
+2011-05-06 17:39:56 - PHP Notice:  Undefined index: quantity in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\cart.php on line 117
+2011-05-06 17:45:55 - PHP Notice:  Undefined index: product_id in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\cart.php on line 117
+2011-05-06 17:45:55 - PHP Notice:  Undefined index: quantity in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\cart.php on line 117
+2011-05-06 17:48:28 - PHP Notice:  Undefined index: product_id in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\cart.php on line 117
+2011-05-06 17:48:28 - PHP Notice:  Undefined index: quantity in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\cart.php on line 117
+2011-05-06 18:02:11 - PHP Notice:  Undefined index: product_id in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\cart.php on line 117
+2011-05-06 18:02:11 - PHP Notice:  Undefined index: quantity in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\cart.php on line 117
+2011-05-06 18:02:12 - PHP Notice:  Undefined index: product_id in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\cart.php on line 117
+2011-05-06 18:02:12 - PHP Notice:  Undefined index: quantity in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\cart.php on line 117
+2011-05-06 18:03:44 - PHP Notice:  Undefined index: product_id in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\cart.php on line 117
+2011-05-06 18:03:44 - PHP Notice:  Undefined index: quantity in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\cart.php on line 117
+2011-05-06 18:10:39 - PHP Notice:  Undefined index: product_id in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\cart.php on line 117
+2011-05-06 18:10:39 - PHP Notice:  Undefined index: quantity in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\cart.php on line 117
+2011-05-06 18:12:27 - PHP Notice:  Undefined index: product_id in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\cart.php on line 117
+2011-05-06 18:12:27 - PHP Notice:  Undefined index: quantity in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\cart.php on line 117
+2011-05-06 18:16:24 - PHP Notice:  Undefined index: product_id in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\cart.php on line 117
+2011-05-06 18:16:24 - PHP Notice:  Undefined index: quantity in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\cart.php on line 117
+2011-05-06 18:17:43 - PHP Notice:  Undefined index: product_id in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\cart.php on line 117
+2011-05-06 18:17:43 - PHP Notice:  Undefined index: quantity in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\cart.php on line 117
+2011-05-06 18:18:45 - PHP Notice:  Undefined variable: button_back in C:\xampplite\htdocs\indiebikes\order\catalog\view\theme\ndbkstheme\template\checkout\cart.tpl on line 73
+2011-05-06 18:23:54 - PHP Notice:  Undefined index: product_id in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\cart.php on line 117
+2011-05-06 18:23:54 - PHP Notice:  Undefined index: quantity in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\cart.php on line 117
+2011-05-06 18:41:27 - PHP Notice:  Undefined index: product_id in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\cart.php on line 117
+2011-05-06 18:41:27 - PHP Notice:  Undefined index: quantity in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\cart.php on line 117
+2011-05-06 19:59:48 - PHP Notice:  Undefined index: product_id in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\cart.php on line 117
+2011-05-06 19:59:48 - PHP Notice:  Undefined index: quantity in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\cart.php on line 117
+2011-05-06 20:20:55 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:55 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:55 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:55 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:55 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:55 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:55 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:55 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:55 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:55 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:55 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:55 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:55 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:55 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:55 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:55 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:55 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:55 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:55 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Notice:  Undefined index: zone_id in C:\xampplite\htdocs\indiebikes\order\admin\model\localisation\geo_zone.php on line 24
+2011-05-06 20:20:56 - PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampplite\htdocs\indiebikes\order\admin\index.php:72) in C:\xampplite\htdocs\indiebikes\order\system\engine\controller.php on line 27
+2011-05-06 20:25:20 - PHP Notice:  Undefined variable: shipping_method in C:\xampplite\htdocs\indiebikes\order\catalog\view\theme\ndbkstheme\template\checkout\guest_step_2.tpl on line 44
+2011-05-06 20:25:20 - PHP Warning:  Invalid argument supplied for foreach() in C:\xampplite\htdocs\indiebikes\order\catalog\view\theme\ndbkstheme\template\checkout\guest_step_2.tpl on line 44
+2011-05-06 20:29:05 - PHP Notice:  Undefined variable: quote in C:\xampplite\htdocs\indiebikes\order\catalog\view\theme\ndbkstheme\template\checkout\guest_step_2.tpl on line 45
+2011-05-06 21:33:08 - PHP Notice:  Undefined index: product_id in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\cart.php on line 117
+2011-05-06 21:33:08 - PHP Notice:  Undefined index: quantity in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\cart.php on line 117
+2011-05-06 23:34:30 - PHP Notice:  Undefined index: product_id in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\cart.php on line 117
+2011-05-06 23:34:30 - PHP Notice:  Undefined index: quantity in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\cart.php on line 117
+2011-05-06 23:37:08 - PHP Notice:  fputs() [<a href='function.fputs'>function.fputs</a>]: send of 3 bytes failed with errno=10053 Eine bestehende Verbindung wurde softwaregesteuert
+durch den Hostcomputer abgebrochen.
+ in C:\xampplite\htdocs\indiebikes\order\system\library\mail.php on line 345
+2011-05-06 23:37:08 - PHP Notice:  fputs() [<a href='function.fputs'>function.fputs</a>]: send of 6 bytes failed with errno=10053 Eine bestehende Verbindung wurde softwaregesteuert
+durch den Hostcomputer abgebrochen.
+ in C:\xampplite\htdocs\indiebikes\order\system\library\mail.php on line 361
+2011-05-06 23:37:08 - PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampplite\htdocs\indiebikes\order\index.php:92) in C:\xampplite\htdocs\indiebikes\order\system\engine\controller.php on line 27
+2011-05-06 23:47:29 - PHP Notice:  Undefined index: product_id in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\cart.php on line 117
+2011-05-06 23:47:29 - PHP Notice:  Undefined index: quantity in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\cart.php on line 117
+2011-05-06 23:50:58 - PHP Notice:  Undefined index: product_id in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\cart.php on line 117
+2011-05-06 23:50:58 - PHP Notice:  Undefined index: quantity in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\cart.php on line 117
+2011-05-07 0:06:17 - PHP Notice:  Undefined index: product_id in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\cart.php on line 117
+2011-05-07 0:06:17 - PHP Notice:  Undefined index: quantity in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\cart.php on line 117
+2011-05-07 0:21:09 - PHP Notice:  Undefined index: product_id in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\cart.php on line 117
+2011-05-07 0:21:09 - PHP Notice:  Undefined index: quantity in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\cart.php on line 117
+2011-05-07 0:24:46 - PHP Notice:  Undefined index: product_id in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\cart.php on line 117
+2011-05-07 0:24:46 - PHP Notice:  Undefined index: quantity in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\cart.php on line 117
+2011-05-07 0:30:32 - PHP Notice:  Undefined index: product_id in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\cart.php on line 117
+2011-05-07 0:30:32 - PHP Notice:  Undefined index: quantity in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\cart.php on line 117
+2011-05-07 1:36:36 - PHP Notice:  Undefined index: product_id in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\cart.php on line 117
+2011-05-07 1:36:36 - PHP Notice:  Undefined index: quantity in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\cart.php on line 117
+2011-05-07 3:48:41 - PHP Notice:  Undefined index: product_id in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\cart.php on line 117
+2011-05-07 3:48:41 - PHP Notice:  Undefined index: quantity in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\cart.php on line 117
+2011-05-07 3:53:35 - PHP Notice:  Undefined index: product_id in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\cart.php on line 117
+2011-05-07 3:53:35 - PHP Notice:  Undefined index: quantity in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\cart.php on line 117
+2011-05-07 4:43:44 - PHP Notice:  Undefined index: product_id in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\cart.php on line 117
+2011-05-07 4:43:44 - PHP Notice:  Undefined index: quantity in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\cart.php on line 117
+2011-05-07 4:45:26 - PHP Notice:  Undefined index: product_id in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\cart.php on line 117
+2011-05-07 4:45:26 - PHP Notice:  Undefined index: quantity in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\cart.php on line 117
+2011-05-07 4:46:46 - PHP Notice:  Undefined index: product_id in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\cart.php on line 117
+2011-05-07 4:46:46 - PHP Notice:  Undefined index: quantity in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\cart.php on line 117
+2011-05-07 4:47:04 - PHP Notice:  Undefined index: product_id in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\cart.php on line 117
+2011-05-07 4:47:04 - PHP Notice:  Undefined index: quantity in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\cart.php on line 117
+2011-05-07 4:47:19 - PHP Notice:  Undefined index: product_id in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\cart.php on line 117
+2011-05-07 4:47:19 - PHP Notice:  Undefined index: quantity in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\cart.php on line 117
+2011-05-07 4:47:47 - PHP Notice:  Undefined index: product_id in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\cart.php on line 117
+2011-05-07 4:47:47 - PHP Notice:  Undefined index: quantity in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\cart.php on line 117
+2011-05-07 4:48:15 - PHP Notice:  Undefined index: product_id in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\cart.php on line 117
+2011-05-07 4:48:15 - PHP Notice:  Undefined index: quantity in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\cart.php on line 117
+2011-05-07 4:49:03 - PHP Notice:  Undefined index: product_id in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\cart.php on line 117
+2011-05-07 4:49:03 - PHP Notice:  Undefined index: quantity in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\cart.php on line 117
+2011-05-07 4:50:35 - PHP Notice:  Undefined index: product_id in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\cart.php on line 117
+2011-05-07 4:50:35 - PHP Notice:  Undefined index: quantity in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\cart.php on line 117
+2011-05-07 4:50:44 - PHP Notice:  Undefined index: product_id in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\cart.php on line 117
+2011-05-07 4:50:44 - PHP Notice:  Undefined index: quantity in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\cart.php on line 117
+2011-05-07 4:51:01 - PHP Notice:  Undefined index: product_id in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\cart.php on line 117
+2011-05-07 4:51:01 - PHP Notice:  Undefined index: quantity in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\cart.php on line 117
+2011-05-07 4:51:11 - PHP Notice:  Undefined index: product_id in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\cart.php on line 117
+2011-05-07 4:51:11 - PHP Notice:  Undefined index: quantity in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\cart.php on line 117
+2011-05-07 4:52:05 - PHP Notice:  Undefined index: product_id in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\cart.php on line 117
+2011-05-07 4:52:05 - PHP Notice:  Undefined index: quantity in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\cart.php on line 117
+2011-05-07 4:53:56 - PHP Notice:  Undefined index: product_id in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\cart.php on line 117
+2011-05-07 4:53:56 - PHP Notice:  Undefined index: quantity in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\cart.php on line 117
+2011-05-07 4:54:52 - PHP Notice:  Undefined index: product_id in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\cart.php on line 117
+2011-05-07 4:54:52 - PHP Notice:  Undefined index: quantity in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\cart.php on line 117
+2011-05-07 12:26:28 - PHP Notice:  Undefined index: product_id in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\cart.php on line 117
+2011-05-07 12:26:28 - PHP Notice:  Undefined index: quantity in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\cart.php on line 117
+2011-05-07 12:26:48 - PHP Notice:  Undefined index: product_id in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\cart.php on line 117
+2011-05-07 12:26:48 - PHP Notice:  Undefined index: quantity in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\cart.php on line 117
+2011-05-07 12:26:59 - PHP Notice:  Undefined index: product_id in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\cart.php on line 117
+2011-05-07 12:26:59 - PHP Notice:  Undefined index: quantity in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\cart.php on line 117
+2011-05-07 12:27:45 - PHP Notice:  Undefined index: product_id in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\cart.php on line 117
+2011-05-07 12:27:45 - PHP Notice:  Undefined index: quantity in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\cart.php on line 117
+2011-05-07 12:27:51 - PHP Notice:  Undefined index: product_id in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\cart.php on line 117
+2011-05-07 12:27:51 - PHP Notice:  Undefined index: quantity in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\cart.php on line 117
+2011-05-07 12:36:01 - PHP Notice:  Undefined index: product_id in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\cart.php on line 117
+2011-05-07 12:36:01 - PHP Notice:  Undefined index: quantity in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\cart.php on line 117
+2011-05-07 12:36:23 - PHP Notice:  Undefined index: product_id in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\cart.php on line 117
+2011-05-07 12:36:23 - PHP Notice:  Undefined index: quantity in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\cart.php on line 117
+2011-05-07 12:36:40 - PHP Notice:  Undefined index: product_id in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\cart.php on line 117
+2011-05-07 12:36:40 - PHP Notice:  Undefined index: quantity in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\cart.php on line 117
+2011-05-07 12:36:40 - PHP Notice:  Undefined variable: output in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\my_module.php on line 67
+2011-05-07 12:36:48 - PHP Notice:  Undefined index: product_id in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\cart.php on line 117
+2011-05-07 12:36:48 - PHP Notice:  Undefined index: quantity in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\cart.php on line 117
+2011-05-07 12:38:20 - PHP Notice:  Undefined index: product_id in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\cart.php on line 117
+2011-05-07 12:38:20 - PHP Notice:  Undefined index: quantity in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\cart.php on line 117
+2011-05-07 12:38:58 - PHP Notice:  Undefined index: product_id in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\cart.php on line 117
+2011-05-07 12:38:58 - PHP Notice:  Undefined index: quantity in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\cart.php on line 117
+2011-05-07 12:39:06 - PHP Notice:  Undefined index: product_id in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\cart.php on line 117
+2011-05-07 12:39:06 - PHP Notice:  Undefined index: quantity in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\cart.php on line 117
+2011-05-07 12:39:48 - PHP Notice:  Undefined index: product_id in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\cart.php on line 117
+2011-05-07 12:39:48 - PHP Notice:  Undefined index: quantity in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\cart.php on line 117
+2011-05-07 12:42:57 - PHP Notice:  Undefined index: product_id in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\cart.php on line 117
+2011-05-07 12:42:57 - PHP Notice:  Undefined index: quantity in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\cart.php on line 117
+2011-05-07 12:42:58 - PHP Warning:  implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed in C:\xampplite\htdocs\indiebikes\order\system\library\cart.php on line 145
+2011-05-07 12:43:11 - PHP Notice:  Undefined index: product_id in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\cart.php on line 117
+2011-05-07 12:43:11 - PHP Notice:  Undefined index: quantity in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\cart.php on line 117
+2011-05-07 12:44:52 - PHP Notice:  Undefined index: product_id in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\cart.php on line 117
+2011-05-07 12:44:52 - PHP Notice:  Undefined index: quantity in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\cart.php on line 117
+2011-05-07 12:45:13 - PHP Notice:  Undefined index: product_id in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\cart.php on line 117
+2011-05-07 12:45:13 - PHP Notice:  Undefined index: quantity in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\cart.php on line 117
+2011-05-07 12:53:45 - PHP Notice:  Undefined index: product_id in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\cart.php on line 117
+2011-05-07 12:53:45 - PHP Notice:  Undefined index: quantity in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\cart.php on line 117
+2011-05-07 13:37:12 - PHP Notice:  Use of undefined constant frame - assumed 'frame' in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\my_module.php on line 71
+2011-05-07 13:37:20 - PHP Notice:  Use of undefined constant frame - assumed 'frame' in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\my_module.php on line 71
+2011-05-07 13:48:51 - PHP Notice:  Undefined index: none in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\my_module.php on line 86
+2011-05-07 14:02:48 - PHP Notice:  Undefined index: none in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\my_module.php on line 102
+2011-05-07 14:02:51 - PHP Notice:  Undefined index: none in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\my_module.php on line 102
+2011-05-07 14:09:29 - PHP Notice:  Use of undefined constant name - assumed 'name' in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\my_module.php on line 92
+2011-05-07 14:21:25 - PHP Notice:  Undefined variable: id in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\my_module.php on line 109
+2011-05-07 14:27:45 - PHP Notice:  Undefined variable: bike in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\my_module.php on line 131
+2011-05-07 14:27:45 - PHP Notice:  Undefined index:  in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\my_module.php on line 131
+2011-05-07 14:27:45 - PHP Notice:  Undefined index:  in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\my_module.php on line 131
+2011-05-07 14:32:35 - PHP Notice:  Undefined index: silver in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\my_module.php on line 129
+2011-05-07 14:32:35 - PHP Notice:  Undefined index:  in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\my_module.php on line 129
+2011-05-07 14:41:24 - PHP Notice:  Undefined index: chrome in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\my_module.php on line 152
+2011-05-07 14:41:24 - PHP Notice:  Undefined index:  in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\my_module.php on line 152
+2011-05-07 14:41:26 - PHP Notice:  Undefined index: chrome in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\my_module.php on line 152
+2011-05-07 14:41:26 - PHP Notice:  Undefined index:  in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\my_module.php on line 152
+2011-05-07 14:41:55 - PHP Notice:  Undefined index: chrome in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\my_module.php on line 152
+2011-05-07 14:41:55 - PHP Notice:  Undefined index:  in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\my_module.php on line 152
+2011-05-07 15:07:03 - PHP Notice:  Undefined index: brown in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\my_module.php on line 184
+2011-05-07 15:07:03 - PHP Notice:  Undefined index:  in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\my_module.php on line 184
+2011-05-07 15:07:13 - PHP Notice:  Undefined index: brown in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\my_module.php on line 184
+2011-05-07 15:07:13 - PHP Notice:  Undefined index:  in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\my_module.php on line 184
+2011-05-07 15:12:37 - PHP Warning:  Invalid argument supplied for foreach() in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\my_module.php on line 183
+2011-05-07 15:12:38 - PHP Warning:  Illegal offset type in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\my_module.php on line 190
+2011-05-07 15:12:38 - PHP Notice:  Undefined index:  in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\my_module.php on line 190
+2011-05-07 15:12:46 - PHP Warning:  Illegal offset type in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\my_module.php on line 190
+2011-05-07 15:12:46 - PHP Notice:  Undefined index:  in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\my_module.php on line 190
+2011-05-07 15:14:06 - PHP Warning:  Illegal offset type in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\my_module.php on line 190
+2011-05-07 15:14:06 - PHP Notice:  Undefined index:  in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\my_module.php on line 190
+2011-05-07 15:14:14 - PHP Notice:  Undefined index: s in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\my_module.php on line 190
+2011-05-07 15:14:14 - PHP Notice:  Undefined index:  in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\my_module.php on line 190
+2011-05-07 15:14:14 - PHP Notice:  Undefined index: b in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\my_module.php on line 190
+2011-05-07 15:14:14 - PHP Notice:  Undefined index:  in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\my_module.php on line 190
+2011-05-07 15:14:14 - PHP Notice:  Undefined index: b in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\my_module.php on line 190
+2011-05-07 15:14:14 - PHP Notice:  Undefined index:  in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\my_module.php on line 190
+2011-05-07 15:14:14 - PHP Notice:  Undefined index: b in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\my_module.php on line 190
+2011-05-07 15:14:14 - PHP Notice:  Undefined index:  in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\my_module.php on line 190
+2011-05-07 15:14:22 - PHP Warning:  Illegal offset type in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\my_module.php on line 190
+2011-05-07 15:14:22 - PHP Notice:  Undefined index:  in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\my_module.php on line 190
+2011-05-07 15:16:06 - PHP Warning:  Illegal offset type in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\my_module.php on line 190
+2011-05-07 15:16:06 - PHP Notice:  Undefined index:  in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\my_module.php on line 190
+2011-05-07 15:17:03 - PHP Notice:  Undefined variable: options_id in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\my_module.php on line 194
+2011-05-07 15:17:03 - PHP Notice:  Undefined variable: options_picked in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\my_module.php on line 194
+2011-05-07 15:17:14 - PHP Notice:  Undefined variable: options_id in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\my_module.php on line 194
+2011-05-07 15:17:14 - PHP Notice:  Undefined variable: options_picked in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\my_module.php on line 194
+2011-05-07 15:18:34 - PHP Notice:  Undefined index: yellow in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\my_module.php on line 188
+2011-05-07 15:18:34 - PHP Notice:  Undefined index: black in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\my_module.php on line 188
+2011-05-07 15:31:08 - PHP Notice:  Use of undefined constant framesize - assumed 'framesize' in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\my_module.php on line 79
+2011-05-07 15:31:08 - PHP Notice:  Undefined index: framesize in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\my_module.php on line 79
+2011-05-07 15:35:14 - PHP Notice:  Undefined index: skyan in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\my_module.php on line 225
+2011-05-07 15:35:14 - PHP Notice:  Undefined index:  in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\my_module.php on line 225
+2011-05-07 15:42:38 - PHP Notice:  Use of undefined constant s3 - assumed 's3' in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\my_module.php on line 167
+2011-05-07 15:42:38 - PHP Notice:  Undefined index: s3 in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\my_module.php on line 206
+2011-05-07 15:47:58 - PHP Notice:  Undefined variable: session in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\my_module.php on line 180
+2011-05-07 15:49:03 - PHP Notice:  Undefined variable: _SESION in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\my_module.php on line 180
+2011-05-07 15:54:56 - PHP Notice:  Use of undefined constant l10n - assumed 'l10n' in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\my_module.php on line 71
+2011-05-07 23:50:07 - PHP Notice:  Undefined index: size in C:\xampplite\htdocs\indiebikes\order\catalog\controller\module\my_module.php on line 84
+2011-05-08 1:09:10 - PHP Notice:  Undefined index: bike in C:\xampplite\htdocs\indiebikes\order\catalog\view\theme\ndbkstheme\template\common\success.tpl on line 9
+2011-05-08 1:09:10 - PHP Warning:  http_build_query() [<a href='function.http-build-query'>function.http-build-query</a>]: Parameter 1 expected to be Array or Object.  Incorrect value given in C:\xampplite\htdocs\indiebikes\order\catalog\view\theme\ndbkstheme\template\common\success.tpl on line 9

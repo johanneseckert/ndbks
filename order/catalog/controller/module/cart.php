@@ -114,8 +114,17 @@ class ControllerModuleCart extends Controller {
 				} else {
 					$option = array();	
 				}
-				
       			$this->cart->add($this->request->post['product_id'], $this->request->post['quantity'], $option);
+			}
+
+			//
+			//
+			// MODIFICATION FOR INDIEBIKES
+			// by Johannes Henseler
+			//
+			//
+			if (isset($this->request->post['clear'])) {
+      			$this->cart->clear();				
 			}
 		}
 				

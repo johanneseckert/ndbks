@@ -1,6 +1,6 @@
 <?php
 // Heading
-$_['heading_title']         = 'Checkout Confirmation';
+$_['heading_title']         = 'Confirmation';
 
 // Text
 $_['text_basket']           = 'Basket';

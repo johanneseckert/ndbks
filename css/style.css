@@ -91,7 +91,7 @@ pre, code, kbd, samp { font-family: monospace, sans-serif; }
  */
 
 
-body, select { 
+body { 
   color: #4b4b4d;
   background: #f2f2f2 url(../images/background.png) center top no-repeat;
   /* #4b4b4d is indiebikes base black
@@ -261,7 +261,7 @@ HEADER {
 	background: transparent url(../images/header_ontop.png) center top no-repeat;
 	height: 125px;
 	position: relative;
-	z-index: 500;
+	z-index: 1000;
 }
 
 #main {
@@ -313,14 +313,26 @@ FOOTER P {
 	margin-bottom: 20px;
 }
 
+.spacebefore {
+	margin-top: 20px;
+}
+
 .spaceinside {
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
 
+.spacepadding {
+	padding: 10px;
+}
+
 .nospaceafter {
 	margin-bottom: 0;
 	padding: 0;
+}
+
+.sumpriceend {
+	font-weight: bold;
 }
  
  
@@ -525,7 +537,12 @@ A#teaser_indiebikes {
 #menu {
 	overflow: visible;
 	position: relative;
-	z-index: 100;
+	z-index: 1000;
+}
+
+#oc #menu {
+	position: static;
+	z-index: 0;
 }
 
 #menu UL {
@@ -553,6 +570,7 @@ A#teaser_indiebikes {
 
 #menu A.active {
 	background: transparent url(../images/menu_active.png) top left no-repeat;
+	color: white;
 	height: 60px;
 	padding-left: 31px;
 	margin-left: -27px;
@@ -560,13 +578,19 @@ A#teaser_indiebikes {
 	margin-bottom: -10px;
 }
 
+#menu A.bigflap {
+	background: transparent url(../images/menu_active_big.png) top left no-repeat;
+	height: 83px;
+	margin-right: -50px;
+}
+
 #menu A SPAN {
 	display: block;
 }
 
 #menu A SPAN.menupunkt {
+	margin-right: -15px;
 	font-size: 24px;
-	margin-right: -20px;
 	font-weight: 700;
 	text-transform: uppercase;
 }
@@ -587,6 +611,11 @@ A#teaser_indiebikes {
 #header_image {
 	margin-bottom: 20px;
 	min-height: 10px;
+}
+
+#breadcrumb {
+	margin-top: 10px;
+	margin-bottom: 25px;
 }
 
 #title {
@@ -759,18 +788,18 @@ INPUT {
 	padding-top: 0;
 }
 
-.body TABLE {
+#txp .body TABLE {
 	margin: 5px;
 }
 
-.body TABLE TH {
+#txp .body TABLE TH {
 	padding-bottom: 2px;
 	padding-right: 20px;
 	border-bottom: 1px solid gray;
 	text-align: left;
 }
 
-.body TABLE TD {
+#txp .body TABLE TD {
 	padding-right: 10px;
 }
 
@@ -787,6 +816,102 @@ INPUT {
 .pricetag .char3 { letter-spacing: -0px }
 .pricetag .char4 { letter-spacing: -12px }
 .pricetag .char6 { letter-spacing: -12px }
+
+#add_bike_to_opencart {
+	width: 100%;
+	font-weight: bold;
+}
+
+.ui-state-error {
+	padding: 4px;	
+}
+
+/*
+
+   #######  ########  ######## ##    ##  ######     ###    ########  ######## 
+  ##     ## ##     ## ##       ###   ## ##    ##   ## ##   ##     ##    ##    
+  ##     ## ##     ## ##       ####  ## ##        ##   ##  ##     ##    ##    
+  ##     ## ########  ######   ## ## ## ##       ##     ## ########     ##    
+  ##     ## ##        ##       ##  #### ##       ######### ##   ##      ##    
+  ##     ## ##        ##       ##   ### ##    ## ##     ## ##    ##     ##    
+   #######  ##        ######## ##    ##  ######  ##     ## ##     ##    ##    
+*/
+
+.summe {
+	width: 100%;
+	text-align: right;
+	font-size: 16px;
+}
+
+.required {
+	font-weight: bold;
+}
+
+#order-breadcrumb {
+	margin-bottom: 10px;
+}
+
+#order-breadcrumb .steps {
+	width: 300px;
+	height: 4px;
+	overflow: hidden;
+	background-image: url(../images/steps.png);
+	background-repeat: no-repeat;
+}
+
+.step1 { background-position: 0 0; }
+.step2 { background-position: 0 -4px; }
+.step3 { background-position: 0 -8px; }
+.step4 { background-position: 0 -12px; }
+
+#shipping-buttons INPUT:first-child + LABEL {
+	margin-right: 10px;
+}
+
+#shipping-buttons LABEL {
+	width: 210px;
+	height: 100px;
+	overflow: hidden;
+	text-align: left;
+}
+
+#shipping-buttons LABEL SPAN {
+	display: block;
+}
+
+#shipping-buttons .ship_title {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+#shipping-buttons .ship_cost {
+	font-size: 22px;
+	font-weight: bold;
+	text-align: right;
+	line-height: 64px;
+}
+
+#ship_item_label .ships_cost {
+	font-size: 12px;
+	font-weight: normal;
+	line-height: 12px;
+}
+
+#ship_free + LABEL.ui-state-active {
+	background: #00a6e0;
+	border-color: #00a6e0;
+}
+
+#ship_flat + LABEL.ui-state-seel {
+	background: #12a34f;
+	border-color: #12a34f;
+}
+
+#payment-buttons LABEL {
+	min-width: 210px;
+}
+#payment-buttons INPUT:first-child + LABEL { margin-right: 10px; }
+
 
 
 
@@ -828,6 +953,7 @@ INPUT {
 #builder_image {
 	height: 480px;
 	margin-bottom: 20px;
+	margin-top: -32px;
 }
 
 #builder_image IMG {
@@ -848,7 +974,7 @@ INPUT {
 	background: white;
 	background: rgba(255,255,255,0.8);
 	position: absolute;
-	z-index: 999;
+	z-index: 900;
 }
 
 #preloadsummary #preload_state {
@@ -866,6 +992,40 @@ INPUT {
 	height: 10px;
 }
 
+/* HUD */
+
+#hud {
+	position: absolute;
+	z-index: 300;
+	margin-left: 715px;
+	margin-top: 35px;
+	width: 65px;
+	overflow: hidden;
+}
+
+#hud DIV {
+	cursor: pointer;
+	background: #00a5db;
+	margin-bottom: 5px;
+	height: 20px;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+	text-indent: 20px;
+	margin-left: 45px;
+	line-height: 20px;
+	color: white;
+	background-position: 3px center;
+	background-repeat: no-repeat;
+}
+
+#hud DIV:HOVER {
+	margin-left: 0;
+}
+
+#hud .save { background-image: url(../images/icons/arrow1_s.png); }
+#hud .shuffle { background-image: url(../images/icons/heart.gif); }
+#hud .undo { display: none; background-image: url(../images/icons/arrow2_nw.gif); }
+#hud .add { background-color: #12a34f; background-image: url(../images/icons/add.gif); }
 
 
 /* buttonsets */
@@ -905,6 +1065,7 @@ INPUT {
 .color_blue { background: #005ba1; border: 2px solid #005ba1 }
 .color_gold { background: #f0c540; border: 2px solid #f0c540 }
 .color_silver { background: #b6b9b4; border: 2px solid #b6b9b4 }
+.color_chrome { background: #b6b9b4; border: 2px solid #b6b9b4 }
 .color_brown { background: #613512; border: 2px solid #613512 }
 .color_yellow { background: #fccd00; border: 2px solid #fccd00 }
 .color_red { background: #e61a24; border: 2px solid #e61a24 }

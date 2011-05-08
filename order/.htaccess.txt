@@ -1,7 +1,5 @@
 # 1.To use URL Alias you need to be running apache with mod_rewrite enabled. 
-
 # 2. In your opencart directory rename htaccess.txt to .htaccess
-
 # For any support issues please visit: http://www.opencart.com
 
 Options +FollowSymlinks
@@ -10,14 +8,14 @@ Options +FollowSymlinks
 Options -Indexes
 
 # Prevent Direct Access to files
-<FilesMatch "\.(tpl|ini)">
+<FilesMatch "\.(tpl|ini|log|txt)">
  Order deny,allow
  Deny from all
 </FilesMatch>
 
 # SEO URL Settings
 RewriteEngine On
-RewriteBase /
+RewriteBase /order/
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^([^?]*) index.php?_route_=$1 [L,QSA]
@@ -29,3 +27,6 @@ RewriteRule ^([^?]*) index.php?_route_=$1 [L,QSA]
 
 # 1. If your cart only allows you to add one item at a time, it is possible register_globals is on. This may work to disable it:
 # php_flag register_globals off
+
+# 2. If your cart has magic quotes enabled, This may work to disable it:
+# php_flag magic_quotes_gpc Off

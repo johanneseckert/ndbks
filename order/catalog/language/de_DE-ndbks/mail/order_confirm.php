@@ -1,7 +1,10 @@
 <?php
 // Text
-$_['text_subject']          = '%s - Auftrag %s';
-$_['text_greeting']         = 'Danke für das Interesse an %s Produkten. Die Bestellung wurde erhalten und wird sofort nach Zahlungseingang bearbeitet.';
+$_['text_subject']          = '%s - Bestellbestätigung';
+
+$_['text_greeting']         = '<p>Danke für die Bestellung bei indiebikes! Wir werden dein Bike bald zusammenbauen, genau so wie du es dir gewünscht hast.</p>
+<p>Wenn du noch irgendeine Frage hast, dann mail uns einfach: info@indiebikes.com</p>';
+
 $_['text_received']         = 'Es wurde eine Bestellung aufgegeben.';
 $_['text_order_detail']     = 'Auftragsdetails';
 $_['text_order_id']         = 'Auftragsnummer:';
@@ -19,7 +22,9 @@ $_['text_product']          = 'Produkte:';
 $_['text_total']            = 'Gesamtsumme:';
 $_['text_download']         = 'Sobald die Zahlung bestätigt wurde, kann durch klicken auf den Link unterhalb auf die downloadbaren Produkte zugegriffen werden:';
 $_['text_comment']          = 'Kommentar zur Bestellung:';
-$_['text_footer']           = 'Für weitere Fragen bitte auf dieses Email antworten.';
+
+$_['text_footer']           = '<p>Bitte beachte: Diese E-Mail dient lediglich der Bestätigung des Einganges deiner Bestellung und stellt noch keine Annahme deines Angebotes auf Abschluss eines Kaufvertrages dar. Dein Kaufvertrag für das Bike kommt zu Stande, wenn wir die Bestellung annehmen, indem wir dir eine E-Mail mit der Benachrichtigung zusenden, dass der Artikel abgeschickt wurde.</p>';
+
 $_['text_powered_by']       = 'Powered by';
 
 // Column

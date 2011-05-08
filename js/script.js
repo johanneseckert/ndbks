@@ -1,6 +1,6 @@
 /* Author: Johannes Henseler
 
-	indiebikes javascript v0.6
+	indiebikes javascript v0.7
 
 */
 
@@ -123,43 +123,16 @@ $("#gallery-container a").fancybox({
 
 
 
-// sharing with the YOURLS api
-// http://testserver2.dyndns.org/b/yourls-api.php?
-//	signature=8e9cd31548&action=shorturl&url=google.com&
 
-$("#click_here_to_share").click( function() {
 
-	$("#click_here_to_share").slideUp();
-	$("#shared_load").slideDown();
 
-	$.get("/b/yourls-api.php?signature=8e9cd31548&action=shorturl"
-			+"&url="+escape(location.href)
-			+"&format=simple",function(data) {
+// setting up jquery UI
 
-		var link = data;
-		// temporarily disable YOURls, because of tooo long URL (max 2000 chars)
-		var link = "http://indiebikes.com/build";
+$(".buttons A,.button, #oc button").button();
+$(".buttonset").buttonset();
 
-		$("#shared_load").slideUp();
-		$("#shared_info").slideDown();
 
-		$("#shared_url").val(link);
-//		$("#shared_url").focus().val($("#shared_url").val);
+/* #############
+   OpenCart's own Logic
+   ############# */
 
-		$("#social_fb").attr("href","http://www.facebook.com/dialog/feed?app_id=197627106915572&redirect_uri="+link
-		+"&message=I desined my own bike!"
-		+"&link="+link
-		+"&picture=http://indiebikes.com/fb_image.png");
-
-		$("#social_twitter").attr("href","http://twitter.com/share?original_referer=http://indiebikes.com/&text=I%20designed%20my%20own%20bike!"
-		+"&url="+link
-		+"&via=indiebikes"
-		+"&counturl="+escape(location.href));
-	});
-
-	return false;
-});
-
-$("#shared_url").click(function() {
-	$(this).select();
-});
