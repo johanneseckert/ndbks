@@ -26,5 +26,24 @@
 
     </div>
     <!-- end of grid_6 right column -->
+
+<!-- Google Code for best&auml;tigte Bestellung Conversion Page -->
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 969147527;
+var google_conversion_language = "en";
+var google_conversion_format = "2";
+var google_conversion_color = "ffffff";
+var google_conversion_label = "0OCcCPms6AIQh4mQzgM";
+var google_conversion_value = 0;
+/* ]]> */
+</script>
+<script type="text/javascript" src="http://www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="http://www.googleadservices.com/pagead/conversion/969147527/?label=0OCcCPms6AIQh4mQzgM&amp;guid=ON&amp;script=0"/>
+</div>
+</noscript>
       
 <?php echo $footer; ?> 

@@ -9,10 +9,6 @@
 <head>
   <meta charset="utf-8">
 
-  <!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame 
-    Remove this if you use the .htaccess -->
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-
   <title>indiebikes - <?php echo $title; ?></title>
 
   <meta name="description" content="<?php mlp_snippet("meta_description"); ?>" />
@@ -41,11 +37,22 @@
   <script src="/js/libs/modernizr-1.6.min.js"></script>
   <script src="/js/libs/jquery-1.5.1.min.js"></script>
   <script src="/js/libs/jquery-ui-1.8.10.custom.min.js"></script>
+  <script src="/js/libs/jquery.masonry.min.js"></script>
   <script src="/js/libs/jquery.lettering-0.6.1.min.js"></script>
   <script src="/js/libs/jquery.carousel.min.js"></script>
-  <script src="/js/libs/jquery.masonry.min.js"></script>
   <script src="/js/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+  <script src="/js/libs/modernizr-1.6.min.js"></script>
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-95147-23']);
+    _gaq.push(['_trackPageview']);
 
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
 
 <!-- openCart script modules. neccessary? -->
 <script type="text/javascript">

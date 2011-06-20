@@ -13,8 +13,8 @@
 //	echo $hash;
 
 	function add_to_composing($nameshort,$value,$im,$src_base,$w,$h) {
-		$src_base = imagecreatefrompng("builder/".$nameshort."-".$value.".png");
-		imagecopy($im,$src_base,0,0,0,0,$w,$h);		
+		$src_base = @imagecreatefrompng("builder/".$nameshort."-".$value.".png");
+		@imagecopy($im,$src_base,0,0,0,0,$w,$h);		
 	}
 
 	$filefromcache = "cached/".$hash.".jpg";
@@ -62,11 +62,15 @@
 				// BULLHORN BAR
 				add_to_composing("hb-bullhornbar",$bike["handlebarcolor"],$im,$src_base,$w,$h);
 				break;
+			case 'dropbar':
+				// DROP BAR
+				add_to_composing("hb-dropbar",$bike["handlebarcolor"],$im,$src_base,$w,$h);
+				break;
 		}
 		// SADDLE
 		add_to_composing("sd",$bike["saddle"],$im,$src_base,$w,$h);
-		// BRANDING
-		add_to_composing("brand",$bike["branding"],$im,$src_base,$w,$h);
+		// LOGO
+		add_to_composing("logo",$bike["logo"],$im,$src_base,$w,$h);
 
 		if ($_GET["output"] == "small") {
 			// RESIZING for small output
@@ -84,7 +88,7 @@
 		} else {
 
 			// add logo
-			$src_base = imagecreatefrompng("builder/logo.png");
+			$src_base = imagecreatefrompng("builder/watermark.png");
 			imagecopy($im,$src_base,0,0,0,0,$w,$h);
 
 			// add vignette

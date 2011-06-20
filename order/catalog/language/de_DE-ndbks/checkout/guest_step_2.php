@@ -3,7 +3,7 @@
 $_['heading_title']			= 'Versand & Bezahlung';
 
 // Text
-$_['text_cart']				= 'Dein Designtes Bike';
+$_['text_cart']				= 'Dein designtes Bike';
 $_['text_guest_step_1']		= 'Direktbestellung - Schritt 1';
 $_['text_guest_step_2']		= 'Direktbestellung - Schritt 2';
 $_['text_shipping_method']	= 'Versandart';

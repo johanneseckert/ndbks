@@ -178,6 +178,12 @@ class ControllerModuleMyModule extends Controller {
 					  "black"=>2);
 		$this->add_product_with_options(67,$vars,array($bike["frontrim"],$bike["rearrim"]),2);
 
+		// LOGO
+		// #69
+		$vars = array("black"=>0,
+					  "white"=>1);
+		$this->add_product_with_options(69,$vars,$bike["logo"]);
+
 		// add bike to session for later reference
 		$_SESSION["bike"] = $bike;
 //		print_r($_SESSION);

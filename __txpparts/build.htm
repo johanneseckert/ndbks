@@ -65,11 +65,12 @@
 
 	builder_construct_images("riserbar","hb-riserbar",array("black"));
 	builder_construct_images("bullhornbar","hb-bullhornbar",array("black","chrome"));
+	builder_construct_images("dropbar","hb-dropbar",array("black","chrome"));
 
 	builder_construct_images("grips","gr",array("white","black","brown"));
 	builder_construct_images("saddle","sd",array("white","black","brown"));
 
-	builder_construct_images("branding","brand",array("toptube"));
+	builder_construct_images("logo","logo",array("black","white"));
 ?>
 </div>
 			<img src="/images/builder/top.png" id="top" usemap="#builder_map" />
@@ -136,6 +137,7 @@
 		builder_construct_buttons("<txp:text item="reartire" />","reartire","trr",array("red","black","white","yellow"));
 		builder_construct_buttons("<txp:text item="rearrim" />","rearrim","rmr",array("red","white","black"));
 		builder_construct_buttons("<txp:text item="handlebarcolor" />","handlebarcolor","hbc",array("chrome","black"));
+		builder_construct_buttons("<txp:text item="logo" />","logo","logo",array("black","white"));
 	?>			
 						<div class="buttonset">
 						</div>
@@ -187,7 +189,7 @@
 							<label for="radio-hb-flatbar"><txp:text item="FlatBar" /></label>
 						<input type="radio" id="radio-hb-bullhornbar" name="handlebar" value="bullhornbar" />
 							<label for="radio-hb-bullhornbar"><txp:text item="BullhornBar" /></label>
-						<input type="radio" id="radio-hb-dropbar" name="handlebar" value="dropbar" disabled="disabled" />
+						<input type="radio" id="radio-hb-dropbar" name="handlebar" value="dropbar" />
 							<label for="radio-hb-dropbar"><txp:text item="DropBar" /></label>
 					</p>
 				</div>

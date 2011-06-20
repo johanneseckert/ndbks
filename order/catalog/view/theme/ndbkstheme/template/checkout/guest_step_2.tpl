@@ -46,6 +46,9 @@
         <p class="buttonset" id="shipping-buttons">
 
   <?php 
+  // is the chosen country already covered by quantity based shipping?
+  $covered_country = false;
+
   foreach ($shipping_methods as $shipping_method) {
   foreach ($shipping_method['quote'] as $quote) {
     
@@ -60,7 +63,7 @@
   <span class="ship_cost"><?php mlp_snippet("ship_pickup_cost"); ?></span>
 </label>
       <?php 
-        break;
+      break;
       case "free.free": ?>
 <input type="radio" name="shipping_method" value="free.free" id="ship_free" <?php if ($quote['id'] == $shipping) echo 'checked="checked"'; ?> /><label for="ship_free">
   <span class="ship_title"><?php mlp_snippet("ship_free_title"); ?></span>
@@ -68,15 +71,27 @@
   <span class="ship_cost"><?php mlp_snippet("ship_free_cost"); ?></span>
 </label>
       <?php
-        break;
-      case "item.item": ?>
+      break;
+      case (substr($quote['id'],0,17) == "quantity.quantity"): ?>
+<input type="radio" name="shipping_method" value="<?php echo $quote['id'] ?>" id="ship_quantity" <?php if ($quote['id'] == $shipping) echo 'checked="checked"'; ?> /><label for="ship_quantity" id="ship_quantity_label">
+  <span class="ship_title"><?php mlp_snippet("ship_quant_title"); ?></span>
+  <span class="ship_sub"><?php echo $quote['title']; ?></span>
+  <span class="ship_cost"><?php echo $quote['text']; ?></span>
+</label>
+      <?php
+      $covered_country = true;
+      break;
+      // only go into this when chosen country is not already covered by qty bsd shipping
+      case "item.item": 
+      if (!$covered_country) { ?>
 <input type="radio" name="shipping_method" value="item.item" id="ship_item" <?php if ($quote['id'] == $shipping) echo 'checked="checked"'; ?> /><label for="ship_item" id="ship_item_label">
   <span class="ship_title"><?php mlp_snippet("ship_intl_title"); ?></span>
   <span class="ship_sub"><?php mlp_snippet("ship_intl_sub"); ?></span>
   <span class="ship_cost"><?php mlp_snippet("ship_intl_cost"); ?></span>
 </label>
       <?php
-        break;
+      }
+      break;
     }
   
   }
